@@ -1,0 +1,20 @@
+:root {
+    --white-color: #FFFFFF;
+    --fon-lemon-color: #FFFDEE;
+    --black-color: #000000;
+    --accent-yellow-color: #F3C653;
+    --fon-dark-lemon-color: #F0ECD6;
+    --brown-color: #C79002;
+    --footer-color: #0E0C07;
+    --input-text-color: #808080;
+
+    /* --accent-yellow-color  and  opacity 0.7*/
+    --svg-fill: rgba(243, 198, 83, 0.7);
+
+    --shadow-on-arrows: rgba(0, 0, 0, 0.65);
+
+    --background-header-color: #D9D9D9;
+    --shadow-header: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
