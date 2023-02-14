@@ -26,9 +26,15 @@ button {
     cursor: pointer;
 }
 
+@font-face {
+    font-family: 'Film P3';
+    src: url(../../fonts/FontsFree-Net-FilmP3.ttf);
+}
+
 body {
     background-color: var(--fon-lemon-color);
     color: var(--black-color);
+
 }
 
 .link {
@@ -72,5 +78,5 @@ body {
 
 .container {
     width: 100%;
-    padding: 0 16px;
+    padding: 0 15px;
 }
