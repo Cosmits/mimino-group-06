@@ -1,0 +1,76 @@
+/* =========== global tags style =========== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding-left: 0;
+}
+
+button {
+    border: 0;
+    cursor: pointer;
+}
+
+body {
+    background-color: var(--fon-lemon-color);
+    color: var(--black-color);
+}
+
+.link {
+    text-decoration: none;
+    /* cursor: pointer; */
+}
+
+.list {
+    list-style: none;
+}
+
+.svg-icon-white {
+    fill: var(--default-bg-color)
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.hide {
+    display: none;
+}
+
+/* =========== container =========== */
+
+.container {
+    width: 100%;
+    padding: 0 16px;
+}
