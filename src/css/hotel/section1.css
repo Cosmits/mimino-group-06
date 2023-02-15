@@ -1,0 +1,79 @@
+.section-hotel {
+    max-width: 384px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+
+.main-hotel-s2 {
+    background-color: var(--fon-dark-lemon-color);
+
+
+}
+
+.topic-hotel-1 {
+    font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        color: #B4B4B4;
+        margin-bottom: 8px;
+
+}
+
+.topic-hotel-2 {
+    font-family: 'Film P3';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 43px;
+        letter-spacing: 0.3em;
+        color: #494848;
+        margin-bottom: 32px;
+}
+
+.topic-hotel-3 {
+    font-family: 'Times New Roman';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: 0.05em;
+        color: #000000;
+        margin-bottom: 12px;
+}
+
+
+.topic-hotel-4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #7A7A7A;
+    max-width: 258px;
+}
+
+
+
+
+
+
+.button-hotel-s1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+    
+}
+
+.btn-hotel-1 {
+    padding: 14px 32px;
+}
+
+.btn-hotel-2 {
+    padding: 14px 37px;
+}
+
