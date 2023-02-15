@@ -1,0 +1,42 @@
+.room-hero {
+    padding: 483px 74px 14px 15px;
+}
+.room-hero-title {
+    font-family: 'Times New Roman';
+    font-weight: 700;
+    font-size: 28px;
+    line-height: calc(32 / 28);
+    letter-spacing: 0.05em;
+    color: var(--white-color);
+    margin-bottom: 14px;
+}
+
+.room-hero-after-title {
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 12px;
+    line-height: calc(15 / 12);
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+    margin-bottom: 16px;
+}
+
+.room-hero-media-list {
+    list-style: none;
+}
+
+.room-hero-media-list +.room-hero-media-list {
+    margin-top: 8px;
+}
+
+.room-hero-media-item {
+
+}
+
+.room-hero-media-link {
+
+}
+
+.room-hero-media-icon {
+    
+}
