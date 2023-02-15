@@ -76,7 +76,23 @@ body {
 
 /* =========== container =========== */
 
-.container {
-    width: 100%;
-    padding: 0 15px;
+@media screen and (max-width: 767px) {
+    .container {
+        max-width: 414px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1280px;
+    }
 }
