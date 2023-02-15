@@ -1,14 +1,14 @@
-@media  screen and (max-width: 1280px) {
+@media  screen and (max-width: 414px) {
   .hero{
 
   }
 }
-@media  screen and (min-width: 414px) {
+@media  screen and (min-width: 1024px) {
   .hero{
     
   }
 }
-@media  screen and (min-width:  1024px) {
+@media  screen and (min-width:  1280px) {
   .hero{
     
   }
