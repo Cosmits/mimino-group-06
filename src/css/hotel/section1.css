@@ -1,6 +1,17 @@
 .section-hotel {
+    max-width: 384px;
     padding-top: 32px;
     padding-bottom: 32px;
+}
+
+.main-hotel-s1 {
+    background-color: #FFFDEE;
+
+}
+
+.main-hotel-s2 {
+    bottom: #F0ECD6;
+    
 }
 
 .topic-hotel-1 {
@@ -48,10 +59,9 @@
     max-width: 258px;
 }
 
-.foto-hotel-s1 {
-    display: flex;
-    justify-content: right;
-}
+
+
+
 
 
 .button-hotel-s1 {
@@ -69,3 +79,4 @@
 .btn-hotel-2 {
     padding: 14px 37px;
 }
+
