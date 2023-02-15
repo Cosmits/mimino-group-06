@@ -1,0 +1,105 @@
+/* ------ BUTTONS-for-DESKTOP-TABLET-and-MOBILE ------*/
+
+
+.btn {
+  display: inline-block;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  color: #F3C653;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.02em;
+  cursor: pointer;
+  border: 2px solid #FFFFFF;
+  border-radius: 25px;
+
+}
+
+.button-grey {
+  padding-left: 35px;
+  padding-right: 35px;
+  background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+.button-black {
+min-width: 236px;
+background-color: #000000;
+
+}
+
+.btn:hover,
+.btn:active {
+  color: #F3C653;
+  background-color:#FFFFFF;
+  border-color: #F3C653;
+}
+
+/* -------- BUTTONS-for-MODALS-of-DESKTOP-and-TABLET ------- */
+
+.btn-big {
+  display: inline-block;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  color: #FFFFFF;
+  background-color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  cursor: pointer;
+  border: 1px solid #F3C653;
+}
+
+.btn-big:hover,
+.btn-big:active {
+  color: #000000;
+  background-color:#F3C653;
+}
+
+.button-big-black {
+  padding-left: 38px;
+  padding-right: 38px;
+  border-radius: 25px;
+}
+
+.button-modal-desk-tab {
+  min-width: 592px;
+  border-radius: 2px;
+}
+
+/* -------BUTTONS-for-MOBILE------- */
+
+.btn-mob {
+  display: inline-block;
+  padding: 19px 43px;
+  color: #FFFFFF;
+  background-color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  cursor: pointer;
+  border: 1px solid #F3C653;
+  
+}
+
+.button-mobile-circle {
+  border-radius: 25px;
+
+} 
+
+.button-mobile-quadro {
+  border-radius: 2px;
+}
+
+.btn-mob:hover,
+.btn-mob:active {
+  color: #000000;
+  background-color:#F3C653;
+}
