@@ -43,11 +43,13 @@
     }
     
     .room-hero-thumb {
+        position: relative;
         display: flex;
         align-items: center;
     }
 
     .room-hero-address {
+        width: 285px;
         display: flex;
         gap: 10px;
         justify-content: center;
@@ -77,6 +79,12 @@
         list-style: none;
         margin-left: 40px;
         margin-right: 261px;
+    }
+
+    .room-button {
+        position: relative;
+        right: 47px;
+        bottom: 62px;
     }
 }
 
@@ -133,7 +141,7 @@
 }
 
 .room-hero-address {
-    display: none;
+    /* display: none; */
 }
 
 .room-hero-media-list {
