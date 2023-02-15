@@ -4,14 +4,11 @@
     padding-bottom: 32px;
 }
 
-.main-hotel-s1 {
-    background-color: #FFFDEE;
-
-}
 
 .main-hotel-s2 {
-    bottom: #F0ECD6;
-    
+    background-color: var(--fon-dark-lemon-color);
+
+
 }
 
 .topic-hotel-1 {
