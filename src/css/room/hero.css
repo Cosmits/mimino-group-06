@@ -1,6 +1,10 @@
 .room-hero {
     padding: 483px 74px 14px 0;
-    border-color: blue;
+    background-color: blue;
+    background-image: url('../../public/img/hotel/hotel-hero-for-mobile.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .room-hero-title {
     font-family: 'Times New Roman';
@@ -22,6 +26,13 @@
     margin-bottom: 16px;
 }
 
+.room-thumb {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
 .room-hero-media-list {
     list-style: none;
 }
@@ -39,5 +50,5 @@
 }
 
 .room-hero-media-icon {
-    
+    fill: rgba(243, 198, 83, 0.7);
 }
