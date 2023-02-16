@@ -3,7 +3,7 @@
 
 .btn {
   display: inline-block;
-  padding-top: 12px;
+  padding-top: 12px 35px;
   padding-bottom: 12px;
   color: #F3C653;
   font-family: 'Montserrat', sans-serif;
@@ -19,15 +19,12 @@
 }
 
 .button-grey {
-  padding-left: 35px;
-  padding-right: 35px;
   background-color: rgba(0, 0, 0, 0.4);
 
 }
 
 .button-black {
-min-width: 236px;
-background-color: #000000;
+  background-color: #000000;
 
 }
 
