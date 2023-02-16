@@ -1,0 +1,89 @@
+.rest-menu {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.rest-menu-container {
+  display: flex;
+  /* ____________________________ */
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 414px;
+}
+
+.rest-menu-header {
+  font-weight: 700;
+  /* ___________________________ */
+  font-size: 7.7vw;
+  /* ___________________________ */
+  line-height: 1.16;
+  padding-bottom: 32px;
+}
+
+.rest-menu-thumb {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 16px;
+}
+.rest-menu-chapter {
+}
+
+.rest-chapter-header {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  padding-bottom: 16px;
+}
+.rest-menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  /* row-gap: 8px; */
+}
+
+.rest-menu-item {
+  display: flex;
+  align-items: center;
+}
+
+.rest-meal-thumb {
+  width: 53vw;
+}
+
+.rest-meal-header {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.02em;
+  padding-bottom: 4px;
+}
+.rest-meal-ingredients {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.rest-meal-weight {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.02em;
+  width: 40px;
+}
+
+.rest-meal-weight.volume-drinks {
+  width: 52px;
+}
+
+.rest-meal-price {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.02em;
+  width: 62px;
+}
+
+@media screen and (min-width: 480px) {
+}
