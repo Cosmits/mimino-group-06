@@ -88,11 +88,13 @@ body {
 @media screen and (min-width: 1024px) {
     .container {
         max-width: 930px;
+        padding: 0 47px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .container {
         max-width: 1110px;
+        padding: 0 85px;
     }
 }
