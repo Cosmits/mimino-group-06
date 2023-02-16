@@ -13,7 +13,7 @@
   background-size: cover;
   background-position: center;
 
-  background-color: #2f303a;
+  background-color: var(--black-color);
 }
 
 .details-hotel__wrap {
@@ -21,7 +21,7 @@
 }
 
 .details-restaurant__name {
-  font-family: 'Film P3';
+  font-family: 'FilmP3Bold';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -52,7 +52,7 @@
   font-size: 12px;
   line-height: 1.25;
   letter-spacing: 0.02em;
-  color: #bababa;
+  color: var(--second-text-color);
 
   max-width: 259px;
   padding-bottom: 48px;
