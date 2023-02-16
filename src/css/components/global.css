@@ -26,10 +26,10 @@ button {
     cursor: pointer;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Film P3';
     src: url(../../fonts/FontsFree-Net-FilmP3.ttf);
-}
+} */
 
 body {
     background-color: var(--fon-lemon-color);
@@ -82,6 +82,7 @@ body {
     margin: 0 auto;
     padding: 0 15px;
 }
+
 /* } */
 
 @media screen and (min-width: 1024px) {
