@@ -58,8 +58,16 @@
     margin-top: 20px;
 }
 
+.room-link:hover, .room-link:focus {
+    color: var(--accent-yellow-color);
+}
+
 .room-link-icon {
     fill: var(--brown-color);
+}
+
+.room-link:hover .room-link-icon, .room-link:focus .room-link-icon {
+    fill: var(--accent-yellow-color);
 }
 
 @media screen and (min-width: 1024px) {
