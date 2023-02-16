@@ -1,0 +1,37 @@
+.footer-container {
+  background-color: var(--black-color);
+}
+
+.footer-logo {
+  font-family: 'Film P3';
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.08;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+
+  color: var(--accent-yellow-color);
+}
+
+.footer-wrap {
+}
+.footer-nav-list {
+}
+
+.footer-nav-item {
+}
+.footer-nav-link {
+  color: var(--accent-yellow-color);
+}
+.footer-soc-list {
+}
+.footer-soc-item {
+}
+.footer-soc-link {
+}
+.footer-soc-title {
+  color: var(--accent-yellow-color);
+}
+.footer-soc-icon {
+  fill: var(--accent-yellow-color);
+}
