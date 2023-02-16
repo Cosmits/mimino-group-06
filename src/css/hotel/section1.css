@@ -128,18 +128,3 @@
     gap: 34px;
 }
 
-@media screen and (min-width: 414px) {
-
-    .container {
-        width: 414px;
-        margin: auto;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-
-    .container {
-        width: 1024px;
-        margin: 0 47px;
-    }
-}
