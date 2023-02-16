@@ -1,5 +1,5 @@
 .room {
-    padding: 32px 15px;
+    padding: 32px 0;
 }
 
 .room-amenities {
@@ -26,6 +26,7 @@
 }
 
 .room-item {
+    margin-bottom: 32px;
 
 }
 
@@ -38,9 +39,9 @@
     margin-bottom: 16px;
 }
 
-.room-list-text {
-    margin-bottom: 16px;
-}
+/* .room > button {
+    margin-bottom: 20px;
+} */
 
 .room-link {
     text-decoration: none;
@@ -50,4 +51,12 @@
     line-height: calc(20 / 16);
     letter-spacing: 0.02em;
     color: var(--brown-color);
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.room-link-icon {
+    fill: var(--brown-color);
 }
