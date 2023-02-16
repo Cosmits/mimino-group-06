@@ -4,6 +4,8 @@
   | default @import url()
   |============================
 */
+
+@import url('./components/fonts.css');
 @import url('./components/normalize.css');
 @import url('./components/reset.css');
 
@@ -21,3 +23,6 @@
 @import url('./components/modal-reserve-room/index.css');
 @import url('./components/modal-reserve-table/index.css');
 @import url('./components/modal-room-price/index.css');
+
+@import url('./components/__slider.css');
+

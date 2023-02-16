@@ -26,10 +26,10 @@ button {
     cursor: pointer;
 }
 
-@font-face {
+/* @font-face {
     font-family: 'Film P3';
     src: url(../../fonts/FontsFree-Net-FilmP3.ttf);
-}
+} */
 
 body {
     background-color: var(--fon-lemon-color);
@@ -76,7 +76,25 @@ body {
 
 /* =========== container =========== */
 
+/* @media screen and (max-width: 767px) { */
 .container {
-    width: 100%;
+    max-width: 384px;
+    margin: 0 auto;
     padding: 0 15px;
+}
+
+/* } */
+
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 930px;
+        padding: 0 47px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        max-width: 1110px;
+        padding: 0 85px;
+    }
 }
