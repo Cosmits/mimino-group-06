@@ -1,13 +1,15 @@
 .room {
     padding: 32px 0;
+    background-color: var(--fon-lemon-color);
 }
 
 .room-amenities {
-    font-family: 'Times New Roman';
+    font-family: 'TimesNewRomanPSMT';
     font-weight: 400;
     font-size: 32px;
     line-height: calc(37 / 32);
     color: var(--black-color);
+    text-transform: uppercase;
     margin-bottom: 16px;
 }
 
@@ -18,46 +20,104 @@
     line-height: calc(20 / 16);
     letter-spacing: 0.02em;
     color: #7A7A7A;
-    margin-bottom: 16px;
+    margin-bottom: 32px;
 }
 
 .room-list {
-    list-style: none;
+    margin-bottom: 32px;
 }
 
-.room-item {
+.room-item:not(:last-child) {
     margin-bottom: 32px;
-
 }
 
 .room-amenities-title {
-    font-family: 'Times New Roman';
+    font-family: 'TimesNewRomanPS-BoldMT';
     font-weight: 700;
     font-size: 24px;
     line-height: calc(28 / 24);
     color: var(--black-color);
+    text-transform: uppercase;
     margin-bottom: 16px;
 }
 
-/* .room > button {
-    margin-bottom: 20px;
-} */
+.room-item-list-item + .room-item-list-item {
+    margin-top: 16px;
+}
 
 .room-link {
-    text-decoration: none;
+    display: flex;
+    gap: 12px;
+    align-items: center;
     font-family: 'Montserrat';
     font-weight: 500;
     font-size: 16px;
     line-height: calc(20 / 16);
     letter-spacing: 0.02em;
     color: var(--brown-color);
-    display: flex;
-    gap: 12px;
-    justify-content: center;
-    align-items: center;
     margin-top: 20px;
+}
+
+.room-link:hover, .room-link:focus {
+    color: var(--accent-yellow-color);
 }
 
 .room-link-icon {
     fill: var(--brown-color);
+}
+
+.room-link:hover .room-link-icon, .room-link:focus .room-link-icon {
+    fill: var(--accent-yellow-color);
+}
+
+@media screen and (min-width: 1024px) {
+    .room {
+        padding: 50px 0 40px 0;
+    }
+    .room-list {
+        margin-bottom: 40px;
+    }
+    
+    .room-link {
+        gap: 16px;
+        justify-content: flex-end;
+        font-size: 16px;
+        line-height: calc(24 / 20);
+        margin-top: 32px;
+    }
+    .room-item-list {
+        display: flex;
+        gap: 80px;
+    }
+    .room-item-list-item + .room-item-list-item {
+        margin: 0;
+    }
+    .room-text {
+        max-width: 400px;
+    }
+    .room > .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .room-thumb {
+        margin-left: auto;
+    }
+    .room-link {
+        font-size: 20px;
+        line-height: calc(24 / 20);
+        margin-top: 32px;
+        }
+    .room .btn-mob {
+        width: 434px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .room {
+        padding: 48px 0;
+    }
+    .room-item-list {
+        gap: 159px;
+    }
+    .room-link-icon {
+    }
 }
