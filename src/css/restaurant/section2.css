@@ -3,8 +3,7 @@
   padding-bottom: 32px;
 }
 
-.rest-menu-container {
-}
+.rest-menu-container {}
 
 .rest-menu-table {
   border-collapse: collapse;
@@ -101,4 +100,5 @@
 }
 
 .rest-menu-btn {
+  margin: 0 auto;
 }
