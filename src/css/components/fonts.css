@@ -1,0 +1,61 @@
+/* 'Film P3 Bold 700' */
+@font-face {
+    font-family: "Film P3 Bold";
+    src: url(../../fonts/FilmP3Bold.ttf) format("ttf"),
+        url(../../fonts/FilmP3Bold.woff) format("woff");
+    font-weight: bold;
+}
+
+/* 'Montserrat Bold' */
+@font-face {
+    font-family: "Montserrat Bold";
+    src: url(../../fonts/Montserrat-Bold.ttf) format("ttf"),
+        url(../../fonts/Montserrat-Bold.woff) format("woff");
+    font-weight: bold;
+}
+
+/* 'Montserrat Light' */
+@font-face {
+    font-family: "Montserrat Light";
+    src: url(../../fonts/Montserrat-Light.ttf) format("ttf"),
+        url(../../fonts/Montserrat-Light.woff) format("woff");
+}
+
+
+/* 'Montserrat Medium' */
+@font-face {
+    font-family: "Montserrat Medium";
+    src: url(../../fonts/Montserrat-Medium.ttf) format("ttf"),
+        url(../../fonts/Montserrat-Medium.woff) format("woff");
+}
+
+/* 'Montserrat Regular' */
+@font-face {
+    font-family: "Montserrat";
+    src: url(../../fonts/Montserrat-Regular.ttf) format("ttf"),
+        url(../../fonts/Montserrat-Regular.woff) format("woff");
+    font-weight: normal;
+}
+
+/* 'Montserrat SemiBold' */
+@font-face {
+    font-family: "Montserrat SemiBold";
+    src: url(../../fonts/Montserrat-SemiBold.ttf) format("ttf"),
+        url(../../fonts/Montserrat-SemiBold.woff) format("woff");
+}
+
+/* 'Times New Roman Bold' */
+@font-face {
+    font-family: "Times New Roman Bold";
+    src: url(../../fonts/TimesNewRomanPS-BoldMT.ttf) format("ttf"),
+        url(../../fonts/TimesNewRomanPS-BoldMT.woff) format("woff");
+    font-weight: bold;
+}
+
+/* 'Times New Roman Regular' */
+@font-face {
+    font-family: "Times New Roman";
+    src: url(../../fonts/TimesNewRomanPSMT.ttf) format("ttf"),
+        url(../../fonts/TimesNewRomanPSMT.woff) format("woff");
+    font-weight: normal;
+}
