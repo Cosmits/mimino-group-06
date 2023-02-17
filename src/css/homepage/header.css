@@ -1,6 +1,34 @@
-.header {}
+@media screen and (min-width: 480px) {
+    .container {
+        width: 414px;
 
-.header-logo {}
+    }
+}
+
+.header-container {
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+/* .header-navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+} */
+
+.header-logo {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.08;
+    letter-spacing: 0.3em;
+    /* color: #ffffff; */
+}
+
+.header-mobcontact {
+    display: none;
+}
 
 .link {}
 
@@ -8,18 +36,52 @@
 
 .list {}
 
-.header-item {}
+.header-item {
+    display: flex;
+}
 
-.header-link {}
+.header-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+     color: #F3C653;
+}
+
+.header-link:hover,
+.header-link:focus {
+    
+}
 
 .header-tel-icon {}
 
-.header-icon {
+.adres {
+    width: 179px;
+    height: 30px;
+    padding: 8px 5px;
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #E5E5E5;
 }
+
+.header-icon {
+    fill: #F3C653;
+}
+
+
 
 .header-item-resttel {}
 
-.header-soc-icon {}
+/* .header-soc-icon {
+position: absolute;
+margin-left: 15px;
+margin-bottom: 46px;
+} */
+
+.header-soc-list {}
 
 .header-soc-item {}
 
