@@ -46,7 +46,7 @@
 }
 
 .details-restaurant__title {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat Bold';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -57,7 +57,7 @@
 }
 
 .details-restaurant__text {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat SemiBold';
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
