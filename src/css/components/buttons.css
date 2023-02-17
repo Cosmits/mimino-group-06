@@ -3,8 +3,7 @@
 
 .btn {
   display: inline-block;
-  padding-top: 12px 35px;
-  padding-bottom: 12px;
+  padding: 12px 35px;
   color: #F3C653;
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
