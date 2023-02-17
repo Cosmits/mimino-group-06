@@ -1,10 +1,9 @@
+.main-hotel {
+    padding-top: 32px;
+}
 
 .section-hotel {
     padding-bottom: 32px;
-}
-
-.topic-hotel {
-    padding-top: 32px;
 }
 
 
@@ -21,7 +20,7 @@
 }
 
 .topic-hotel-2 {
-    font-family: 'Film P3';
+        font-family: 'Film P3 Bold';
         font-style: normal;
         font-weight: 700;
         font-size: 40px;
@@ -48,7 +47,8 @@
         margin-bottom: 12px;
 }
 
-.topic-hotel-4 {
+.topic-hotel-4,
+.topic-hotel-4-s2 {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -56,8 +56,17 @@
     line-height: 15px;
     letter-spacing: 0.02em;
     color: #7A7A7A;
+    
+}
+
+.topic-hotel-4 {
     max-width: 258px;
 }
+
+.topic-hotel-4-s2 {
+    max-width: 242px;
+}
+
 
 .foto-hotel-s1 {
     display: flex;
@@ -86,13 +95,19 @@
 }
 
 .btn-hotel-1 {
-    padding: 14px 64px;
+    padding: 14px 64.5px;
+    width: -webkit-fill-available;
 }
 
 .btn-hotel-2 {
     padding: 14px 37px;
 }
 
+.slider-hotel-s1,
+.slider-hotel-s2
+{
+    padding-bottom: 28px;
+}
 
 /* section 2*/
 
@@ -113,7 +128,10 @@
     display: flex;
 }
 
-.slider-hotel-s2 {
+.slider-hotel-s2,
+.slider-hotel-s2-tablet,
+.slider-hotel-s2-desktop
+ {
     display: grid;
     justify-content: right;
     gap: 28px;
@@ -125,3 +143,182 @@
     gap: 34px;
 }
 
+.slider-hotel-s1-tablet,
+.slider-hotel-s2-tablet,
+.slider-hotel-s1-desktop,
+.slider-hotel-s2-desktop
+ {
+    display: none;
+}
+
+.foto-hotel-s1-tablet,
+.foto-hotel-s2-tablet {
+    display: none;
+}
+
+.foto-hotel-s1-tablet,
+.foto-hotel-s2-tablet
+ {
+    background-image: url(../../public/img/hotel/hotel-double1-room-img1-for-tablet.jpg);
+    width: 400px;
+    height: 524px;
+    background-repeat: no-repeat;
+    margin-top: -94px;
+
+
+}
+
+@media screen and (min-width: 414px) {
+}
+
+@media screen and (min-width: 1024px) {
+
+.main-hotel {
+    padding-top: 62px;
+
+}
+
+.section-hotel {
+    padding-bottom: 48px;
+}
+
+.topic-hotel-1 {
+    margin-bottom: 4px;
+}
+
+.topic-hotel-item-oneblock,
+.topic-hotel-item-oneblock-s2 {
+    margin-bottom: 62px;
+}
+
+.topic-hotel-3 {
+    margin-bottom: 16px;
+}
+
+.foto-hotel-s1,
+.foto-hotel-s2
+ {
+    display: none;
+}
+
+.foto-hotel-s1-tablet,
+.foto-hotel-s2-tablet
+ {
+    display: block;
+}
+
+.topic-hotel-s1 {
+    display: flex;
+    gap: 26px;
+}
+
+.topic-hotel-s2 {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.slider-hotel-s1,
+.slider-hotel-s2 {
+    display: none;
+}
+
+.slider-hotel-s1-tablet,
+.slider-hotel-s2-tablet
+ {
+    display: block;
+}
+
+.section-hotel-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.arrow-hotel-1 {
+    justify-content: right;
+}
+
+
+.button-hotel-s1 {
+    display: grid;
+}
+
+
+.arrow-hotel-s2 {
+    margin-top: 40px;
+    justify-content: left;
+}
+
+.topic-hotel-4 {
+    max-width: 439px;
+
+}
+
+.topic-hotel-4-s2 {
+max-width: 400px;
+}
+
+
+}
+
+@media screen and (min-width: 1280px) {
+
+.main-hotel {
+        padding-top: 72px;
+
+    }
+
+.foto-hotel-s1-tablet,
+.foto-hotel-s2-tablet {
+    background-image: url(../../public/img/hotel/hotel-double1-room-img1-for-desktop.jpg);
+    height: 574px;
+    width: 460px;
+    background-repeat: no-repeat;
+    margin-top: -104px;
+    
+}
+
+.topic-hotel-item-oneblock,
+.topic-hotel-item-oneblock-s2 {
+    margin-bottom: 72px;
+}
+
+.topic-hotel-3 {
+    margin-bottom: 24px;
+}
+
+.topic-hotel-s1 {
+    display: flex;
+    gap: 48px;
+}
+
+.topic-hotel-s2 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.topic-hotel-s3 {
+    display: flex;
+    justify-content: center;
+    gap: 149px;
+}
+
+.slider-hotel-s1-tablet,
+.slider-hotel-s2-tablet {
+    display: none;
+}
+
+
+.slider-hotel-s1-desktop,
+.slider-hotel-s2-desktop {
+    display: block;
+}
+
+.topic-hotel-4 {
+    max-width: 400px;
+
+}
+
+}
