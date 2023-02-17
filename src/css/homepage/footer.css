@@ -7,10 +7,10 @@ footer {
   padding-bottom: 40px;
   align-items: center;
 
-  justify-content: end;
+  justify-content: space-around;
 }
 .footer-logo {
-  font-family: 'FilmP3Bold';
+  font-family: 'Film P3 Bold';
   font-weight: 700;
   font-size: 9vw;
   line-height: 1.08;
@@ -24,7 +24,7 @@ footer {
   flex-direction: column;
   gap: 32px;
   padding-right: 15px;
-  margin-left: 75px;
+  /* margin-left: 75px; */
 }
 .footer-nav-list {
   display: flex;
