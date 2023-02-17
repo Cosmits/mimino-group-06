@@ -3,8 +3,8 @@
 
 .btn {
   display: inline-block;
-  padding: 12px 35px;
-  color: #F3C653;
+  padding: 14px 35px;
+  color: var(--accent-yellow-color);
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -12,9 +12,9 @@
   line-height: 1.25;
   letter-spacing: 0.02em;
   cursor: pointer;
-  border: 2px solid #FFFFFF;
+  border: 2px solid var(--white-color);
   border-radius: 25px;
-
+  
 }
 
 .button-grey {
@@ -23,48 +23,46 @@
 }
 
 .button-black {
-  background-color: #000000;
+background-color: var(--black-color);
 
 }
 
 .btn:hover,
 .btn:active {
-  color: #F3C653;
-  background-color:#FFFFFF;
-  border-color: #F3C653;
+  color: var(--accent-yellow-color);
+  background-color:var(--white-color);
+  border-color: var(--accent-yellow-color);
 }
 
 /* -------- BUTTONS-for-MODALS-of-DESKTOP-and-TABLET ------- */
 
 .btn-big {
   display: inline-block;
-  padding-top: 17px;
-  padding-bottom: 17px;
-  color: #FFFFFF;
-  background-color: #000000;
+  padding: 18px 38px;
+  color: var(--white-color);
+  background-color: var(--black-color);
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 1.2;
   cursor: pointer;
-  border: 1px solid #F3C653;
+  border: 1px solid var(--accent-yellow-color);
 }
 
 .btn-big:hover,
 .btn-big:active {
-  color: #000000;
-  background-color:#F3C653;
+  color: var(--black-color);
+  background-color:var(--accent-yellow-color);
 }
 
 .button-big-black {
-  padding-left: 38px;
-  padding-right: 38px;
   border-radius: 25px;
 }
 
 .button-modal-desk-tab {
-  min-width: 592px;
+  padding-left: 117px;
+  padding-right: 116px;
   border-radius: 2px;
 }
 
@@ -72,16 +70,16 @@
 
 .btn-mob {
   display: inline-block;
-  padding: 19px 43px;
-  color: #FFFFFF;
-  background-color: #000000;
+  padding: 20px 43px;
+  color: var(--white-color);
+  background-color: var(--black-color);
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   cursor: pointer;
-  border: 1px solid #F3C653;
+  border: 1px solid var(--accent-yellow-color);
   
 }
 
@@ -96,6 +94,6 @@
 
 .btn-mob:hover,
 .btn-mob:active {
-  color: #000000;
-  background-color:#F3C653;
+  color: var(--black-color);
+  background-color: var(--accent-yellow-color);
 }
