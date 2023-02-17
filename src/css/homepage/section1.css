@@ -43,7 +43,7 @@
 
 
 .about-first-images {
-    min-width: 244px;
+    max-width: 244px;
     margin-left: auto;
     margin-bottom: 32px;
     border-radius: 2px;
@@ -107,7 +107,7 @@
     }
 
     .about-first-images {
-        min-width: 400px;
+        max-width: 400px;
         box-shadow: 5px 5px 70px rgba(0, 0, 0, 0.25);
         position: relative;
         top: -32px;
@@ -147,3 +147,7 @@
     top: -96px;}
  .second-picture-container{column-gap: 32px;}
 .about-secondary-subtitle {top: 89px;}}
+
+
+
+    
