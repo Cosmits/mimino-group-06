@@ -8,6 +8,12 @@
     --footer-color: #0E0C07;
     --input-text-color: #808080;
 
+    /* Yan Koshel */
+    --primary-text-color: #7A7A7A;
+    --second-text-color: #BABABA;
+    /* Viacheslav */
+    --third-grey-color: #494848;
+
     /* --accent-yellow-color  and  opacity 0.7*/
     --svg-fill: rgba(243, 198, 83, 0.7);
 

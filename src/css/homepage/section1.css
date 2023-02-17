@@ -1,0 +1,100 @@
+
+/*-------------- ABOUT-RESTAURANT-HOMEPAGE---------------------*/
+
+.about-restaurant {padding: 16px 0px;
+    background: var(--fon-lemon-color);
+    margin: 0 auto;
+}
+
+.about-pretitles {font-family: 'TimesNewRomanPSMT', serif;
+font-size: 20px;
+line-height: 1em;
+margin-bottom: 12px;
+color:#B4B4B4;
+}
+
+.about-titles {font-family: 'FilmP3Bold', sans-serif;
+   font-size: 40px;
+   line-height: 1em;
+   letter-spacing: 0.3em;
+   margin-bottom: 12px;
+   color: #494848;
+text-transform: uppercase;}
+
+.about-subtitles {font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+font-size: 12px;
+line-height: 1.25;
+letter-spacing: 0.02em;
+max-width: 258px;
+ /* margin-bottom: 28px;  */
+color: #7A7A7A;}
+
+
+/* .first-picture-container {display: flex;
+    flex-direction: column;
+    gap: 32px;
+}  */
+
+/* .about-rest-picture {
+    
+}   */
+
+.about-first-images { min-width: 244px;
+    margin-left: auto;
+   
+    margin-bottom: 32px;
+box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.25);}
+
+
+ .about-second-images {max-width: 200px;
+     box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.25); }
+
+.about-secondary-subtitle {font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+   font-size: 12px;
+line-height: 1.25;
+letter-spacing: 0.02em;
+max-width: 163px;
+color: var(--brown-color);}
+
+.second-picture-container  {display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    column-gap: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .about-pretitles { font-size: 36px;
+  line-height: 1.15;}
+  .about-titles {font-size: 64px;}
+
+
+.about-subtitles{ 
+font-size: 16px;
+line-height: 1.21;
+max-width: 439px;
+}
+    .fdgtrh {display: flex;
+    gap: 26px;}
+
+    .about-first-images { min-width: 400px;
+        box-shadow: 5px 5px 70px rgba(0, 0, 0, 0.25);
+        position: relative;
+        top: -32px;
+        margin-bottom: 0;
+    }
+
+.about-second-images {max-width: 350px;
+     box-shadow: 5px 5px 70px rgba(0, 0, 0, 0.25);
+    position: relative; 
+top:-48px}
+
+
+    .about-secondary-subtitle {   font-size: 16px;
+    max-width: 312px;}
+
+.second-picture-container {justify-content: flex-start;
+column-gap: 48px;}
+}
