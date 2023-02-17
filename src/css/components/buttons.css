@@ -30,6 +30,7 @@ background-color: var(--black-color);
 }
 
 .btn:hover,
+.btn:focus,
 .btn:active {
   color: var(--accent-yellow-color);
   background-color:var(--white-color);
@@ -55,6 +56,7 @@ background-color: var(--black-color);
 }
 
 .btn-big:hover,
+.btn-big:focus,
 .btn-big:active {
   color: var(--black-color);
   background-color:var(--accent-yellow-color);
@@ -66,7 +68,7 @@ background-color: var(--black-color);
 
 .button-modal-desk-tab {
   padding-left: 117px;
-  padding-right: 116px;
+  padding-right: 117px;
   border-radius: 2px;
 }
 
@@ -99,6 +101,7 @@ background-color: var(--black-color);
 }
 
 .btn-mob:hover,
+.btn-mob:focus,
 .btn-mob:active {
   color: var(--black-color);
   background-color: var(--accent-yellow-color);
