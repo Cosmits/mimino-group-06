@@ -1,0 +1,145 @@
+.homepage-contacts {
+    padding-top: 36px;
+    padding-bottom: 32px;
+    background-color: var(--fon-lemon-color);
+}
+.contacts-logo {
+    font-family: 'FilmP3Bold', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: calc(43 / 40);
+    letter-spacing: 0.3em;
+    color: var(--third-grey-color);
+    margin-bottom: 12px;
+}
+.contacts-descr {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(20 / 16);
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    margin-bottom: 24px;
+}
+.contacts-list {
+    margin-bottom: 16px;
+}
+.contacts-wrapper {
+    display: flex;
+    align-items: baseline;
+}
+.contacts-info-second,
+.contacts-info {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: calc(24 / 20);
+    letter-spacing: 0.02em;
+    color: var(--brown-color);
+}
+.contacts-info {
+    margin-right: 22px;
+    margin-bottom: 32px;
+}
+.contacts-info-second {
+    margin-right: 54px;
+}
+.contacts-thumb,
+.contacts-thumb-two {
+    background-color: var(--white-color);
+    border: 0.5px solid var(--accent-yellow-color);
+    border-radius: 2px;
+    width: 144px;
+    height: 40px;
+    transition: border var(--timing-function);
+}
+.contacts-thumb {
+    margin-bottom: 16px;
+}
+.contacts-thumb-two {
+    width: 260px;
+}
+.contacts-thumb:hover,
+.contacts-thumb:focus {
+    border: 0.5px solid var(--brown-color);
+}
+.contacts-thumb-two:hover,
+.contacts-thumb-two:focus {
+    border: 0.5px solid var(--brown-color);
+}
+.contacts-link,
+.contacts-link-second {
+    font-family: 'Montserrat', sans-serif;;
+    font-size: 14px;
+    line-height: calc(17 / 14);
+    letter-spacing: 0.02em;
+    color: var(--third-grey-color);
+    transition: color var(--timing-function);
+}
+.contacts-link-second {
+    margin-left: 12px;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--brown-color);
+}
+.contacts-link-second:hover,
+.contacts-link-second:focus {
+    color: var(--brown-color);
+}
+.contacts-icon {
+    fill: var(--brown-color);
+    margin-right: 8px;
+    transition: fill var(--timing-function);
+}
+.contacts-link:hover .contacts-icon,
+.contacts-link:focus .contacts-icon {
+    fill: var(--accent-yellow-color);
+}
+.contacts-address-thumb {
+    background-color: var(--white-color);
+    border: 0.5px solid var(--accent-yellow-color);
+    border-radius: 2px;
+    max-width: 260px;
+    height: 76px;
+    margin-bottom: 32px;
+    margin-left: auto;
+    transition: border var(--timing-function);
+}
+.contacts-address-thumb:hover,
+.contacts-address-thumb:focus {
+    border: 0.5px solid var(--brown-color);
+}
+.contacts-address {
+    display: flex;
+    align-items: center; 
+    padding: 8px 33px 7px 10px;
+}
+.contacts-address-icon {
+    fill: var(--brown-color);
+    transition: fill var(--timing-function);
+}
+.contacts-address-link:hover .contacts-address-icon,
+.contacts-address-link:focus .contacts-address-icon {
+    fill: var(--accent-yellow-color);
+} 
+.contacts-address-location {
+    display: inline-block;
+    max-width: 183px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: calc(20 / 16);
+    letter-spacing: 0.01em;
+    color: var(--third-grey-color);
+    margin-left: 10px;
+    transition: color var(--timing-function);
+}
+.contacts-address-location:hover,
+.contacts-address-location:focus {
+    color: var(--brown-color);
+}
+.contacts-address-map {
+    width: 384px;
+    height: 220px;
+}
