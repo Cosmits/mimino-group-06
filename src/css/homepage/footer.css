@@ -10,6 +10,11 @@ footer {
   justify-content: space-around;
 }
 .footer-logo {
+<<<<<<< Updated upstream
+=======
+  margin-left: 44px;
+
+>>>>>>> Stashed changes
   font-family: 'Film P3 Bold';
   font-weight: 700;
   font-size: 9vw;
