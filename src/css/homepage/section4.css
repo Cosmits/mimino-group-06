@@ -1,5 +1,6 @@
 .details-hotel {
   height: 735px;
+  padding-top: 24px;
 
   background-image: linear-gradient(
       to right,
@@ -31,6 +32,8 @@
 
 .details-hotel__wrap {
   margin-right: 125px;
+  padding-bottom: 48px;
+
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -44,7 +47,6 @@
   line-height: 1.08;
   letter-spacing: 0.3em;
   color: var(--white-color);
-  padding-top: 24px;
   margin-bottom: 12px;
 }
 
@@ -71,7 +73,19 @@
   color: var(--second-text-color);
 
   max-width: 259px;
-  padding-bottom: 48px;
+}
+
+.details-hotel__slider {
+  margin-right: 25px;
+  margin-left: 85px;
+}
+
+.details-hotel__arrows-list {
+  display: flex;
+  justify-content: right;
+  gap: 34px;
+
+  margin-top: 24px;
 }
 
 .details-hotel__buttons {
