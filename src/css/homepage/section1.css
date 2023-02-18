@@ -81,6 +81,7 @@
     }
 
     .about-rest-title-container {
+        padding-top: 120px;
         margin-bottom: 0;
     }
 
@@ -101,7 +102,7 @@
 
     .about-rest-container {
         display: flex;
-        align-items: center;
+        /* align-items: center; */
         gap: 26px;
     }
 
