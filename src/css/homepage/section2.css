@@ -71,9 +71,9 @@
 }
 
 .details-restaurant__slider {
-  padding-left: 29px;
-  padding-right: 15px;
-  padding-bottom: 40px;
+  margin-left: 14px;
+  margin-right: 0px;
+  margin-bottom: 40px;
 }
 
 .details-restaurant__arrows-list {
