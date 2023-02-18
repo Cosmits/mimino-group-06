@@ -1,6 +1,6 @@
 .details-hotel {
-  height: 735px;
   padding-top: 24px;
+  padding-bottom: 40px;
 
   background-image: linear-gradient(
       to right,
@@ -78,6 +78,11 @@
 .details-hotel__slider {
   margin-right: 25px;
   margin-left: 85px;
+}
+
+.details-restaurant__slider-image {
+  height: 274x;
+  width: 270px;
 }
 
 .details-hotel__arrows-list {

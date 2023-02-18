@@ -1,5 +1,4 @@
 .details-restaurant {
-  height: 735px;
   padding-top: 24px;
   padding-bottom: 40px;
 
@@ -74,6 +73,11 @@
   margin-left: 14px;
   margin-right: 0px;
   margin-bottom: 40px;
+}
+
+.details-restaurant__slider-image {
+  height: 270px;
+  width: 370px;
 }
 
 .details-restaurant__arrows-list {
