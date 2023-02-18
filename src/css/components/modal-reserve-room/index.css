@@ -13,30 +13,18 @@
 
   transition: translate 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .modal-reserv-room {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 458px;
-  min-height: 586px;
-  background: #fcfcfc;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 4px;
   transform: translate(-50%, -50%) scale(0.9);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding: 24px;
-}
-.backdrop.is-hidden.modal {
-  transform: translate(-50%, -50%) scale(0.9);
-  transition: translate 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-reserv-room {
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #fffdee;
   border-radius: 2px;
   padding: 16px;
+  padding-bottom: 60px;
   display: flex;
   flex-direction: column;
   max-width: 414px;
@@ -154,4 +142,55 @@ select {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+.tablet-version {
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+  margin-bottom: 14px;
+}
+.tab-vers {
+  display: flex;
+  flex-direction: column;
+  row-gap: 14px;
+}
+.tab-ver {
+  margin-bottom: 14px;
+}
+/* ---------------Tab version-------------- */
+/* ---------------Tab version-------------- */
+@media screen and (min-width: 768px) {
+  .modal-reserv-room {
+    min-width: 712px;
+    height: auto;
+  }
+
+  .modal-reserv-room > .form-input {
+    gap: 28px;
+    margin-top: 40px;
+  }
+
+  .modal-input {
+    min-width: 288px;
+    height: 64px;
+  }
+  .tablet-version {
+    gap: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .tab-ver {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 45px;
+  }
+  .tab-vers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+  }
 }

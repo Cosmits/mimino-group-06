@@ -68,6 +68,9 @@
   gap: 20px;
   margin-top: 30px;
 }
+.form-input:last-child {
+  gap: 0;
+}
 .input-wrap {
   position: relative;
 }
@@ -79,6 +82,7 @@
   width: 24px;
   top: 50%;
   transform: translateY(-50%);
+  pointer-events: none;
 }
 select {
   -webkit-appearance: none;
@@ -119,11 +123,7 @@ select {
   flex-direction: column;
   gap: 8px;
 }
-.modal-confirm-btn {
-  width: 100%;
-  height: 64px;
-  margin-top: 40px;
-}
+
 .modal-confirm-btn {
   border: 1px solid #f3c653;
   border-radius: 2px;
@@ -134,6 +134,9 @@ select {
   line-height: 1.2;
   color: #ffffff;
   background-color: #000000;
+  width: 100%;
+  height: 64px;
+  margin-top: 40px;
 }
 .room-class {
   border: none;
@@ -154,14 +157,16 @@ select {
   visibility: hidden;
   pointer-events: none;
 }
+.tab-version {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
 /* ---------------Tab version-------------- */
 /* ---------------Tab version-------------- */
 @media screen and (min-width: 768px) {
   .modal-reserv-tab {
-    width: 712px;
-  }
-  .modal-reserv-tab {
-    padding: 16px;
+    min-width: 712px;
   }
 
   .modal-reserv-tab > .form-input {
@@ -169,26 +174,28 @@ select {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    column-gap: 16px;
-    row-gap: 28px;
     width: 100%;
     height: 100%;
     justify-content: center;
-    align-items: center;
+    row-gap: 16px;
   }
 
   .modal-input {
-    padding-left: 12px;
-    padding-right: 15px;
-    border: 1px solid #c79002;
-    border-radius: 2px;
     width: 288px;
     height: 64px;
-    background-color: transparent;
+  }
+  .tab-version {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 28px;
+  }
+  .input-box > .input-wrap {
+    width: 288px;
   }
 }
-/* ---------------Tab version-------------- */
-/* ---------------Tab version-------------- */
+/* ---------------desktop version-------------- */
+/* ---------------desktop version-------------- */
 @media screen and (min-width: 1200px) {
   .modal-reserv-tab {
     width: 712px;
