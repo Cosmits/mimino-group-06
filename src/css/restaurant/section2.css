@@ -3,7 +3,8 @@
   padding-bottom: 32px;
 }
 
-.rest-menu-container {}
+.rest-menu-container {
+}
 
 .rest-menu-table {
   border-collapse: collapse;
@@ -20,8 +21,16 @@
   text-align: left;
 }
 
-.meal-and-ingredients {
-  width: 56%;
+.meal-and-ingredients-column {
+  width: 57%;
+}
+
+.portion-size-column {
+  width: 19%;
+}
+
+.meal-price-column {
+  width: 24%;
 }
 
 .rest-menu-table th {
@@ -61,10 +70,6 @@
   padding-right: 0;
 }
 
-.portion-size {
-  width: 22%;
-}
-
 .menu-meal-weight {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -74,16 +79,12 @@
   letter-spacing: 0.02em;
   padding-top: 0;
   padding-bottom: 0;
-  padding-left: 7.23vw;
+  padding-left: 7.24vw;
   padding-right: 0;
 }
 
 .drink {
-  padding-left: 4.3vw;
-}
-
-.meal-price {
-  width: 22%;
+  padding-left: 4.7vw;
 }
 
 .menu-meal-price {
@@ -95,10 +96,42 @@
   letter-spacing: 0.02em;
   padding-top: 0;
   padding-bottom: 0;
-  padding-left: 7.23vw;
+  padding-left: 7.24vw;
   padding-right: 0;
 }
 
 .rest-menu-btn {
   margin: 0 auto;
+}
+
+@media screen and (min-width: 414px) {
+  .rest-menu-table caption {
+    font-size: 32px;
+  }
+
+  .meal-and-ingredients-column {
+    width: 224px;
+  }
+
+  .portion-size-column {
+    width: 70px;
+  }
+
+  .meal-price-column {
+    width: 90px;
+  }
+
+  .menu-meal-weight {
+    font-size: 14px;
+    padding-left: 30px;
+  }
+
+  .drink {
+    padding-left: 18px;
+  }
+
+  .menu-meal-price {
+    font-size: 14px;
+    padding-left: 30px;
+  }
 }
