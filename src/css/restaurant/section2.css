@@ -4,11 +4,11 @@
 }
 
 .rest-menu-container {
+  position: relative;
 }
 
 .rest-menu-table {
   border-collapse: collapse;
-  margin-bottom: 32px;
 }
 
 .rest-menu-table caption {
@@ -102,9 +102,16 @@
 
 .rest-menu-btn {
   margin: 0 auto;
+  margin-top: 32px;
 }
+/* ---------MOBILE----------- */
 
 @media screen and (min-width: 414px) {
+  .visually-none {
+    position: absolute;
+    color: rgba(255, 255, 255, 0);
+  }
+
   .rest-menu-table caption {
     font-size: 32px;
   }
@@ -134,4 +141,55 @@
     font-size: 14px;
     padding-left: 30px;
   }
+}
+
+/* ------------TABLET------------- */
+
+@media screen and (min-width: 1024px) {
+  .restaurant-menu {
+    padding-top: 58px;
+    padding-bottom: 40px;
+  }
+
+  .rest-menu-thumb {
+    display: flex;
+    gap: 88px;
+  }
+
+  .visually-none {
+    position: relative;
+    color: rgba(255, 255, 255, 0);
+  }
+
+  .rest-menu-table caption {
+    padding-bottom: 32px;
+  }
+
+  .meal-and-ingredients-column {
+    width: 225px;
+  }
+
+  .portion-size-column {
+    width: 95px;
+  }
+
+  .meal-price-column {
+    width: 100px;
+  }
+
+  .menu-meal-weight {
+    padding-left: 40px;
+  }
+
+  .menu-meal-price {
+    padding-left: 40px;
+  }
+  .rest-menu-btn {
+    margin-top: 41px;
+  }
+}
+
+/* ------------DESKTOP------------- */
+
+@media screen and (min-width: 1280px) {
 }
