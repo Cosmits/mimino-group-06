@@ -27,7 +27,7 @@
   padding-bottom: 60px;
   display: flex;
   flex-direction: column;
-  max-width: 414px;
+  width: 100%;
 }
 .close-btn {
   margin-left: auto;
@@ -143,30 +143,24 @@ select {
   visibility: hidden;
   pointer-events: none;
 }
-.tablet-version {
-  display: flex;
-  flex-direction: column;
-  row-gap: 14px;
-  margin-bottom: 14px;
-}
-.tab-vers {
-  display: flex;
-  flex-direction: column;
-  row-gap: 14px;
-}
-.tab-ver {
-  margin-bottom: 14px;
-}
-/* ---------------Tab version-------------- */
-/* ---------------Tab version-------------- */
-@media screen and (min-width: 768px) {
+
+/* ---------------mob version-------------- */
+/* ---------------mob version-------------- */
+@media screen and (min-width: 414px) {
   .modal-reserv-room {
-    min-width: 712px;
+    width: 414px;
+  }
+}
+
+/* ---------------Tab version-------------- */
+/* ---------------Tab version-------------- */
+@media screen and (min-width: 1024px) {
+  .modal-reserv-room {
+    width: 712px;
     height: auto;
   }
 
   .modal-reserv-room > .form-input {
-    gap: 28px;
     margin-top: 40px;
   }
 
@@ -175,22 +169,14 @@ select {
     height: 64px;
   }
   .tablet-version {
-    gap: 16px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    margin-top: 0;
   }
   .tab-ver {
     display: flex;
-    justify-content: flex-end;
-    padding-right: 45px;
+    justify-content: end;
   }
   .tab-vers {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     gap: 16px;
-    justify-content: center;
-    align-items: center;
   }
 }

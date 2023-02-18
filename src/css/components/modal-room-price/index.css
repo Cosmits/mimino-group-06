@@ -138,6 +138,9 @@ select {
   visibility: hidden;
   pointer-events: none;
 }
+.tablet-version {
+  margin-bottom: 0;
+}
 /* ---------------Tab version-------------- */
 /* ---------------Tab version-------------- */
 @media screen and (min-width: 768px) {

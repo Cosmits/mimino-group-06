@@ -31,6 +31,7 @@
   padding: 16px;
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .close-btn {
   margin-left: auto;
@@ -162,11 +163,25 @@ select {
   flex-direction: column;
   row-gap: 24px;
 }
+.tab-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* ---------------mob version-------------- */
+/* ---------------mob version-------------- */
+@media screen and (min-width: 414px) {
+  .modal-reserv-tab {
+    width: 414px;
+  }
+}
+
 /* ---------------Tab version-------------- */
 /* ---------------Tab version-------------- */
 @media screen and (min-width: 768px) {
   .modal-reserv-tab {
-    min-width: 712px;
+    width: 712px;
   }
 
   .modal-reserv-tab > .form-input {
@@ -177,7 +192,9 @@ select {
     width: 100%;
     height: 100%;
     justify-content: center;
-    row-gap: 16px;
+  }
+  .form-input:first-child {
+    padding-right: 16px;
   }
 
   .modal-input {
@@ -192,6 +209,11 @@ select {
   }
   .input-box > .input-wrap {
     width: 288px;
+  }
+  .tab-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
   }
 }
 /* ---------------desktop version-------------- */
