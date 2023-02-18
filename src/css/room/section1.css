@@ -62,11 +62,17 @@
     justify-content: center;
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 16px;
+    font-size: 4vw;
     line-height: calc(20 / 16);
     letter-spacing: 0.02em;
     color: var(--brown-color);
     margin-top: 20px;
+}
+
+@media screen and (min-width: 414px) {
+    .room-link {
+    font-size: 16px;
+    }
 }
 
 .room-link:hover, .room-link:focus {
@@ -79,6 +85,10 @@
 
 .room-link:hover .room-link-icon, .room-link:focus .room-link-icon {
     fill: var(--accent-yellow-color);
+}
+
+.room .btn-mob {
+    padding: 20px 42px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -94,7 +104,7 @@
     
     .room-link {
         gap: 16px;
-        font-size: 16px;
+        font-size: 20px;
         line-height: calc(24 / 20);
         margin-top: 32px;
         justify-content: flex-start;
@@ -113,12 +123,13 @@
         margin-left: 480px;
     }
     .room-link {
-        font-size: 20px;
         line-height: calc(24 / 20);
         margin-top: 32px;
         }
     .room .btn-mob {
-        width: 434px;
+        /* width: 434px; */
+        font-size: 24px;
+        line-height: calc(29 / 24);
     }
 }
 @media screen and (min-width: 1280px) {
