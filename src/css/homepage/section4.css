@@ -1,6 +1,6 @@
 .details-hotel {
   height: 735px;
-  max-width: 767px;
+  padding-top: 24px;
 
   background-image: linear-gradient(
       to right,
@@ -16,8 +16,27 @@
   background-color: var(--black-color);
 }
 
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .details-hotel {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)
+      ),
+      url(../../public/img/homepage/background-hotel-detail-for-mobile@2x.jpg);
+  }
+}
+
 .details-hotel__wrap {
   margin-right: 125px;
+  padding-bottom: 48px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .details-restaurant__name {
@@ -28,12 +47,11 @@
   line-height: 1.08;
   letter-spacing: 0.3em;
   color: var(--white-color);
-  padding-top: 24px;
   margin-bottom: 12px;
 }
 
 .details-hotel__title {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat Bold';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -46,7 +64,7 @@
 }
 
 .details-hotel__text {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat SemiBold';
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -55,5 +73,32 @@
   color: var(--second-text-color);
 
   max-width: 259px;
-  padding-bottom: 48px;
+}
+
+.details-hotel__slider {
+  margin-right: 25px;
+  margin-left: 85px;
+}
+
+.details-hotel__arrows-list {
+  display: flex;
+  justify-content: right;
+  gap: 34px;
+
+  margin-top: 24px;
+}
+
+.details-hotel__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+
+  row-gap: 16px;
+}
+
+.btn-section4 {
+  /* max-width: 236px; */
+  padding: 14px 24px;
+  min-width: 236px;
 }
