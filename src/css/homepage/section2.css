@@ -1,10 +1,11 @@
 .details-restaurant {
   height: 735px;
-  max-width: 767px;
 
-  background-image: linear-gradient(to right,
+  background-image: linear-gradient(
+      to right,
       rgba(0, 0, 0, 0.65),
-      rgba(0, 0, 0, 0.65)),
+      rgba(0, 0, 0, 0.65)
+    ),
     url(../../public/img/homepage/background-rest-detail-for-mobile.jpg);
 
   background-repeat: no-repeat;
@@ -14,12 +15,26 @@
   background-color: var(--black-color);
 }
 
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .details-restaurant {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)
+      ),
+      url(../../public/img/homepage/background-rest-detail-for-desktop@2x.jpg);
+  }
+}
+
 .details-restaurant__wrap {
   margin-left: 125px;
 }
 
 .details-restaurant__name {
-  font-family: 'FilmP3Bold';
+  font-family: 'Film P3 Bold';
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -31,7 +46,7 @@
 }
 
 .details-restaurant__title {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat Bold';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -42,7 +57,7 @@
 }
 
 .details-restaurant__text {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat SemiBold';
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -57,11 +72,14 @@
 .details-restaurant__buttons {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-top: 40px;
 
   row-gap: 16px;
 }
 
+/*  */
 .btn-section2 {
-  max-width: 236px;
+  padding: 14px 24px;
+  min-width: 236px;
 }
