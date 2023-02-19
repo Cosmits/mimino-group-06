@@ -22,7 +22,7 @@
 }
 
 .meal-and-ingredients-column {
-  width: 57%;
+  width: 56%;
 }
 
 .portion-size-column {
@@ -30,7 +30,7 @@
 }
 
 .meal-price-column {
-  width: 24%;
+  width: 25%;
 }
 
 .rest-menu-table th {
@@ -45,7 +45,7 @@
 }
 
 .menu-meal-name {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Medium', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -58,7 +58,7 @@
 }
 
 .menu-meal-ingredients {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Regular', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
@@ -71,7 +71,7 @@
 }
 
 .menu-meal-weight {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Light', sans-serif;
   font-style: normal;
   font-weight: 300;
   font-size: 3.38vw;
@@ -88,7 +88,7 @@
 }
 
 .menu-meal-price {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Bold', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 3.38vw;
@@ -142,7 +142,7 @@
 
   .menu-meal-price {
     font-size: 14px;
-    padding-left: 30px;
+    padding-left: 28px;
   }
 }
 
@@ -190,7 +190,8 @@
   }
 
   .menu-meal-price {
-    padding-left: 40px;
+    padding-left: 0;
+    text-align: right;
   }
   .rest-menu-btn {
     margin-top: 41px;
