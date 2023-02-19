@@ -13,8 +13,12 @@
   }
 }
 
-.hotel{
+.hero-text-fix{
   margin-bottom: 178px;
+}
+
+.hero-title-fix {
+  margin-bottom: 32px;
 }
 
 @media screen and (min-width: 414px){
@@ -34,7 +38,7 @@
     padding-top: 188px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/hotel/hotel-hero-for-desktop.jpg);
   }
-  .hotel{
+  .hero-text-fix{
     margin-bottom: 228px;
   }
   @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
@@ -49,7 +53,7 @@
     padding-top: 164px;
     padding-bottom: 65px;
   }
-  .hotel{
+  .hero-text-fix{
     margin-bottom: 249px;
   }
 }
