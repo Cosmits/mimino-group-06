@@ -2,9 +2,7 @@
     padding: 18px 0px;
 }
 
-/* .hotel-pretitle {margin-bottom: 6px;}
 
-.hotel-titles {margin-bottom: 16px;} */
 
 
 .hotel-pretitle,
@@ -16,7 +14,7 @@
 .about-subtitles.hotel-subtitle {
     margin-left: auto;
     max-width: 242px;
-    /* margin-bottom: 28px;  */
+
 }
 
 .about-hotel-container {
@@ -28,6 +26,7 @@
     display: flex;
     align-items: center;
     gap: 21px;
+    margin-bottom: 32px;
 }
 
 .first-hotel-images {
@@ -39,27 +38,43 @@
     margin-bottom: 28px;
 }
 
+/*-----------------SWIPER----------------------*/
+
+
+.swiper-buttons {
+    display: flex;
+    gap: 33px;
+    /* margin-top: 27px;
+margin-bottom: 10px;*/
+}
+
 /*------------------------TABLET-HOTEL-CSS---------------------------*/
 
 
 @media screen and (min-width: 1024px) {
     .about-hotel {
-        padding: 0;
+        padding: 0px;
     }
-
+.about-hotel-title-container {
+    margin-bottom: 0;
+    padding-top: 120px;
+}
     .about-hotel-container {
         display: flex;
         flex-direction: row-reverse;
         justify-content: flex-start;
-        align-items: center;
+        /* align-items: center; */
+        
         margin-bottom: 0;
         gap: 46px;
     }
 
     .second-hotel-container {
+        position: relative;
         justify-content: flex-end;
         align-items: flex-start;
         gap: 48px;
+        margin-bottom: 0;
     }
 
 
@@ -68,7 +83,7 @@
     }
 }
 
-
+/*-----------------------DESKTOP-HOTEL-CSS---------------------------------*/
 @media screen and (min-width: 1280px) {
     .second-hotel-container {
         gap: 45px;
@@ -80,5 +95,64 @@
 
     .about-subtitles.hotel-subtitle {
         max-width: 488px;
+    }
+}
+
+/*-------------------ABOU-HOTEL-SWIPER------------------*/
+
+.left-swiper-arrow {
+    width: 30px;
+    height: 16px;
+}
+
+.right-swiper-arrow {
+    width: 30px;
+    height: 16px;
+}
+
+.hotel-swiper-img {
+    box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.25);
+    margin-right: 0;
+}
+
+
+.hotel-swiper-img {
+
+    display: block;
+    max-width: 254px;
+    max-height: 254px;
+    object-fit: cover;
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .hotel-swiper-item {
+        margin-top: -83px;
+
+    }
+
+    .swiper-buttons {
+        margin-bottom: 39px;
+    }
+
+    .hotel-swiper-img {
+
+        max-width: 194px;
+        max-height: 194px;
+    }
+
+
+    @media screen and (min-width: 1280px) {
+        .hotel-swiper-img {
+            max-width: 254px;
+            max-height: 254px;
+           
+        }
+
+        .hotel-swiper-item {
+            margin-top: -275px;
+            margin-bottom: 40px;
+        } 
     }
 }
