@@ -1,8 +1,18 @@
 .hero{
   background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/homepage/homepage-hero-for-mobile.jpg);
-  padding-top: 164px;
-  padding-bottom: 65px;
+  padding-top: 181px;
+  padding-bottom: 102px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/homepage/homepage-hero-for-mobile@2x.jpg);
+  }
+}
+
 
 .hero-title{
   font-family: 'Film P3 Bold', sans-serif;  
@@ -50,22 +60,7 @@
 
 
 
-/* @media  screen and (max-width: 414px) {
-  .hero{
-    height: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/homepage/homepage-hero-for-mobile.jpg);
-  }
-  .hero-text{
-    margin-top: 24px;
-  }
-  .hero-subtitle{
-    margin-top: 40px;
-  }
-  .hero-btn-thumb{
-    margin-top: 113px;
-  }
 
-} */
 @media  screen and (min-width: 1024px) {
   .hero{
     background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/homepage/homepage-hero-for-tablet.jpg);
@@ -74,12 +69,18 @@
   }
   .hero-title{
     margin-bottom: 16px;
+    font-size: 128px;
+    line-height: 1.07;
   }
   .hero-text{
     margin-bottom: 56px;
+    font-size: 20px;
+    line-height: 1.2;
   }
   .hero-subtitle{
     margin-bottom: 145px;
+    font-size: 36px;
+    line-height: 1.13;
   }
   .hero-btn-thumb{
     gap: 40px;
@@ -89,7 +90,13 @@
     padding: 14px 24px;
   }
 
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/homepage/homepage-hero-for-tablet@2x.jpg);
+    }
+  }
 }
+
 @media  screen and (min-width:  1280px) {
   .hero{
     background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/homepage/homepage-hero-for-desktop.jpg);
@@ -100,10 +107,15 @@
     margin-bottom: 32px;
   }
   .hero-text{
-    margin-top: 64px;
+    margin-bottom: 64px;
   }
   .hero-subtitle{
-    margin-top: 144px;
+    margin-bottom: 144px;
   }
-
+  @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/homepage/homepage-hero-for-desktop@2x.jpg);
+    }
+  }
 }
+

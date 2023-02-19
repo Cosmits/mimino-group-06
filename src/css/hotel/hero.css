@@ -1,10 +1,20 @@
-.hero{
+.hero-hotel{
   background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/hotel/hotel-hero-for-mobile.jpg);
-  padding-top: 164px;
-  padding-bottom: 65px;
+  padding-top: 181px;
+  padding-bottom: 102px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.hero-title{
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero-hotel{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/hotel/hotel-hero-for-mobile@2x.jpg);
+  }
+}
+
+
+.hero-title-hotel{
   font-family: 'Film P3 Bold', sans-serif;  
   font-size: 96px;
   line-height: 1.07;
@@ -14,7 +24,7 @@
   margin-bottom: 24px;
 }
 
-.hero-text{
+.hero-text-hotel{
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   font-size: 16px;
@@ -22,26 +32,16 @@
   letter-spacing: 0.02em;
   color: #FFFFFF;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 178px;
 }
 
-.hero-subtitle{
-  font-family: 'Times New Roman', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 1.15;
-  letter-spacing: 0.05em;
-  color: #FFFFFF;
-  text-align: center;
-  margin-bottom: 113px;
 
-}
-.hero-btn{
+
+.hero-btn-hotel{
   background: rgba(0, 0, 0, 0.4);
 }
 
-.hero-btn-thumb{
+.hero-btn-thumb-hotel{
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -50,45 +50,53 @@
 
 
 
-
 @media  screen and (min-width: 1024px) {
-  .hero{
+  .hero-hotel{
     background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/hotel/hotel-hero-for-tablet.jpg);
     padding-bottom: 64px;
     padding-top: 188px;
   }
-  .hero-title{
+  .hero-title-hotel{
     margin-bottom: 16px;
+    font-size: 128px;
+    line-height: 1.07;
   }
-  .hero-text{
-    margin-bottom: 56px;
+  .hero-text-hotel{
+    margin-bottom: 228px;
+    font-size: 20px;
+    line-height: 1.2;
   }
-  .hero-subtitle{
-    margin-bottom: 145px;
-  }
-  .hero-btn-thumb{
+  .hero-btn-thumb-hotel{
     gap: 40px;
     justify-content: right;
   }
-  .hero-btn{
+  .hero-btn-hotel{
     padding: 14px 24px;
   }
 
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero-hotel{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/hotel/hotel-hero-for-tablet@2x.jpg);
+    }
+  }
 }
+
 @media  screen and (min-width:  1280px) {
-  .hero{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/hotel/hotel-triple-room-for-desktop.jpg);
+  .hero-hotel{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/hotel/hotel-hero-for-desktop.jpg);
     padding-top: 164px;
     padding-bottom: 65px;
   }
-  .hero-title{
+  .hero-title-hotel{
     margin-bottom: 32px;
   }
-  .hero-text{
-    margin-top: 64px;
+  .hero-text-hotel{
+    margin-bottom: 249px;
   }
-  .hero-subtitle{
-    margin-top: 144px;
+  @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero-hotel{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/hotel/hotel-hero-for-desktop@2x.jpg);
+    }
   }
-
 }
+
