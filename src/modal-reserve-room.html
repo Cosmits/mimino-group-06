@@ -5,15 +5,100 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>МІМІНО</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/styles.css" />
+  <title>МІМІНО</title>
 </head>
 
 <body>
-  <!-- Fayzillo Khamraev -->
-  <button type="button">Modal_1</button>
 
-  <script type="module" src="/main.js"></script>
+  <button type="button" data-modal-open>Modal_2</button>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal-reserv-room">
+      <button class="close-btn" type="button" data-modal-close>
+        <svg class="modal-close-btn" width="24" height="24">
+          <use href="./img/icons.svg#modal-close"></use>
+        </svg>
+      </button>
+      <h2 class="modal-title">ЗАБРОНЮВАТИ НОМЕР</h2>
+      <form class="form-input">
+        <div class="tablet-version">
+          <div class="input-box">
+            <input class="modal-input" type="name" name="user" required placeholder="Ваше ім’я"></input>
+            <label class="input-after-text">На кого забронювати номер?</label>
+          </div>
+          <div class="input-box">
+            <input class="modal-input " type="tel" name="tel" placeholder="+38 (___) ___-__-__" required>
+            </input>
+            <label class="input-after-text">Номер телефону</label>
+          </div>
+        </div>
+
+        <div class="tab-ver">
+          <div class="input-box">
+            <div class="input-wrap">
+              <select class="modal-input text-input" name="category-room" id="category-room">
+                <option value="Двомісний люкс">Двомісний люкс</option>
+                <option value="жлоб">єконом на собі</option>
+                <option value="для путлера">одиночна камера</option>
+                <option value="холостяк">делюкс на одного</option>
+                <option value="семейній номер">на Ціганській табор</option>
+              </select>
+              <svg class="down-bold" weight="24" height="24">
+                <use href="./img/icons.svg#down-bold"></use>
+              </svg>
+            </div>
+            <label class="input-after-text" for="category-room">Категорія номеру</label>
+          </div>
+        </div>
+        <div class="tab-vers">
+          <div class="input-box">
+            <div class="input-wrap">
+              <select class="modal-input text-input" name="arrival-data" id="arrival-data">
+                <option value="Сьогодні">Сьогодні</option>
+                <option value="День Перемоги над рашизмом">День Перемоги над рашизмом</option>
+                <option value="День Незалежності України">День Незалежності України</option>
+              </select>
+              <svg class="down-bold" weight="24" height="24">
+                <use href="./img/icons.svg#down-bold"></use>
+              </svg>
+            </div>
+            <label class="input-after-text" for="arrival-data">
+              Дата заїзду</label>
+          </div>
+          <div class="input-box">
+            <div class="input-wrap">
+              <select class="modal-input text-input" name="leave" id="leave">
+                <option value="Сьогодні">Сьогодні</option>
+                <option value="Ніколи">Ніколи</option>
+                <option value="коли Катя перестане їсти на ніч">День Перемоги над рашизмом</option>
+                <option value="коли звільнять крим">коли звільнять крим</option>
+              </select>
+              <svg class="down-bold" weight="24" height="24">
+                <use href="./img/icons.svg#down-bold"></use>
+              </svg>
+            </div>
+            <label class="input-after-text" for="leave">
+              Дата виїзду</label>
+          </div>
+        </div>
+        <button class="modal-confirm-btn" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+    </div>
+    </form>
+
+
+  </div>
+  </div>
+
+
+
+
+  <script type="module" src="./js/modals.js"></script>
 </body>
 
 </html>
