@@ -122,7 +122,7 @@ header>.container {
 
 .header-media-list {
   position: absolute;
-  top: 696px;
+  top: 681px;
   left: 15px;
   display: flex;
   gap: 20px;
@@ -196,7 +196,7 @@ header>.container {
 
   .header-adress {
     position: absolute;
-    top: 600px;
+    top: 585px;
     left: 47px;
   }
 
@@ -212,7 +212,7 @@ header>.container {
   }
 
   .header-media-list {
-    top: 681px;
+    top: 660px;
     left: 47px;
   }
 }
@@ -236,12 +236,12 @@ header>.container {
 .body-room .header-media-list {
   flex-direction: column;
   gap: 8px;
-  top: 638px;
+  top: 623px;
 }
 
 
 .body-room .header {
-  padding-bottom: 87px;
+  padding-bottom: 31px;
   background-image: var(--header-gradient);
 }
 
@@ -254,12 +254,12 @@ header>.container {
   .body-room .header-media-list {
     flex-direction: row;
     gap: 20px;
-    top: 658px;
+    top: 643px;
     left: 372px;
   }
 
   .body-room .header-adress {
-    top: 640px;
+    top: 625px;
     left: 47px;
   }
 
