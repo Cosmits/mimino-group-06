@@ -67,12 +67,14 @@ footer {
 
   color: var(--accent-yellow-color);
 }
+
 .footer-soc-icon {
   fill: var(--accent-yellow-color);
 }
 .footer-soc-link {
   transition: fill var(--timing-function), color var(--timing-function);
 }
+
 .footer-soc-link:hover .footer-soc-icon,
 .footer-soc-link:focus .footer-soc-icon {
   fill: var(--brown-color);
