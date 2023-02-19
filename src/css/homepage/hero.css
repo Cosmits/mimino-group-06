@@ -16,7 +16,7 @@
 
 .hero-title{
   font-family: 'Film P3 Bold', sans-serif;  
-  font-size: 96px;
+  font-size: 23vw;
   line-height: 1.07;
   letter-spacing: 0.3em;
   text-align: center;
@@ -24,10 +24,12 @@
   margin-bottom: 24px;
 }
 
+
+
 .hero-text{
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 4vw;
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: #FFFFFF;
@@ -39,7 +41,7 @@
   font-family: 'Times New Roman', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
+  font-size: 8vw;
   line-height: 1.15;
   letter-spacing: 0.05em;
   color: #FFFFFF;
@@ -59,7 +61,17 @@
 }
 
 
-
+@media screen and (min-width: 414px){
+  .hero-title{
+    font-size: 96px;
+  }
+  .hero-text{
+    font-size: 16px;
+  }
+  .hero-subtitle{
+    font-size: 32px;
+  }
+}
 
 @media  screen and (min-width: 1024px) {
   .hero{
