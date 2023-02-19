@@ -9,6 +9,7 @@ footer {
   justify-content: flex-end;
   gap: 75px;
 }
+
 .footer-logo {
   font-family: 'Film P3 Bold';
   font-weight: 700;
@@ -17,6 +18,12 @@ footer {
   letter-spacing: 0.3em;
 
   color: var(--accent-yellow-color);
+  transition: color var(--timing-function);
+}
+
+.footer-logo:hover,
+.footer-logo:fokus {
+  color: var(--brown-color);
 }
 
 .footer-wrap {
@@ -64,8 +71,7 @@ footer {
   fill: var(--accent-yellow-color);
 }
 .footer-soc-link {
-  transition: fill var(--timing-function), color var(--timing-function),
-    border var(--timing-function);
+  transition: fill var(--timing-function), color var(--timing-function);
 }
 .footer-soc-link:hover .footer-soc-icon,
 .footer-soc-link:focus .footer-soc-icon {
