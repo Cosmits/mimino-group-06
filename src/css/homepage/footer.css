@@ -72,6 +72,7 @@ footer {
   fill: var(--accent-yellow-color);
 }
 .footer-soc-link {
+  display: block;
   transition: fill var(--timing-function), color var(--timing-function);
 }
 
