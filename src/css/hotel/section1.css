@@ -6,15 +6,12 @@
     padding-bottom: 32px;
 }
 
-
-
-
 .topic-hotel-1 {
     font-family: 'Times New Roman';
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
-        line-height: 23px;
+        line-height: 1.15;
         color: #B4B4B4;
         margin-bottom: 8px;
 }
@@ -24,7 +21,7 @@
         font-style: normal;
         font-weight: 700;
         font-size: 40px;
-        line-height: 43px;
+        line-height: 1.08;
         letter-spacing: 0.3em;
         color: #494848;
 
@@ -37,11 +34,11 @@
 }
 
 .topic-hotel-3 {
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman Bold';
         font-style: normal;
         font-weight: 700;
         font-size: 24px;
-        line-height: 28px;
+        line-height: 1.15;
         letter-spacing: 0.05em;
         color: #000000;
         margin-bottom: 12px;
@@ -53,10 +50,9 @@
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
-    line-height: 15px;
+    line-height: 1.22;
     letter-spacing: 0.02em;
     color: #7A7A7A;
-    
 }
 
 .topic-hotel-4 {
@@ -71,7 +67,6 @@
 .foto-hotel-s1 {
     display: flex;
     justify-content: right;
-
 }
 
 .arrow-hotel-1 {
@@ -164,9 +159,17 @@
     height: 524px;
     background-repeat: no-repeat;
     margin-top: -94px;
-
-
 }
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .foto-hotel-s1-tablet,
+    .foto-hotel-s2-tablet {
+    background-image: url(../../public/img/hotel/hotel-double1-room-img1-for-tablet@2x.jpg);
+    }
+}
+
 
 @media screen and (min-width: 414px) {
 }
@@ -183,7 +186,22 @@
 }
 
 .topic-hotel-1 {
+    font-size: 32px;
     margin-bottom: 4px;
+}
+
+.topic-hotel-2 {
+    font-size: 64px;
+}
+
+.topic-hotel-3 {
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.topic-hotel-4,
+.topic-hotel-4-s2 {
+    font-size: 16px;
 }
 
 .topic-hotel-item-oneblock,
@@ -191,9 +209,6 @@
     margin-bottom: 62px;
 }
 
-.topic-hotel-3 {
-    margin-bottom: 16px;
-}
 
 .foto-hotel-s1,
 .foto-hotel-s2
@@ -279,14 +294,27 @@ max-width: 400px;
     
 }
 
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .foto-hotel-s1-tablet,
+    .foto-hotel-s2-tablet {
+        background-image: url(../../public/img/hotel/hotel-double1-room-img1-for-desktop@2x.jpg);
+    }
+}
+
+
+
 .topic-hotel-item-oneblock,
 .topic-hotel-item-oneblock-s2 {
     margin-bottom: 72px;
 }
 
 .topic-hotel-3 {
+    font-size: 36px;
     margin-bottom: 24px;
 }
+
 
 .topic-hotel-s1 {
     display: flex;
