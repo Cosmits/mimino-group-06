@@ -1,5 +1,5 @@
 .hero{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/homepage/homepage-hero-for-mobile.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/hotel/hotel-hero-for-mobile.jpg);
   padding-top: 164px;
   padding-bottom: 65px;
 }
@@ -68,7 +68,7 @@
 } */
 @media  screen and (min-width: 1024px) {
   .hero{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/homepage/homepage-hero-for-tablet.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/hotel/hotel-hero-for-tablet.jpg);
     padding-bottom: 64px;
     padding-top: 188px;
   }
@@ -92,7 +92,7 @@
 }
 @media  screen and (min-width:  1280px) {
   .hero{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/homepage/homepage-hero-for-desktop.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/hotel/hotel-hero-for-desktop.jpg);
     padding-top: 164px;
     padding-bottom: 65px;
   }
