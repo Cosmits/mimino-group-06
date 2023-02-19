@@ -74,13 +74,14 @@
     column-gap: 20px;
 }
 
-/*--------------------------------Tablet-REST-CSS----------------------*/
+/*--------------------------------Tablet-REST-and-HOTEL_CSS----------------------*/
 @media screen and (min-width: 1024px) {
     .about-restaurant {
         padding: 0;
     }
 
     .about-rest-title-container {
+        padding-top: 120px;
         margin-bottom: 0;
     }
 
@@ -101,7 +102,7 @@
 
     .about-rest-container {
         display: flex;
-        align-items: center;
+        /* align-items: center; */
         gap: 26px;
     }
 
@@ -109,14 +110,15 @@
         max-width: 400px;
         box-shadow: 5px 5px 70px rgba(0, 0, 0, 0.25);
         position: relative;
-        top: -32px;
+        top: -32px; 
+       
         margin-bottom: 0;
     }
 
     .about-second-images {
         max-width: 350px;
         position: relative;
-        top: -48px;
+        top: -56px;
         box-shadow: 5px 5px 70px rgba(0, 0, 0, 0.25);
     }
 
@@ -136,6 +138,8 @@
     }
 }
 
+/*--------------------------------Desktop-REST-and-HOTEL_CSS----------------------*/
+
 @media screen and (min-width: 1280px) {
     .about-pretitles {
         margin-bottom: 4px;
@@ -149,7 +153,7 @@
         max-width: 518px;
     }
 
-    /* .about-secondary-subtitle {top: -68px;} */
+    
     .about-rest-container {
         gap: 37px;
     }
@@ -160,7 +164,7 @@
 
     .about-second-images {
         max-width: 460px;
-        top: -96px;
+        top: -78px;
     }
 
     .second-picture-container {
@@ -172,11 +176,27 @@
     }
 }
 
-@media screen  and (max-width: 384px) { 
-    .about-pretitles {font-size:5vw;}
-     .about-first-images {width: 63vw;}
-    .about-second-images {width: 52vw;}
-    .about-subtitles{font-size: 3vw;
-     width: 67vw;   }
-     .about-secondary-subtitle {font-size: 3vw;}
+@media screen and (max-width: 384px) {
+    .about-pretitles {
+        font-size: 5vw;
+    }
+
+    .about-first-images {
+        width: 63vw;
+    }
+
+    .about-second-images {
+        width: 52vw;
+    }
+
+    .about-subtitles {
+        font-size: 3vw;
+        width: 67vw;
+    }
+
+    .about-secondary-subtitle {
+        font-size: 3vw;
+    }
 }
+
+/*-------------------ABOU-RESTAURANT-SWIPER------------------*/
