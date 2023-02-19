@@ -138,6 +138,11 @@ select {
   color: #ffffff;
   background-color: #000000;
 }
+.modal-confirm-btn:hover,
+.modal-confirm-btn:focus {
+  background-color: #f3c653;
+  color: #000000;
+}
 .is-hidden {
   opacity: 0;
   visibility: hidden;

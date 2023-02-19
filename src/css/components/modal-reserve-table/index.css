@@ -139,6 +139,11 @@ select {
   height: 64px;
   margin-top: 40px;
 }
+.modal-confirm-btn:hover,
+.modal-confirm-btn:focus {
+  background-color: #f3c653;
+  color: #000000;
+}
 .room-class {
   border: none;
   background-color: transparent;
