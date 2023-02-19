@@ -75,11 +75,13 @@
   max-width: 259px;
 }
 
+/* заглушка слайдеру */
 .details-hotel__slider {
   margin-right: 25px;
   margin-left: 85px;
 }
 
+/* заглушка слайдеру */
 .details-hotel__slider-image {
   height: 274x;
   width: 270px;
@@ -106,6 +108,37 @@
   /* max-width: 236px; */
   padding: 14px 24px;
   min-width: 236px;
+}
+
+@media screen and (min-width: 480px) {
+  .details-hotel {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url(../../public/img/homepage/background-hotel-detail-for-tablet.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    background-color: var(--black-color);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .details-hotel {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(../../public/img/background-hotel-detail-for-tablet@2x.jpg);
+    }
+  }
 }
 
 /* TABLET */
@@ -174,6 +207,7 @@
     gap: 32px;
   }
 
+  /* заглушка слайдеру */
   .details-hotel__slider {
     margin-right: 0px;
     margin-left: 32px;
@@ -247,6 +281,7 @@
     gap: 36px;
   }
 
+  /* заглушка слайдеру */
   .details-hotel__slider {
     margin-left: 29px;
     width: 894px;

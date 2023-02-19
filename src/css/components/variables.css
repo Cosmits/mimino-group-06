@@ -11,8 +11,13 @@
     /* Yan Koshel */
     --primary-text-color: #7A7A7A;
     --second-text-color: #BABABA;
+
     /* Viacheslav */
     --third-grey-color: #494848;
+
+    /* Olena Trzewik */
+    --adress-color: #E5E5E5;
+    --header-gradient: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.55) 54.17%, rgba(0, 0, 0, 0) 100%);
 
     /* --accent-yellow-color  and  opacity 0.7*/
     --svg-fill: rgba(243, 198, 83, 0.7);
