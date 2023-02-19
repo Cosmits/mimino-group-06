@@ -4,7 +4,7 @@ header {
   position: absolute;
 }
 
-header > .container {
+header>.container {
   position: relative;
 }
 
@@ -50,7 +50,8 @@ header > .container {
 }
 
 .header-navigation-link:hover,
-.header-navigation-link:focus {
+.header-navigation-link:focus,
+.header-navigation-link:active {
   color: var(--brown-color);
 }
 
@@ -64,6 +65,7 @@ header > .container {
 }
 
 .header-navigation-tel:hover .header-navigation-text,
+.header-navigation-tel:active .header-navigation-text,
 .header-navigation-tel:focus .header-navigation-text {
   color: var(--brown-color);
 }
@@ -74,6 +76,7 @@ header > .container {
 }
 
 .header-navigation-tel:hover .header-navigation-icon,
+.header-navigation-tel:active .header-navigation-icon,
 .header-navigation-tel:focus .header-navigation-icon {
   fill: var(--brown-color);
 }
@@ -96,6 +99,7 @@ header > .container {
 }
 
 .header-adress-link:hover .header-adress-icon,
+.header-adress-link:active .header-adress-icon,
 .header-adress-link:focus .header-adress-icon {
   fill: var(--brown-color);
 }
@@ -111,6 +115,7 @@ header > .container {
 }
 
 .header-adress-link:hover .header-adress-text,
+.header-adress-link:active .header-adress-text,
 .header-adress-link:focus .header-adress-text {
   color: var(--brown-color);
 }
@@ -129,6 +134,7 @@ header > .container {
 }
 
 .header-media-icon:hover,
+.header-media-icon:active,
 .header-media-icon:focus {
   fill: var(--brown-color);
 }
@@ -136,11 +142,11 @@ header > .container {
 /* ------------MOBILE------------- */
 @media screen and (min-width: 414px) {
   .header-logo {
-    font-size: 9vw;
+    font-size: 36px;
   }
 
   .header-navigation-link {
-    /* font-size: 16px; */
+    font-size: 16px;
   }
 }
 
