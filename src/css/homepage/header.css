@@ -118,7 +118,7 @@ header > .container {
 .header-media-list {
   position: absolute;
   top: 681px;
-  left: 0;
+  left: 15px;
   display: flex;
   gap: 20px;
 }
