@@ -89,12 +89,14 @@
 
 .room .btn-mob {
     padding: 20px 42px;
-    font-size: 5vw;
+    font-size: 4vw;
+    width: 100%;
 }
 
 @media screen and (min-width: 414px) {
     .room .btn-mob {
     font-size: 20px;
+    width: auto;
     }
 }
 
@@ -134,7 +136,6 @@
         margin-top: 32px;
         }
     .room .btn-mob {
-        /* width: 434px; */
         font-size: 24px;
         line-height: calc(29 / 24);
     }
