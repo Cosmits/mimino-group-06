@@ -5,15 +5,80 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>МІМІНО</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/styles.css" />
+  <title>МІМІНО</title>
 </head>
 
 <body>
-  <!-- Fayzillo Khamraev -->
-  <button type="button">Modal_2</button>
 
-  <script type="module" src="/main.js"></script>
+  <button type="button" data-modal-open>Modal_1</button>
+  <div class="backdrop is-hidden" data-modal>
+    <div class="modal-reserv-tab ">
+      <button class="close-btn" type="button" data-modal-close>
+        <svg class="modal-close-btn" width="24" height="24">
+          <use href="./img/icons.svg#modal-close"></use>
+        </svg>
+      </button>
+      <h2 class="modal-title">ЗАБРОНЮВАТИ СТОЛИК</h2>
+      <form class="form-input">
+        <div class="tab-wrap">
+          <div class="tab-version">
+            <div class="input-box">
+              <input class="modal-input " type="name" name="user" required placeholder="Ваше ім’я"></input>
+              <label class="input-after-text">На кого забронювати столик?</label>
+            </div>
+            <div class="input-box">
+              <input class="modal-input " type="tel" name="tel" placeholder="+38 (___) ___-__-__" required>
+              </input>
+              <label class="input-after-text">Номер телефону</label>
+            </div>
+          </div>
+          <div class="tab-version">
+            <div class="input-box">
+              <div class="input-wrap">
+                <select class="modal-input  text-input" name="how-many-people" id="how-many-people">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="на Циганській табор">на Ціганській табор</option>
+                </select>
+                <svg class="down-bold" weight="24" height="24">
+                  <use href="./img/icons.svg#down-bold"></use>
+                </svg>
+              </div>
+              <label class="input-after-text" for="how-many-people">
+                Столик на яку кількість осіб?</label>
+            </div>
+            <div class="input-box">
+              <div class="input-wrap">
+                <select class="modal-input  text-input" name="that-date" id="that-date">
+                  <option value="Сьогодні">Сьогодні</option>
+                  <option value="День Перемоги над рашизмом">День Перемоги над рашизмом</option>
+                  <option value="День Незалежності України">День Незалежності України</option>
+                </select>
+                <svg class="down-bold" weight="24" height="24">
+                  <use href="./img/icons.svg#down-bold"></use>
+                </svg>
+              </div>
+              <label class="input-after-text" for="that-date">
+                На яку дату бронювати?</label>
+            </div>
+          </div>
+        </div>
+        <button class="modal-confirm-btn" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+
+
+      </form>
+    </div>
+  </div>
+  <script type="module" src="./js/modals.js"></script>
 </body>
 
 </html>
