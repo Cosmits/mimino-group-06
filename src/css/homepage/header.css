@@ -206,7 +206,7 @@ header > .container {
 
   .header-adress {
     position: absolute;
-    top: 585px;
+    top: 576px;
     left: 47px;
   }
 
@@ -222,7 +222,7 @@ header > .container {
   }
 
   .header-media-list {
-    top: 660px;
+    top: 657px;
     left: 47px;
   }
 }
@@ -258,12 +258,12 @@ header > .container {
   .body-room .header-media-list {
     flex-direction: row;
     gap: 20px;
-    top: 643px;
+    top: 634px;
     left: 372px;
   }
 
   .body-room .header-adress {
-    top: 625px;
+    top: 616px;
     left: 47px;
   }
 

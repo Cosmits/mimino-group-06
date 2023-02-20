@@ -6,7 +6,6 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 488px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -18,14 +17,15 @@
   }
 }
 
-
+@media screen and (max-width: 413px) {
+  .hero-restaurant {
+    height: 457px;
+  }
+}
 
 @media screen and (min-width: 414px) {
   .hero-restaurant {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../public/img/restaurant/rest-hero-for-tablet.jpg);
-    padding-bottom: 64px;
-    padding-top: 188px;
-    /* height: 468px; */
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -41,9 +41,8 @@
 @media screen and (min-width: 1024px) {
   .hero-restaurant {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../public/img/restaurant/rest-hero-for-desktop.jpg);
-    padding-top: 164px;
-    padding-bottom: 65px;
-    
+    padding-top: 188px;
+    padding-bottom: 64px;
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -53,5 +52,12 @@
     .hero-restaurant {
       background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../public/img/restaurant/rest-hero-for-desktop@2x.jpg);
     }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .hero-restaurant {
+    padding-top: 164px;
+    padding-bottom: 65px;
   }
 }

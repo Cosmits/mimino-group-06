@@ -6,7 +6,6 @@
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 457px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -18,6 +17,11 @@
   }
 }
 
+@media screen and (max-width: 413px) {
+  .hero {
+    height: 457px;
+  }
+}
 
 .hero-title {
   font-family: 'Film P3 Bold', sans-serif;
