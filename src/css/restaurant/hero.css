@@ -5,6 +5,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  width: 100%;
+  height: 488px;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -23,6 +25,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../public/img/restaurant/rest-hero-for-tablet.jpg);
     padding-bottom: 64px;
     padding-top: 188px;
+    /* height: 468px; */
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -40,6 +43,7 @@
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../public/img/restaurant/rest-hero-for-desktop.jpg);
     padding-top: 164px;
     padding-bottom: 65px;
+    
   }
 
   @media (min-device-pixel-ratio: 2),
