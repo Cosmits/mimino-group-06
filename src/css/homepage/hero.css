@@ -1,78 +1,137 @@
 .hero{
-  left: 0px;
-  top: 0px;
-  background-color: rgba(0, 0, 0, 0.65);
-  background-image: url(../../public/img/homepage/homepage-hero-for-mobile.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/homepage/homepage-hero-for-mobile.jpg);
+  padding-top: 181px;
+  padding-bottom: 102px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.title{
-  width: 303px;
-  height: 103px;
-  left: 56px;
-  top: 181px;
-  font-family: 'Film P3';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 96px;
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/homepage/homepage-hero-for-mobile@2x.jpg);
+  }
+}
+
+
+.hero-title{
+  font-family: 'Film P3 Bold', sans-serif;  
+  font-size: 23vw;
   line-height: 1.07;
   letter-spacing: 0.3em;
+  text-align: center;
   color: #FFFFFF;
+  margin-bottom: 24px;
 }
 
-.text{
-  width: 294px;
-  height: 20px;
-  left: 60px;
-  top: 308px;
-  font-family: 'Montserrat';
-  font-style: normal;
+
+
+.hero-text{
+  font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 4vw;
   line-height: 1.25;
   letter-spacing: 0.02em;
   color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 40px;
 }
 
-.subtitle{
-  width: 317px;
-  height: 37px;
-  left: 49px;
-  top: 368px;
-  font-family: 'Times New Roman';
+.hero-subtitle{
+  font-family: 'Times New Roman', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 32px;
-  line-height: 37px;
+  font-size: 8vw;
+  line-height: 1.15;
   letter-spacing: 0.05em;
   color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 113px;
+
+}
+.hero-btn{
+  background: rgba(0, 0, 0, 0.4);
 }
 
-.adress{
-  width: 233px;
-  height: 40px;
-  left: 44px;
-  top: 8px;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.01em;
-  color: #E5E5E5;
+.hero-btn-thumb{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
 }
 
-@media  screen and (max-width: 414px) {
+
+@media screen and (min-width: 414px){
   .hero{
-
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/homepage/homepage-hero-for-tablet.jpg);
   }
+  .hero-title{
+    font-size: 96px;
+  }
+  .hero-text{
+    font-size: 16px;
+  }
+  .hero-subtitle{
+    font-size: 32px;
+  }
+  @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/homepage/homepage-hero-for-tablet@2x.jpg);
+      }
+    }
 }
+
 @media  screen and (min-width: 1024px) {
   .hero{
-    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/homepage/homepage-hero-for-desktop.jpg);
+    padding-bottom: 64px;
+    padding-top: 188px;
+  }
+  .hero-title{
+    margin-bottom: 16px;
+    font-size: 128px;
+    line-height: 1.07;
+  }
+  .hero-text{
+    margin-bottom: 56px;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .hero-subtitle{
+    margin-bottom: 145px;
+    font-size: 36px;
+    line-height: 1.13;
+  }
+  .hero-btn-thumb{
+    gap: 40px;
+    justify-content: right;
+  }
+  .hero-btn{
+    padding: 14px 24px;
+  }
+
+
+  @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65) ), url(../../public/img/homepage/homepage-hero-for-desktop@2x.jpg);
+    }
   }
 }
+
 @media  screen and (min-width:  1280px) {
   .hero{
-    
+    padding-top: 164px;
+    padding-bottom: 65px;
   }
+  .hero-title{
+    margin-bottom: 32px;
+  }
+  .hero-text{
+    margin-bottom: 64px;
+  }
+  .hero-subtitle{
+    margin-bottom: 144px;
+  }
+
 }
+

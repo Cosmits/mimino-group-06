@@ -1,0 +1,202 @@
+/*-------------- ABOUT-RESTAURANT-HOMEPAGE---------------------*/
+
+.about-restaurant {
+    padding: 16px 0px;
+    background: var(--fon-lemon-color);
+    margin: 0 auto;
+}
+
+.about-rest-title-container {
+    margin-bottom: 28px;
+}
+
+.about-pretitles {
+    font-family: 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 1em;
+    margin-bottom: 12px;
+    color: #B4B4B4;
+}
+
+.about-titles {
+    font-family: 'Film P3 Bold', sans-serif;
+    font-size: 40px;
+    line-height: 1em;
+    letter-spacing: 0.3em;
+    margin-bottom: 12px;
+    color: #494848;
+    text-transform: uppercase;
+}
+
+.about-subtitles {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    max-width: 258px;
+    color: #7A7A7A;
+}
+
+
+
+
+.about-first-images {
+    max-width: 244px;
+    margin-left: auto;
+    margin-bottom: 32px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.25);
+}
+
+
+.about-second-images {
+    max-width: 200px;
+    border-radius: 2px;
+    box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.25);
+}
+
+.about-secondary-subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    max-width: 163px;
+    color: var(--brown-color);
+}
+
+.second-picture-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    column-gap: 20px;
+}
+
+/*--------------------------------Tablet-REST-and-HOTEL_CSS----------------------*/
+@media screen and (min-width: 1024px) {
+    .about-restaurant {
+        padding: 0;
+    }
+
+    .about-rest-title-container {
+        padding-top: 120px;
+        margin-bottom: 0;
+    }
+
+    .about-pretitles {
+        font-size: 36px;
+        line-height: 1.15;
+    }
+
+    .about-titles {
+        font-size: 64px;
+    }
+
+    .about-subtitles {
+        font-size: 16px;
+        line-height: 1.21;
+        max-width: 439px;
+    }
+
+    .about-rest-container {
+        display: flex;
+        /* align-items: center; */
+        gap: 26px;
+    }
+
+    .about-first-images {
+        max-width: 400px;
+        box-shadow: 5px 5px 70px rgba(0, 0, 0, 0.25);
+        position: relative;
+        top: -32px; 
+       
+        margin-bottom: 0;
+    }
+
+    .about-second-images {
+        max-width: 350px;
+        position: relative;
+        top: -56px;
+        box-shadow: 5px 5px 70px rgba(0, 0, 0, 0.25);
+    }
+
+
+    .about-secondary-subtitle {
+        position: relative;
+        font-size: 16px;
+        max-width: 312px;
+        top: 148px;
+    }
+
+
+    .second-picture-container {
+        justify-content: flex-start;
+        align-items: flex-start;
+        column-gap: 48px;
+    }
+}
+
+/*--------------------------------Desktop-REST-and-HOTEL_CSS----------------------*/
+
+@media screen and (min-width: 1280px) {
+    .about-pretitles {
+        margin-bottom: 4px;
+    }
+
+    .about-titles {
+        margin-bottom: 24px;
+    }
+
+    .about-subtitles {
+        max-width: 518px;
+    }
+
+    
+    .about-rest-container {
+        gap: 37px;
+    }
+
+    .about-first-images {
+        max-width: 460px;
+    }
+
+    .about-second-images {
+        max-width: 460px;
+        top: -78px;
+    }
+
+    .second-picture-container {
+        column-gap: 32px;
+    }
+
+    .about-secondary-subtitle {
+        top: 89px;
+    }
+}
+/*--------------------------------Mobile-Adaptive-REST-and-HOTEL_CSS----------------------*/
+@media screen and (max-width: 384px) {
+    .about-pretitles {
+        font-size: 5vw;
+    }
+
+    .about-first-images {
+        width: 63vw;
+    }
+
+    .about-second-images {
+        width: 52vw;
+    }
+
+    .about-subtitles {
+        font-size: 3vw;
+        width: 67vw;
+    }
+
+    .about-secondary-subtitle {
+        font-size: 3vw;
+    }
+}
+
+/*-------------------ABOU-RESTAURANT-SWIPER------------------*/

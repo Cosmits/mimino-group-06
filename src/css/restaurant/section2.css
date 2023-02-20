@@ -1,0 +1,248 @@
+.restaurant-menu {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.rest-menu-container {
+  position: relative;
+}
+
+.rest-menu-table {
+  border-collapse: collapse;
+}
+
+.rest-menu-table caption {
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7.73vw;
+  line-height: 1.16;
+  padding-bottom: 24px;
+  text-align: left;
+}
+
+.meal-and-ingredients-column {
+  width: 56%;
+}
+
+.portion-size-column {
+  width: 19%;
+}
+
+.meal-price-column {
+  width: 25%;
+}
+
+.rest-menu-table th {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: left;
+  padding-top: 8px;
+  padding-bottom: 16px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.menu-meal-name {
+  font-family: 'Montserrat Medium', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: 0.02em;
+  padding-top: 0px;
+  padding-bottom: 4px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.menu-meal-ingredients {
+  font-family: 'Montserrat Regular', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  padding-top: 0;
+  padding-bottom: 8px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.menu-meal-weight {
+  font-family: 'Montserrat Light', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 3.38vw;
+  line-height: 1.21;
+  letter-spacing: 0.02em;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 7.24vw;
+  padding-right: 0;
+}
+
+.drink {
+  padding-left: 4.7vw;
+}
+
+.menu-meal-price {
+  font-family: 'Montserrat Bold', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.38vw;
+  line-height: 1.21;
+  letter-spacing: 0.02em;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 7.24vw;
+  padding-right: 0;
+}
+
+.rest-menu-btn {
+  margin: 0 auto;
+  margin-top: 32px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+/* ---------MOBILE----------- */
+
+@media screen and (min-width: 414px) {
+  .visually-none {
+    position: absolute;
+    color: rgba(255, 255, 255, 0);
+  }
+
+  .rest-menu-table caption {
+    font-size: 32px;
+  }
+
+  .meal-and-ingredients-column {
+    width: 224px;
+  }
+
+  .portion-size-column {
+    width: 70px;
+  }
+
+  .meal-price-column {
+    width: 90px;
+  }
+
+  .menu-meal-weight {
+    font-size: 14px;
+    padding-left: 30px;
+  }
+
+  .drink {
+    padding-left: 18px;
+  }
+
+  .menu-meal-price {
+    font-size: 14px;
+    padding-left: 28px;
+  }
+}
+
+/* ------------TABLET------------- */
+
+@media screen and (min-width: 1024px) {
+  .restaurant-menu {
+    padding-top: 58px;
+    padding-bottom: 40px;
+  }
+
+  .rest-menu-thumb {
+    display: flex;
+    gap: 88px;
+  }
+
+  .visually-none {
+    position: relative;
+    color: rgba(255, 255, 255, 0);
+  }
+
+  .rest-menu-table caption {
+    padding-bottom: 28px;
+  }
+
+  .meal-and-ingredients-column {
+    width: 225px;
+  }
+
+  .portion-size-column {
+    width: 95px;
+  }
+
+  .meal-price-column {
+    width: 100px;
+  }
+
+  .rest-menu-table th {
+    padding-top: 12px;
+    padding-bottom: 20px;
+  }
+
+  .menu-meal-weight {
+    padding-left: 40px;
+  }
+
+  .menu-meal-price {
+    padding-left: 0;
+    text-align: right;
+  }
+  .rest-menu-btn {
+    margin-top: 41px;
+  }
+
+  .rest-menu-btn {
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 41px;
+  }
+}
+
+/* ------------DESKTOP------------- */
+
+@media screen and (min-width: 1280px) {
+  .restaurant-menu {
+    padding-bottom: 60px;
+  }
+
+  .rest-menu-thumb {
+    gap: 140px;
+  }
+
+  .meal-and-ingredients-column {
+    width: 260px;
+  }
+
+  .portion-size-column {
+    width: 115px;
+  }
+
+  .meal-price-column {
+    width: 110px;
+  }
+
+  .rest-menu-table th {
+    font-size: 24px;
+  }
+
+  .menu-meal-name {
+    font-size: 16px;
+  }
+  .menu-meal-weight {
+    padding-left: 60px;
+  }
+
+  .menu-meal-price {
+    padding-left: 40px;
+  }
+
+  .rest-menu-btn {
+    margin-top: 32px;
+  }
+}
