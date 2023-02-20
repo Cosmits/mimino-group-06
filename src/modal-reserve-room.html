@@ -18,76 +18,80 @@
 <body>
 
   <button type="button" data-modal-open>Modal_2</button>
-  <div class="backdrop is-hidden" data-modal>
+  <div class="mr-backdrop is-hidden" data-modal>
     <div class="modal-reserv-room">
-      <button class="close-btn" type="button" data-modal-close>
-        <svg class="modal-close-btn" width="24" height="24">
+      <!-- "mr" =  short with Modal-reserve-Room -->
+      <!-- "mr" =  short with Modal-reserve-Room -->
+      <button class="mr-close-btn" type="button" data-modal-close>
+        <svg class="mr-svg-close-btn" width="24" height="24">
           <use href="./img/icons.svg#modal-close"></use>
         </svg>
       </button>
-      <h2 class="modal-title">ЗАБРОНЮВАТИ НОМЕР</h2>
-      <form class="form-input">
-        <div class="tablet-version">
-          <div class="input-box">
-            <input class="modal-input" type="name" name="user" required placeholder="Ваше ім’я"></input>
-            <label class="input-after-text">На кого забронювати номер?</label>
+      <h2 class="mr-modal-title">ЗАБРОНЮВАТИ НОМЕР</h2>
+      <form class="mr-form-input">
+        <div class="mr-tablet-version">
+          <div class="mr-input-box">
+            <input class="mr-modal-input" type="name" name="user" required placeholder="Ваше ім’я"></input>
+            <label class="mr-input-after-text">На кого забронювати номер?</label>
           </div>
-          <div class="input-box">
-            <input class="modal-input " type="tel" name="tel" placeholder="+38 (___) ___-__-__" required>
+          <div class="mr-input-box">
+            <input class="mr-modal-input " type="tel" name="tel" placeholder="+38 (___) ___-__-__" required>
             </input>
-            <label class="input-after-text">Номер телефону</label>
+            <label class="mr-input-after-text">Номер телефону</label>
           </div>
         </div>
 
-        <div class="tab-ver">
-          <div class="input-box">
-            <div class="input-wrap">
-              <select class="modal-input text-input" name="category-room" id="category-room">
+        <div class="mr-tablet-version">
+          <div class="mr-input-box">
+            <div class="mr-input-wrap">
+              <select class="mr-modal-input " name="category-room" id="category-room">
                 <option value="Двомісний люкс">Двомісний люкс</option>
                 <option value="жлоб">єконом на собі</option>
                 <option value="для путлера">одиночна камера</option>
                 <option value="холостяк">делюкс на одного</option>
                 <option value="семейній номер">на Ціганській табор</option>
               </select>
-              <svg class="down-bold" weight="24" height="24">
+              <svg class="mr-svg-down-bold" weight="24" height="24">
                 <use href="./img/icons.svg#down-bold"></use>
               </svg>
             </div>
-            <label class="input-after-text" for="category-room">Категорія номеру</label>
+            <label class="mr-input-after-text" for="category-room">Категорія номеру</label>
           </div>
         </div>
-        <div class="tab-vers">
-          <div class="input-box">
-            <div class="input-wrap">
-              <select class="modal-input text-input" name="arrival-data" id="arrival-data">
+        <div class="mr-tablet-version">
+          <div class="mr-input-box">
+            <div class="mr-input-wrap">
+              <select class="mr-modal-input mr-text-input" name="arrival-data" id="arrival-data">
                 <option value="Сьогодні">Сьогодні</option>
                 <option value="День Перемоги над рашизмом">День Перемоги над рашизмом</option>
                 <option value="День Незалежності України">День Незалежності України</option>
               </select>
-              <svg class="down-bold" weight="24" height="24">
+              <svg class="mr-svg-down-bold" weight="24" height="24">
                 <use href="./img/icons.svg#down-bold"></use>
               </svg>
             </div>
-            <label class="input-after-text" for="arrival-data">
+            <label class="mr-input-after-text" for="arrival-data">
               Дата заїзду</label>
           </div>
-          <div class="input-box">
-            <div class="input-wrap">
-              <select class="modal-input text-input" name="leave" id="leave">
+          <div class="mr-input-box">
+            <div class="mr-input-wrap">
+              <select class="mr-modal-input mr-text-input" name="leave" id="leave">
                 <option value="Сьогодні">Сьогодні</option>
                 <option value="Ніколи">Ніколи</option>
                 <option value="коли Катя перестане їсти на ніч">День Перемоги над рашизмом</option>
                 <option value="коли звільнять крим">коли звільнять крим</option>
               </select>
-              <svg class="down-bold" weight="24" height="24">
+              <svg class="mr-svg-down-bold" weight="24" height="24">
                 <use href="./img/icons.svg#down-bold"></use>
               </svg>
             </div>
-            <label class="input-after-text" for="leave">
+            <label class="mr-input-after-text" for="leave">
               Дата виїзду</label>
           </div>
         </div>
-        <button class="modal-confirm-btn" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+        <div>
+          <button class="mr-modal-confirm-btn" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+        </div>
     </div>
     </form>
 
