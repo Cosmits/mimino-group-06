@@ -19,7 +19,7 @@
     font-size: 16px;
     line-height: calc(20 / 16);
     letter-spacing: 0.02em;
-    color: #7A7A7A;
+    color: var(--primary-text-color);
     margin-bottom: 32px;
 }
 
@@ -29,7 +29,7 @@
     font-size: 16px;
     line-height: calc(20 / 16);
     letter-spacing: 0.02em;
-    color: #7A7A7A;
+    color: var(--primary-text-color);
     margin-bottom: 32px;
 }
 
@@ -51,7 +51,7 @@
     margin-bottom: 16px;
 }
 
-.room-item-list-item + .room-item-list-item {
+.room-item-list-item+.room-item-list-item {
     margin-top: 16px;
 }
 
@@ -67,23 +67,29 @@
     letter-spacing: 0.02em;
     color: var(--brown-color);
     margin-top: 20px;
+    transition: color var(--timing-function);
 }
 
 @media screen and (min-width: 414px) {
     .room-link {
-    font-size: 16px;
+        font-size: 16px;
     }
 }
 
-.room-link:hover, .room-link:focus {
+.room-link:hover,
+.room-link:active,
+.room-link:focus {
     color: var(--accent-yellow-color);
 }
 
 .room-link-icon {
     fill: var(--brown-color);
+    transition: fill var(--timing-function);
 }
 
-.room-link:hover .room-link-icon, .room-link:focus .room-link-icon {
+.room-link:hover .room-link-icon,
+.room-link:active .room-link-icon,
+.room-link:focus .room-link-icon {
     fill: var(--accent-yellow-color);
 }
 
@@ -95,8 +101,8 @@
 
 @media screen and (min-width: 414px) {
     .room .btn-mob {
-    font-size: 20px;
-    width: auto;
+        font-size: 20px;
+        width: auto;
     }
 }
 
@@ -104,13 +110,15 @@
     .room {
         padding: 50px 0 40px 0;
     }
+
     .room-text {
         max-width: 757px;
     }
+
     .room-list {
         margin-bottom: 40px;
     }
-    
+
     .room-link {
         gap: 16px;
         font-size: 20px;
@@ -118,35 +126,44 @@
         margin-top: 32px;
         justify-content: flex-start;
     }
+
     .room-item-list {
         display: flex;
         gap: 80px;
     }
-    .room-item-list-item + .room-item-list-item {
+
+    .room-item-list-item+.room-item-list-item {
         margin: 0;
     }
+
     .room-list-text {
         max-width: 400px;
     }
+
     .room-thumb {
         margin-left: 480px;
     }
+
     .room-link {
         line-height: calc(24 / 20);
         margin-top: 32px;
-        }
+    }
+
     .room .btn-mob {
         font-size: 24px;
         line-height: calc(29 / 24);
     }
 }
+
 @media screen and (min-width: 1280px) {
     .room {
         padding: 48px 0;
     }
+
     .room-item-list {
         gap: 159px;
     }
+
     .room-thumb {
         margin-left: 559px;
     }

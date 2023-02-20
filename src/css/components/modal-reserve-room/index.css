@@ -8,6 +8,7 @@
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .backdrop.is-hidden.modal-reserv-room {
   transform: translate(-50%, -50%) scale(0.7);
 
@@ -29,6 +30,7 @@
   flex-direction: column;
   width: 100%;
 }
+
 .close-btn {
   margin-left: auto;
   padding: 0;
@@ -36,11 +38,13 @@
   height: 24px;
   background-color: transparent;
 }
+
 .modal-close-btn {
   width: 100%;
   height: 100%;
   stroke: black;
 }
+
 .modal-title {
   margin-top: 20px;
   text-align: center;
@@ -52,6 +56,7 @@
   letter-spacing: 0.05em;
   color: #000000;
 }
+
 .modal-input::placeholder {
   font-family: 'Times New Roman', serif;
   font-style: normal;
@@ -62,6 +67,7 @@
 
   color: #808080;
 }
+
 .text-input {
   font-family: 'Times New Roman', serif;
   font-style: normal;
@@ -72,15 +78,18 @@
 
   color: #808080;
 }
+
 .form-input {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
+
 .input-wrap {
   position: relative;
 }
+
 .down-bold {
   fill: #c79002;
   position: absolute;
@@ -90,11 +99,13 @@
   top: 50%;
   transform: translateY(-50%);
 }
+
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
+
 .modal-input {
   padding-left: 12px;
   padding-right: 15px;
@@ -104,9 +115,11 @@ select {
   height: 54px;
   background-color: transparent;
 }
+
 .modal-input:active {
   border: 2px solid #c79002;
 }
+
 .input-after-text {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -117,16 +130,19 @@ select {
   color: #c79002;
   padding-left: 12px;
 }
+
 .input-box {
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
+
 .modal-confirm-btn {
   width: 100%;
   height: 64px;
   margin-top: 40px;
 }
+
 .modal-confirm-btn {
   border: 1px solid #f3c653;
   border-radius: 2px;
@@ -138,11 +154,13 @@ select {
   color: #ffffff;
   background-color: #000000;
 }
+
 .modal-confirm-btn:hover,
 .modal-confirm-btn:focus {
   background-color: #f3c653;
   color: #000000;
 }
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
@@ -165,7 +183,7 @@ select {
     height: auto;
   }
 
-  .modal-reserv-room > .form-input {
+  .modal-reserv-room>.form-input {
     margin-top: 40px;
   }
 
@@ -173,13 +191,16 @@ select {
     min-width: 288px;
     height: 64px;
   }
+
   .tablet-version {
     margin-top: 0;
   }
+
   .tab-ver {
     display: flex;
     justify-content: end;
   }
+
   .tab-vers {
     display: flex;
     gap: 16px;

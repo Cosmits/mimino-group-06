@@ -8,6 +8,7 @@
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .backdrop.is-hidden.modal-reserv-room {
   transform: translate(-50%, -50%) scale(0.7);
 
@@ -33,6 +34,7 @@
   flex-direction: column;
   width: 100%;
 }
+
 .close-btn {
   margin-left: auto;
   padding: 0;
@@ -40,11 +42,13 @@
   height: 24px;
   background-color: transparent;
 }
+
 .modal-close-btn {
   width: 100%;
   height: 100%;
   stroke: black;
 }
+
 .modal-title {
   margin-top: 20px;
   text-align: center;
@@ -69,12 +73,15 @@
   gap: 20px;
   margin-top: 30px;
 }
+
 .form-input:last-child {
   gap: 0;
 }
+
 .input-wrap {
   position: relative;
 }
+
 .down-bold {
   fill: #c79002;
   position: absolute;
@@ -85,11 +92,13 @@
   transform: translateY(-50%);
   pointer-events: none;
 }
+
 select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 }
+
 .modal-input {
   padding-left: 12px;
   padding-right: 15px;
@@ -99,6 +108,7 @@ select {
   height: 54px;
   background-color: transparent;
 }
+
 .modal-input::placeholder {
   font-family: 'Times New Roman', serif;
   font-style: normal;
@@ -109,6 +119,7 @@ select {
 
   color: #808080;
 }
+
 .input-after-text {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -119,6 +130,7 @@ select {
   color: #c79002;
   padding-left: 12px;
 }
+
 .input-box {
   display: flex;
   flex-direction: column;
@@ -139,15 +151,18 @@ select {
   height: 64px;
   margin-top: 40px;
 }
+
 .modal-confirm-btn:hover,
 .modal-confirm-btn:focus {
   background-color: #f3c653;
   color: #000000;
 }
+
 .room-class {
   border: none;
   background-color: transparent;
 }
+
 .text-input {
   font-family: 'Times New Roman', serif;
   font-style: normal;
@@ -158,16 +173,19 @@ select {
 
   color: #808080;
 }
+
 .is-hidden {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
 }
+
 .tab-version {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
 }
+
 .tab-wrap {
   display: flex;
   flex-direction: column;
@@ -189,7 +207,7 @@ select {
     width: 712px;
   }
 
-  .modal-reserv-tab > .form-input {
+  .modal-reserv-tab>.form-input {
     margin-top: 40px;
     display: flex;
     flex-direction: row;
@@ -198,6 +216,7 @@ select {
     height: 100%;
     justify-content: center;
   }
+
   .form-input:first-child {
     padding-right: 16px;
   }
@@ -206,21 +225,25 @@ select {
     width: 288px;
     height: 64px;
   }
+
   .tab-version {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     row-gap: 28px;
   }
-  .input-box > .input-wrap {
+
+  .input-box>.input-wrap {
     width: 288px;
   }
+
   .tab-wrap {
     display: flex;
     flex-direction: row;
     gap: 16px;
   }
 }
+
 /* ---------------desktop version-------------- */
 /* ---------------desktop version-------------- */
 @media screen and (min-width: 1200px) {
