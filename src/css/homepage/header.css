@@ -4,14 +4,14 @@ header {
   position: absolute;
 }
 
-header>.container {
+header > .container {
   position: relative;
 }
 
 .header-thumb {
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
   margin-bottom: 10px;
 }
 
@@ -37,7 +37,8 @@ header>.container {
 .header-navigation-item {
   display: flex;
   gap: 6px;
-  align-items: flex-start;
+  /* align-items: flex-start; */
+  align-items: center;
 }
 
 .header-navigation-link {
@@ -73,6 +74,12 @@ header>.container {
 .header-navigation-tel,
 .header-navigation-icon {
   transition: fill var(--timing-function);
+}
+
+.header-navigation-tel:hover,
+.header-navigation-tel:active,
+.header-navigation-tel:focus {
+  border-color: var(--brown-color);
 }
 
 .header-navigation-tel:hover .header-navigation-icon,
@@ -124,6 +131,8 @@ header>.container {
   position: absolute;
   top: 681px;
   left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 20px;
 }
@@ -183,6 +192,7 @@ header>.container {
     border: 1px solid var(--svg-fill);
     border-radius: 2px;
     padding: 8px;
+    transition: color var(--timing-function);
   }
 
   .header-navigation-text {
@@ -229,8 +239,6 @@ header>.container {
   }
 }
 
-
-
 /* -------------ROOMMOBILE------------- */
 
 .body-room .header-media-list {
@@ -239,14 +247,10 @@ header>.container {
   top: 623px;
 }
 
-
 .body-room .header {
   padding-bottom: 31px;
   background-image: var(--header-gradient);
 }
-
-
-
 
 /* -------------ROOMTABLET--------------- */
 
@@ -266,8 +270,6 @@ header>.container {
   .body-room .header {
     padding-bottom: 48px;
   }
-
-
 }
 
 /* -------------ROOMDESCTOP--------------- */
