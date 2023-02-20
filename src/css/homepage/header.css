@@ -124,6 +124,8 @@ header>.container {
   position: absolute;
   top: 681px;
   left: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   gap: 20px;
 }
