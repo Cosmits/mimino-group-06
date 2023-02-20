@@ -1,19 +1,20 @@
 
+
 /* -----------Mobile----------- */
 
 @media screen and (max-width: 414px) {
   .room-hero {
     width: 414px;
     height: 740px;
-    background-color: rgba(0, 0, 0, 0.65);
-    background-image: url(../../public/img/hotel/hotel-hero-for-mobile.jpg);
+    background-color: #FFFDEE;
+    /* background-image: url(../../public/img/hotel/hotel-hero-for-mobile.jpg); */
   }
 }
 
 .room-hero {
   height: 740px;
-  background-color: rgba(0, 0, 0, 0.65);
-  background-image: url(../../public/img/hotel/hotel-hero-for-mobile.jpg);
+  background-color: #FFFDEE;
+  /* background-image: url(../../public/img/hotel/hotel-hero-for-mobile.jpg); */
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -23,7 +24,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .room-hero {
-    background-image: url(../../public/img/hotel/hotel-hero-for-mobile@2x.jpg);
+    /* background-image: url(../../public/img/hotel/hotel-hero-for-mobile@2x.jpg); */
   }
 }
 
@@ -119,7 +120,7 @@
   .room-hero {
     width: 1024px;
     height: 719px;
-    background-image: url(../../public/img/hotel/hotel-hero-for-tablet.jpg);
+    /* background-image: url(../../public/img/hotel/hotel-hero-for-tablet.jpg); */
   }
 
   .hero-room-button {
@@ -157,7 +158,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .room-hero {
-    background-image: url(../../public/img/hotel/hotel-hero-for-tablet@2x.jpg);
+    /* background-image: url(../../public/img/hotel/hotel-hero-for-tablet@2x.jpg); */
   }
 }
 
@@ -168,7 +169,7 @@
   .room-hero {
     width: 1280px;
     height: 720px;
-    background-image: url(../../public/img/hotel/hotel-hero-for-desktop.jpg);
+    /* background-image: url(../../public/img/hotel/hotel-hero-for-desktop.jpg); */
   }
 
   .hero-room-button {
@@ -206,6 +207,43 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .room-hero {
-    background-image: url(../../public/img/hotel/hotel-hero-for-desktop@2x.jpg);
+    /* background-image: url(../../public/img/hotel/hotel-hero-for-desktop@2x.jpg); */
   }
+}
+
+
+@media screen and (min-width: 414px) {
+  .swiper {
+    width: 414px;
+    height: 740px;
+    background-size: cover;
+  } }
+
+@media screen and (min-width: 1024px) {
+  .swiper {
+    width: 1024px;
+    height: 719px;
+    background-size: cover;
+  } }
+
+@media screen and (min-width: 1280px) {
+.swiper {
+  width: 1280px;
+  height: 720px;
+  background-size: cover;
+} }
+
+.swiper .swiper-button-next {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.65);
+  color: #f3c653;
+}
+.swiper .swiper-button-prev {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.65);
+  color: #f3c653;
 }

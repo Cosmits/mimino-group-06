@@ -2,29 +2,28 @@
  var swiper = new Swiper(".mySwiper", {
     navigation: {
       nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      prevEl: ".swiper-button-prev", 
     },
+    
     autoplay: {
-        delay: 3000,
+        delay: 4000,
       },
       loop: true,
 
       breakpoints: {
         // when window width is >= 414px
-        320: {
+        414: {
           slidesPerView: 1,
-       
         },
         // when window width is >= 1024px
-        480: {
+        1024: {
           slidesPerView: 1,
      
         },
         // when window width is >= 1280px
-        640: {
+        1280: {
           slidesPerView: 1,
 
         }
-      }
-  }
+      }}
   );
