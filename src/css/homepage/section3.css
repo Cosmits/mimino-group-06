@@ -2,14 +2,10 @@
     padding: 18px 0px;
 }
 
-
-
-
 .hotel-pretitle,
 .hotel-titles {
     text-align: end;
 }
-
 
 .about-subtitles.hotel-subtitle {
     margin-left: auto;
@@ -20,7 +16,6 @@
 .about-hotel-container {
     margin-bottom: 32px;
 }
-
 
 .second-hotel-container {
     display: flex;
@@ -40,7 +35,6 @@
 
 /*-----------------SWIPER----------------------*/
 
-
 .swiper-buttons {
     display: flex;
     gap: 33px;
@@ -55,16 +49,18 @@ margin-bottom: 10px;*/
     .about-hotel {
         padding: 0px;
     }
-.about-hotel-title-container {
-    margin-bottom: 0;
-    padding-top: 120px;
-}
+
+    .about-hotel-title-container {
+        margin-bottom: 0;
+        padding-top: 120px;
+    }
+
     .about-hotel-container {
         display: flex;
         flex-direction: row-reverse;
         justify-content: flex-start;
         /* align-items: center; */
-        
+
         margin-bottom: 0;
         gap: 46px;
     }
@@ -147,12 +143,12 @@ margin-bottom: 10px;*/
         .hotel-swiper-img {
             max-width: 254px;
             max-height: 254px;
-           
+
         }
 
         .hotel-swiper-item {
             margin-top: -275px;
             margin-bottom: 40px;
-        } 
+        }
     }
 }
