@@ -1,6 +1,6 @@
 .details-hotel {
-  height: 735px;
-  max-width: 767px;
+  padding-top: 24px;
+  padding-bottom: 40px;
 
   background-image: linear-gradient(
       to right,
@@ -16,8 +16,27 @@
   background-color: var(--black-color);
 }
 
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .details-hotel {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url(../../public/img/homepage/background-hotel-detail-for-mobile@2x.jpg);
+  }
+}
+
 .details-hotel__wrap {
   margin-right: 125px;
+  margin-bottom: 48px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .details-restaurant__name {
@@ -28,12 +47,11 @@
   line-height: 1.08;
   letter-spacing: 0.3em;
   color: var(--white-color);
-  padding-top: 24px;
   margin-bottom: 12px;
 }
 
 .details-hotel__title {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat Bold';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
@@ -41,12 +59,12 @@
   letter-spacing: 0.02em;
   color: var(--white-color);
   margin-bottom: 20px;
-
-  margin-left: auto;
+  /* 
+  margin-left: auto; */
 }
 
 .details-hotel__text {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat SemiBold';
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -55,5 +73,229 @@
   color: var(--second-text-color);
 
   max-width: 259px;
-  padding-bottom: 48px;
+}
+
+/* заглушка слайдеру */
+.details-hotel__slider {
+  margin-right: 25px;
+  margin-left: 85px;
+}
+
+/* заглушка слайдеру */
+.details-hotel__slider-image {
+  height: 274x;
+  width: 270px;
+}
+
+.details-hotel__arrows-list {
+  display: flex;
+  justify-content: right;
+  gap: 34px;
+
+  margin-top: 24px;
+}
+
+.details-hotel__buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+
+  row-gap: 16px;
+}
+
+.btn-section4 {
+  /* max-width: 236px; */
+  padding: 14px 24px;
+  min-width: 236px;
+}
+
+@media screen and (min-width: 480px) {
+  .details-hotel {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url(../../public/img/homepage/background-hotel-detail-for-tablet.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    background-color: var(--black-color);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .details-hotel {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(../../public/img/homepage/background-hotel-detail-for-tablet@2x.jpg);
+    }
+  }
+}
+
+/* TABLET */
+
+@media screen and (min-width: 1024px) {
+  .details-hotel {
+    padding-top: 48px;
+    padding-bottom: 47px;
+
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.76),
+        rgba(0, 0, 0, 0.76)
+      ),
+      url(../../public/img/homepage/background-hotel-detail-for-tablet.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    background-color: var(--black-color);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .details-hotel {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.76),
+          rgba(0, 0, 0, 0.76)
+        ),
+        url(../../public/img/homepage/background-hotel-detail-for-tablet@2x.jpg);
+    }
+  }
+
+  .details-hotel__wrap {
+    margin-right: 278px;
+    margin-bottom: 40px;
+  }
+
+  .details-restaurant__name {
+    font-size: 64px;
+
+    margin-bottom: 16px;
+  }
+
+  .details-hotel__title {
+    font-size: 24px;
+    line-height: 1.2;
+
+    margin-bottom: 8px;
+
+    /* margin-left: auto; */
+  }
+
+  .details-hotel__text {
+    font-size: 16px;
+
+    max-width: 549px;
+  }
+
+  .details-hotel__bottom-wrap {
+    display: flex;
+    gap: 32px;
+  }
+
+  /* заглушка слайдеру */
+  .details-hotel__slider {
+    margin-right: 0px;
+    margin-left: 32px;
+    width: 662px;
+  }
+
+  /* заглушка слайдеру */
+  .details-hotel__slider-image {
+    height: 270px;
+    width: 662px;
+  }
+
+  .details-hotel__arrows-list {
+    margin-top: 32px;
+  }
+
+  .details-hotel__buttons {
+    justify-content: flex-end;
+
+    margin-top: 0px;
+    margin-bottom: 53px;
+  }
+
+  .btn-section4 {
+    padding: 14px 26px;
+    min-width: 236px;
+    background-color: var(--black-color);
+  }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1280px) {
+  .details-hotel {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url(../../public/img/homepage/background-hotel-detail-for-desktop.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    background-color: var(--black-color);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .details-hotel {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.7),
+          rgba(0, 0, 0, 0.7)
+        ),
+        url(../../public/img/homepage/background-hotel-detail-for-desktop@2x.jpg);
+    }
+  }
+
+  .details-hotel__wrap {
+  }
+
+  .details-hotel__text {
+    max-width: 595px;
+  }
+
+  .details-hotel__bottom-wrap {
+    gap: 36px;
+  }
+
+  /* заглушка слайдеру */
+  .details-hotel__slider {
+    margin-left: 29px;
+    width: 894px;
+  }
+
+  /* заглушка слайдеру */
+  .details-hotel__slider-image {
+    height: 270px;
+    width: 894px;
+  }
+
+  .btn-section4 {
+    padding: 14px 26px;
+    min-width: 236px;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
 }

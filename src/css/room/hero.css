@@ -1,3 +1,211 @@
+
+/* -----------Mobile----------- */
+
+@media screen and (max-width: 414px) {
+  .room-hero {
+    width: 414px;
+    height: 740px;
+    background-color: rgba(0, 0, 0, 0.65);
+    background-image: url(../../public/img/hotel/hotel-hero-for-mobile.jpg);
+  }
+}
+
 .room-hero {
-    
+  height: 740px;
+  background-color: rgba(0, 0, 0, 0.65);
+  background-image: url(../../public/img/hotel/hotel-hero-for-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .room-hero {
+    background-image: url(../../public/img/hotel/hotel-hero-for-mobile@2x.jpg);
+  }
+}
+
+.room-hero-title {
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  font-size: 28px;
+  line-height: calc(32 / 28);
+  letter-spacing: 0.05em;
+  color: var(--white-color);
+  position: absolute;
+  width: 325px;
+  height: 64px;
+  left: 15px;
+  top: 483px;
+}
+.room-hero-paragraph {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: calc(15 / 12);
+  letter-spacing: 0.02em;
+  color: var(--white-color);
+  position: absolute;
+  width: 325px;
+  height: 61px;
+  left: 15px;
+  top: 561px;
+}
+
+.hero-room-button {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  letter-spacing: 0.02em;
+  color: var(--accent-yellow-color);
+  cursor: pointer;
+  position: absolute;
+  width: 232px;
+  height: 48px;
+  left: 109px;
+  top: 652px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 2px solid var(--white-color);
+  border-radius: 25px;
+}
+.hero-room-button:hover,
+.hero-room-button:focus {
+  background: var(--white-color);
+  border: 2px solid var(--accent-yellow-color);
+}
+.room-hero-previous {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  width: 40px;
+  height: 40px;
+  left: 15px;
+  top: 350px;
+  background: rgba(0, 0, 0, 0.65);
+}
+.room-hero-previous-line {
+  position: absolute;
+  fill: var(--accent-yellow-color);
+}
+
+.room-hero-next {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  width: 40px;
+  height: 40px;
+  right: 25px;
+  top: 350px;
+  background: rgba(0, 0, 0, 0.65);
+}
+.room-hero-next-line {
+  position: absolute;
+  fill: var(--accent-yellow-color);
+}
+
+/* --------------Tablet---------- */
+
+@media screen and (min-width: 1024px) {
+  
+  .room-hero {
+    width: 1024px;
+    height: 719px;
+    background-image: url(../../public/img/hotel/hotel-hero-for-tablet.jpg);
+  }
+
+  .hero-room-button {
+    position: absolute;
+    width: 232px;
+    height: 48px;
+    left: 745px;
+    top: 609px;
+  }
+
+  .room-hero-title {
+    width: 507px;
+    height: 41px;
+    left: 47px;
+    top: 469px;
+  }
+
+  .room-hero-paragraph {
+    width: 400px;
+    height: 83px;
+    left: 47px;
+    top: 534px;
+  }
+
+  .room-hero-previous {
+    left: 47px;
+    top: 341px;
+  }
+  .room-hero-next {
+    top: 341px;
+  }
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .room-hero {
+    background-image: url(../../public/img/hotel/hotel-hero-for-tablet@2x.jpg);
+  }
+}
+
+
+/* --------------Desctop---------- */
+
+@media screen and (min-width: 1280px) {
+  .room-hero {
+    width: 1280px;
+    height: 720px;
+    background-image: url(../../public/img/hotel/hotel-hero-for-desktop.jpg);
+  }
+
+  .hero-room-button {
+    position: absolute;
+    width: 232px;
+    height: 48px;
+    left: 963px;
+    top: 606px;
+  }
+
+  .room-hero-title {
+    width: 507px;
+    height: 41px;
+    left: 85px;
+    top: 524px;
+  }
+
+  .room-hero-paragraph {
+    width: 400px;
+    height: 83px;
+    left: 85px;
+    top: 589px;
+  }
+
+  .room-hero-previous {
+    left: 85px;
+    top: 412px;
+  }
+  .room-hero-next {
+    right: 85px;
+    top: 412px;
+  }
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .room-hero {
+    background-image: url(../../public/img/hotel/hotel-hero-for-desktop@2x.jpg);
+  }
 }
