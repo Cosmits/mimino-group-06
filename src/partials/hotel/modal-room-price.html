@@ -1,0 +1,43 @@
+<div class="modal" data-modal="3">
+  <div class="modal-room-price">
+    <button class="mp-close-btn" type="button" data-modal-close>
+      <svg class="mp-modal-close-btn js-modal-close" width="24" height="24">
+        <use href="./img/icons.svg#modal-close"></use>
+      </svg>
+    </button>
+    <h2 class="mp-modal-title">ЦІНИ НА НОМЕР</h2>
+    <form class="mp-form-input">
+      <div class="mp-input-box">
+        <select class="mp-room-class" name="room-class" id="room-class">
+          <option value="Двомісний люкс">Двомісний люкс</option>
+          <option value="Сімейнийй люкс">Сімейний люкс</option>
+          <option value="Одномістній люкс">Одномістній люкс</option>
+        </select>
+        <label class="mp-input-after-text" for="room-class">Категорія номеру</label>
+      </div>
+      <div class="mp-tablet-version">
+        <div class="mp-input-box">
+          <div class="mp-input-wrap">
+            <select class="mp-modal-input " name="how-many-nights" id="how-many-nights">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="1001">1001</option>
+            </select>
+            <svg class="mp-down-bold" width="24" height="24">
+              <use href="./img/icons.svg#down-bold"></use>
+            </svg>
+          </div>
+          <label class="mp-input-after-text" for="how-many-nights">
+            Кількість ночей</label>
+        </div>
+        <div class="mp-input-box mp-input-wrap ">
+          <input class="mp-modal-input " type="number" name="price" id="price" required placeholder="1000">
+          <label for="price" class="mp-input-after-text">грн</label>
+        </div>
+      </div>
+      <button class="mp-modal-confirm-btn" type="submit">ЗАБРОНЮВАТИ НОМЕР</button>
+
+    </form>
+  </div>
+</div>
