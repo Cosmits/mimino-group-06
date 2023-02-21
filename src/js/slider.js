@@ -60,8 +60,8 @@
 
     var swiper = new Swiper(".mySwiper", {
        slidesPerView: 1,
-      spaceBetween: 25,
-    allowSlideNext: true,
+      spaceBetween: 40,
+    // allowSlideNext: true,
       freeMode: true,
        navigation: {
         nextEl: ".swiper-button-next",
@@ -75,19 +75,19 @@
         },
          // when window width is >= 414px
           414: {
-      slidesPerView: 2,
+      slidesPerView: 1,
        spaceBetween: 40
         },
         // when window width is >= 930px
       
-       1024: {
+       930: {
       slidesPerView: 2,
-       spaceBetween: 40
-        },
+       spaceBetween: 26
+       },
       },
     //   autoplay: {
-    //    delay: 3000,
-    //  },
+    // delay: 3000,
+    //   },
       loop: true,
       slideToClickedSlide: true,
     
