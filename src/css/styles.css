@@ -12,7 +12,6 @@
 @import url('./components/variables.css');
 @import url('./components/global.css');
 
-@import url('./components/arrows.css');
 @import url('./components/buttons.css');
 
 @import url('./homepage/index.css');
@@ -20,8 +19,6 @@
 @import url('./restaurant/index.css');
 @import url('./room/index.css');
 
-/* @import url('./components/modal-reserve-room/index.css');
-@import url('./components/modal-reserve-table/index.css');
-@import url('./components/modal-room-price/index.css'); */
-
-@import url('./__slider.css');
+@import url('./components/modal_v2/modal-reserve-room.css');
+@import url('./components/modal_v2/modal-reserve-table.css');
+@import url('./components/modal_v2/modal-room-price.css');
