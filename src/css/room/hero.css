@@ -26,10 +26,11 @@
 
 @media screen and (max-width: 414px) {
   .room-hero {
-    width: 414px;
+    width: 100%;
     height: 740px;
     background-color: rgba(0, 0, 0, 0.65);
     background-image: url(../../public/img/hotel/hotel-hero-for-mobile.jpg);
+    background-position: center;
   }
 }
 
@@ -139,9 +140,10 @@
 
 @media screen and (min-width: 1024px) {
   .room-hero {
-    width: 1024px;
+    width: 100%;
     height: 719px;
     background-image: url(../../public/img/hotel/hotel-hero-for-tablet.jpg);
+    background-position: center;
   }
 
   .hero-room-button {
@@ -187,9 +189,10 @@
 
 @media screen and (min-width: 1280px) {
   .room-hero {
-    width: 1280px;
+    width: 100%;
     height: 720px;
     background-image: url(../../public/img/hotel/hotel-hero-for-desktop.jpg);
+    background-position: center;
   }
 
   .hero-room-button {
