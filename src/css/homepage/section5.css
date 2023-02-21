@@ -1,6 +1,8 @@
 /* ------------------MOBILE--------------------- */
 
 .homepage-contacts {
+    display: flex;
+    justify-content: center;
     padding-top: 36px;
     padding-bottom: 32px;
     background-color: var(--fon-lemon-color);
@@ -76,6 +78,11 @@
 .contacts-thumb-two {
     width: 260px;
     height: 40px;
+}
+
+.contacts-thumb-three {
+    display: flex;
+    gap: 12px;
 }
 
 .contacts-thumb:hover,
@@ -195,9 +202,7 @@
     .contacts-address-map {
         width: 384px;
     }
-    .contacts-link-second {
-        margin-left: 12px;
-    }
+   
 }
 
 
@@ -244,8 +249,8 @@
         margin-bottom: 24px;
     }
 
-    .contacts-link-second {
-        margin-left: 16px;
+    .contacts-thumb-three {
+        gap: 16px;
     }
 
     .contacts-address-thumb {
