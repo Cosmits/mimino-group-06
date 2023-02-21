@@ -90,6 +90,14 @@
   margin-top: 24px;
 }
 
+.details-restaurant__button-arrow {
+  background-color: transparent;
+}
+
+.details-restaurant__arrow-svg {
+  fill: var(--white-color);
+}
+
 .details-restaurant__buttons {
   display: flex;
   flex-direction: column;
