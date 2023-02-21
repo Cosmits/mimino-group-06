@@ -96,59 +96,100 @@ margin-bottom: 10px;*/
 
 /*-------------------ABOU-HOTEL-SWIPER------------------*/
 
+  .swiper-slide .rest-slide {
+    width: 100%;
+    height: 100%;
+    display: block;}
+
+
+
+    
+.swiper-slide img {
+      display: block;
+      max-width: 100%;
+      height: 100%;
+   
+      object-fit: cover;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      width: 245px;
+    }
+
 .left-swiper-arrow {
     width: 30px;
     height: 16px;
+     fill: black;
+     border: none;
 }
 
 .right-swiper-arrow {
     width: 30px;
     height: 16px;
+    fill: black;
+    border: none;
 }
 
 .hotel-swiper-img {
     box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.25);
-    margin-right: 0;
+max-width: 245px;
 }
 
 
-.hotel-swiper-img {
-
+.swiper-slide {
     display: block;
-    max-width: 254px;
-    max-height: 254px;
+    max-width: 245px;
+    max-height: 245px;
     object-fit: cover;
-
 }
 
-@media screen and (min-width: 1024px) {
-
-    .hotel-swiper-item {
-        margin-top: -83px;
-
-    }
-
-    .swiper-buttons {
-        margin-bottom: 39px;
-    }
-
-    .hotel-swiper-img {
-
-        max-width: 194px;
-        max-height: 194px;
-    }
-
-
-    @media screen and (min-width: 1280px) {
-        .hotel-swiper-img {
-            max-width: 254px;
-            max-height: 254px;
-
-        }
-
-        .hotel-swiper-item {
-            margin-top: -275px;
-            margin-bottom: 40px;
-        }
-    }
+.swiper-slide .swiper-slide-active {width:245px ;
 }
+
+.swiper-flex-btn {display: flex;
+gap: 33px;
+margin-bottom: 39px;
+margin-left: 27px;} 
+
+ /* .kitchen-flex-btn {display: flex;
+gap: 33px;
+margin-bottom: 39px;
+margin-left: 27px;}  */
+
+.swiper-wrapper{min-width: 0;}
+
+
+
+.swiper-button-next>.left-swiper-btn {background-color: transparent;
+border: none;}
+
+.swiper-button-prev>.right-swiper-btn {background-color: transparent;
+border: none;}
+
+.swiper-button-next, .swiper-button-prev {    position: static;
+
+    width: 30px;
+    height: 16px;
+   margin-top: 30px;
+    z-index: 100;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after {opacity: 0;}
+
+
+
+
+
+
+
+
