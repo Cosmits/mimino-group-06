@@ -191,7 +191,7 @@ max-width: 245px;
 
 
 .swiper-slide {
-border: 1px solid tomato;
+
     display: block;
     max-width: 254px;
     max-height: 254px;
@@ -207,7 +207,7 @@ margin-left: 27px;}
 
 
 
-.container{border: 1px solid blue;}
+
 .swiper-button-next>.left-swiper-btn {background-color: transparent;
 border: none;}
 
@@ -226,8 +226,7 @@ border: none;}
     justify-content: center;
 }
 
-.swiper-button-next{
-}
+
 
     .swiper-button-next::after,
     .swiper-button-prev::after {opacity: 0;}
