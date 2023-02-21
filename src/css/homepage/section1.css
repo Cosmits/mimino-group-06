@@ -1,7 +1,8 @@
 /*-------------- ABOUT-RESTAURANT-HOMEPAGE---------------------*/
 
 .about-restaurant {
-    padding: 16px 0px;
+    padding-top: 16px;
+    padding-bottom: 27px;
     background: var(--fon-lemon-color);
     margin: 0 auto;
 }
@@ -66,15 +67,49 @@
     color: var(--brown-color);
 }
 
+
 .second-picture-container {
+
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 32px;
     column-gap: 20px;
+    margin-bottom: 32px;
 }
 
+/*---------------SLIDER---------*/
+
+.slider-wraper {
+    width: 245px;
+    margin-left: auto;
+    bottom: 0;
+}
+
+.slider-wraper.rest-wraper {
+    width: 245px;
+    margin-left: 0;
+}
+
+.swiper-flex-btn.rest-swiper-btn {justify-content: right;}
+
+.swiper-slide img {
+    width: 245px;
+}
+
+
 /*--------------------------------Tablet-REST-and-HOTEL_CSS----------------------*/
+@media screen and (min-width: 414px) {
+    .slider-wraper {
+        width: 428px;
+        right: 40px;
+    }
+
+    .swiper-slide img {
+        width: 194px;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .about-restaurant {
         padding: 0;
@@ -136,7 +171,21 @@
         align-items: flex-start;
         column-gap: 48px;
     }
+
+
+
+    .slider-wraper.rest-wraper {
+        width: 534px;
+        margin-top: -28px;
+        position: relative;
+        left: 0;
+        bottom: 57px;
+    }
+.slider-wraper {margin-top: -56px;}
 }
+
+/* .swiper-slide img {width: 194px;} */
+
 
 /*--------------------------------Desktop-REST-and-HOTEL_CSS----------------------*/
 
@@ -153,6 +202,9 @@
         max-width: 518px;
     }
 
+    .about-secondary-subtitle{
+        top: 115px;
+    }
 
     .about-rest-container {
         gap: 37px;
@@ -171,10 +223,24 @@
         column-gap: 32px;
     }
 
-    .about-secondary-subtitle {
+    /* .about-secondary-subtitle {
         top: 89px;
+    } */
+
+    .slider-wraper {
+        width: 534px;
     }
+
+    .swiper-slide img {
+        width: 254px;
+    }
+
+    .slider-wraper.rest-wraper {margin-top: -178px;}
+    .slider-wraper {margin-top: -178px;}
+    .swiper-slide img {box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.25) ;}
+
 }
+
 
 /*--------------------------------Mobile-Adaptive-REST-and-HOTEL_CSS----------------------*/
 @media screen and (max-width: 384px) {
@@ -190,14 +256,14 @@
         width: 52vw;
     }
 
-    .about-subtitles {
+    /* .about-subtitles {
         font-size: 3vw;
         width: 67vw;
     }
 
     .about-secondary-subtitle {
         font-size: 3vw;
-    }
+    } */
 }
 
 /*-------------------ABOU-RESTAURANT-SWIPER------------------*/

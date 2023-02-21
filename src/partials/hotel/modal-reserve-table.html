@@ -1,77 +1,59 @@
 <div class="modal" data-modal="2">
-  <div class="modal-reserv-table">
-    <button class="mrt-close-btn" type="button" data-modal-close>
-      <svg class="mrt-icon-close-btn" width="18" height="18">
+  <div class="modal-reserv-tab ">
+    <!-- "mt" =  short with Modal-reserve-Room -->
+    <!-- "mt" =  short with Modal-reserve-Room -->
+    <button class="mt-close-btn" type="button" data-modal-close>
+      <svg class="mt-modal-close-btn js-modal-close" width="24" height="24">
         <use href="./img/icons.svg#modal-close"></use>
       </svg>
     </button>
-
-    <h2 class="mr-table-title">ЗАБРОНЮВАТИ СТОЛИК</h2>
-
-    <form class="mr-table-form">
-      <div class="mrt-input-thumb">
-        <input
-          type="name"
-          class="mrt-modal-input"
-          name="mrt-username"
-          required
-          placeholder="Ваше ім’я"
-          autofocus
-        />
-        <label for="mrt-username" class="mrt-form-lable"
-          >На кого забронювати столик?</label
-        >
+    <h2 class="mt-modal-title">ЗАБРОНЮВАТИ СТОЛИК</h2>
+    <form class="mt-form-input">
+      <div class="mt-tab-wrap">
+        <div class="mt-tab-version">
+          <div class="mt-input-box">
+            <input class="mt-modal-input " type="text" name="user" required placeholder="Ваше ім’я">
+            <label class="mt-input-after-text">На кого забронювати столик?</label>
+          </div>
+          <div class="mt-input-box">
+            <input class="mt-modal-input " type="tel" name="tel" placeholder="+38 (___) ___-__-__" required>
+            <label class="mt-input-after-text">Номер телефону</label>
+          </div>
+        </div>
+        <div class="mt-tab-version">
+          <div class="mt-input-box">
+            <div class="mt-input-wrap">
+              <select class="mt-modal-input" name="how-many-people" id="how-many-people">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="на Циганській табор">на Ціганській табор</option>
+              </select>
+              <svg class="mt-down-bold" width="24" height="24">
+                <use href="./img/icons.svg#down-bold"></use>
+              </svg>
+            </div>
+            <label class="mt-input-after-text" for="how-many-people">
+              Столик на яку кількість осіб?</label>
+          </div>
+          <div class="mt-input-box">
+            <div class="mt-input-wrap">
+              <select class="mt-modal-input  " name="that-date" id="that-date">
+                <option value="Сьогодні">Сьогодні</option>
+                <option value="День Перемоги над рашизмом">День Перемоги над рашизмом</option>
+                <option value="День Незалежності України">День Незалежності України</option>
+              </select>
+              <svg class="mt-down-bold" width="24" height="24">
+                <use href="./img/icons.svg#down-bold"></use>
+              </svg>
+            </div>
+            <label class="mt-input-after-text" for="that-date">
+              На яку дату бронювати?</label>
+          </div>
+        </div>
       </div>
 
-      <div class="mrt-input-thumb">
-        <input
-          type="tel"
-          class="mrt-modal-input"
-          name="mrt-tel"
-          placeholder="+38 (___) ___-__-__"
-          required
-        />
-        <label for="mrt-tel" class="mrt-form-lable">Номер телефону</label>
-      </div>
-
-      <div class="mrt-input-thumb">
-        <select name="mrt-seats">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-        </select>
-
-        <svg class="mt-down-bold" weight="24" height="24">
-          <use href="./img/icons.svg#down-bold"></use>
-        </svg>
-
-        <label for="mrt-seats" class="mrt-form-lable">
-          Столик на яку кількість осіб?</label
-        >
-      </div>
-
-      <div class="mrt-input-thumb">
-        <select name="mrt-date">
-          <option value="Сьогодні">Сьогодні</option>
-          <option value="День Перемоги над рашизмом">
-            День Перемоги над рашизмом
-          </option>
-          <option value="День Незалежності України">
-            День Незалежності України
-          </option>
-        </select>
-
-        <svg class="mt-down-bold" weight="24" height="24">
-          <use href="./img/icons.svg#down-bold"></use>
-        </svg>
-
-        <label class="mt-input-after-text" for="that-date">
-          На яку дату бронювати?</label
-        >
-      </div>
-
-      <button class="mrt-confirm-btn" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
     </form>
   </div>
 </div>
