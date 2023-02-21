@@ -1,3 +1,26 @@
+.swiper-wrapper {
+  /* z-index: -1; */
+  width: 100%;
+  height: 742px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+}
 
 /* -----------Mobile----------- */
 
@@ -115,7 +138,6 @@
 /* --------------Tablet---------- */
 
 @media screen and (min-width: 1024px) {
-  
   .room-hero {
     width: 1024px;
     height: 719px;
@@ -160,7 +182,6 @@
     background-image: url(../../public/img/hotel/hotel-hero-for-tablet@2x.jpg);
   }
 }
-
 
 /* --------------Desctop---------- */
 
