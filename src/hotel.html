@@ -2,16 +2,10 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>МІМІНО Hotel</title>
-  <!-- FONT -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet">
-  <!-- FONT -->
   <!-- favicon  https://realfavicongenerator.net/ -->
   <link rel="apple-touch-icon" sizes="180x180" href="./public/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon-32x32.png">
@@ -25,7 +19,6 @@
 </head>
 
 <body>
-
   <header>
     <!-- Olena Trzewik -->
     <load src="./partials/hotel/header.html" />
@@ -47,7 +40,16 @@
     <load src="./partials/hotel/footer.html" />
   </footer>
 
-  <script type="module" src="/main.js"></script>
+  <!-- MODAL -->
+  <div class="overlay js-overlay-modal"></div>
+
+  <load src="./partials/hotel/modal-reserve-room.html" />
+  <load src="./partials/hotel/modal-reserve-table.html" />
+  <load src="./partials/hotel/modal-room-price.html" />
+  <!-- MODAL -->
+
+  <!-- <script type="module" src="./main.js"></script> -->
+  <script type="module" src="./js/modals.js"></script>
 </body>
 
 </html>
