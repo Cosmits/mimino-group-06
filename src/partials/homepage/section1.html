@@ -10,7 +10,7 @@
                     mollit. Exercitation veniam consequat sunt nostrud amet.</p>
             </div>
 
-            <picture class="">
+            <picture>
                 <source
                     srcset="./img/homepage/homepage-about-rest-img1-for-desk.jpg 1x, ./img/homepage/homepage-about-rest-img1-for-desk@2x.jpg 2x "
                     media="(min-width: 1280px)">
@@ -27,7 +27,8 @@
             </picture>
         </div>
         <div class="second-picture-container">
-            <picture class="">
+            <!-- <div class="slider-posicion-wraper">-->
+            <picture>
                 <source
                     srcset="./img/homepage/homepage-about-rest-img2-for-desk.jpg 1x, ./img/homepage/homepage-about-rest-img2-for-desk@2x.jpg 2x "
                     media="(min-width: 1280px)">
@@ -46,6 +47,38 @@
                 sint.
                 Velit officia consequat duis enim velit
                 mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+
+        <!------------------------------------SLIDER----------------------------------->
+        <div class="slider-wraper">
+
+            <div class=" swiper mySwiper swiper-initialized swiper-horizontal swiper-free-mode swiper-backface-hidden">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide"><img class="hotel-swiper-img "
+                            src="./img/homepage/homepage-about-rest-slider1-for-mobile.jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="hotel-swiper-img"
+                            src="./img/homepage/homepage-about-rest-slider2-for-desk.jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="hotel-swiper-img"
+                            src="./img/homepage/homepage-about-rest-slider3-for-mobile.jpg" alt=""></div>
+                    <div class="swiper-slide"><img class="hotel-swiper-img"
+                            src="./img/homepage/homepage-about-rest-slider4-for-mobile.jpg" alt=""></div>
+                </div>
+                <div class="swiper-flex-btn rest-swiper-btn">
+                    <div class="swiper-button-next">
+                        <button type="button" class="left-swiper-btn">
+                            <svg class="left-swiper-arrow">
+                                <use class="" href="./img/icons.svg#left-arrow"></use>
+                            </svg></button>
+                    </div>
+                    <div class="swiper-button-prev"><button type="button" class="rigth-swiper-btn">
+                            <svg class="right-swiper-arrow">
+                                <use href="./img/icons.svg#right-arrow"></use>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </section>
