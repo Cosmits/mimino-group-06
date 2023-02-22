@@ -21,7 +21,8 @@
   padding: 60px 15px;
   display: flex;
   flex-direction: column;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid var(--brown-color);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   background-color: var(--fon-lemon-color);
   border-radius: 2px;
   transform: translate(-50%, -50%) scale(0.9);
@@ -93,7 +94,7 @@ select {
   right: 15px;
   height: 24px;
   width: 24px;
-  top: 50%;
+  top: 40%;
   transform: translateY(-50%);
   pointer-events: none;
 }
@@ -128,7 +129,13 @@ select {
   margin-bottom: 28px;
   color: var(--input-text-color);
 }
-
+.mp-room-class:active,
+.mp-room-class:hover,
+.mp-room-class:focus {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
 .mp-modal-confirm-btn {
   width: 100%;
   height: 64px;
