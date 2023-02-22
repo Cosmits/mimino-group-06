@@ -83,19 +83,21 @@
 .slider-wraper {
     width: 245px;
     margin-left: auto;
-    bottom: 0;
+    bottom: 0px;
 }
 
-.slider-wraper.rest-wraper {
+ .slider-wraper.rest-wraper {
     width: 245px;
     margin-left: 0;
 }
 
-.swiper-flex-btn.rest-swiper-btn {justify-content: right;}
-
-.swiper-slide img {
-    width: 245px;
+.swiper-flex-btn.rest-swiper-btn {
+    justify-content: right;
 }
+
+/* .swiper-slide img {
+    width: 245px;
+}  */
 
 
 /*--------------------------------Tablet-REST-and-HOTEL_CSS----------------------*/
@@ -181,7 +183,10 @@
         left: 0;
         bottom: 57px;
     }
-.slider-wraper {margin-top: -56px;}
+
+    .slider-wraper {
+        margin-top: -56px;
+    }
 }
 
 /* .swiper-slide img {width: 194px;} */
@@ -202,7 +207,7 @@
         max-width: 518px;
     }
 
-    .about-secondary-subtitle{
+    .about-secondary-subtitle {
         top: 115px;
     }
 
@@ -235,9 +240,17 @@
         width: 254px;
     }
 
-    .slider-wraper.rest-wraper {margin-top: -178px;}
-    .slider-wraper {margin-top: -178px;}
-    .swiper-slide img {box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.25) ;}
+    .slider-wraper.rest-wraper {
+        margin-top: -178px;
+    }
+
+    .slider-wraper {
+        margin-top: -178px;
+    }
+
+    .swiper-slide img {
+        box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.25);
+    }
 
 }
 
