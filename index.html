@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>МІМІНО</title>
-    <!-- favicon  https://realfavicongenerator.net/ -->
-    <link rel="apple-touch-icon" sizes="180x180" href="data:image/png;base64,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">
-    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABO1BMVEUODAcNCwcLCgYMCwYMCgYNDAcaFQtVRR6Hbi+QdTJ7ZCs4LhUZFQtJPBqDay6QdjJIOxoVEQk+Mxezkj7rwFD4ylX3yVTbs0u/nELkuk72yVTmu0+hhDgtJREqIxDIo0XpvlCOdDJjUSOqizvzxlPtwlGVeTRgTyKfgjfxxFKwkD0cFwwKCQZSQx7uwlHBnkMGBgU8Mhblu072yFTTrEglHw8GBgQwKBLYsErgtk0yKRNWRh/vwlK+m0EYFAoLCQY5LxXkuU7RqkgkHg4sJBHUrUngt000KxTvwlEsJRE0KxPvw1L4ylS+m0Lluk7Rq0jVrknht01RQh3ftkznvE+ykT0XFAo2LRTEn0MiHQ7HokTmvE/Sq0gxKRMbFws6MBYvJxIQDggWEwozKhMSDwgUEQk2LBQVEgn///9tTTqUAAAAAWJLR0Roy2z0IgAAAAlwSFlzAAAOwgAADsIBFShKgAAAAAd0SU1FB+cCDgwjA3MwenYAAADOSURBVDjLY2AYUoCRiYmZiQVMMrFikWdhY+fg5OLm4eXj5xMQZMbULyQsIiomJi4hKSolKi0jy4gmzywnL6qgqKSsIqaqpq6hKaaljaZCR1dPSp/HwNDI2MTUzNxCytKKBU2BtY2YrZ29g6OUk7O9i6uUmzuGAg+wAkmQAk9XKUuvUQWDWIG3jy9QgZ+Yv7O9bIBYIHps2gcFh4SG2YcHhEREMslFRcfEoilgjOOOT0hkTAqPT05hTE2OT0vHSJNMTEA9rGCSgYWJhWEwAQCrZE2CXa4b1wAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0wMi0xNFQxMjozNTowMyswMDowMKG3qWIAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDItMTRUMTI6MzU6MDMrMDA6MDDQ6hHeAAAAV3pUWHRSYXcgcHJvZmlsZSB0eXBlIGlwdGMAAHic4/IMCHFWKCjKT8vMSeVSAAMjCy5jCxMjE0uTFAMTIESANMNkAyOzVCDL2NTIxMzEHMQHy4BIoEouAOoXEXTyQjWVAAAAAElFTkSuQmCC">
-    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAw1BMVEUODAcMCgYRDwgUEQkRDggVEQkNCwcPDQdOQByjhTirjDuBai2dgDaujjx4YioeGQwwKBLYsEqcfzZpViXswFGjhTllUiTkuk51XykLCgY+MxfovU9rWCYqIxDgt015YyskHg7askuLcjA9MhfnvE9tWSctJRHht017ZCsnIA+KcTBuWifiuE18ZSvbs0uLcTA5LxXTrEhkUiTNp0ZxXCglHg7Ho0V/ZywVEgkvJxIdGAwTEAkuJhIfGg0SDwghGw3///9TiRCmAAAAAWJLR0RA/tlc2AAAAAlwSFlzAAAOwgAADsIBFShKgAAAAAd0SU1FB+cCDgwjA3MwenYAAABrSURBVBjTY2AgCjAyMTOysLKxwfjsHJxc3Dy8fPxQEUYBQSFhEVExcQlJiICklLSMrJy8gqISTEBZRVVNXUNTUYuaAlLS2mo6upp6+jABA0MjWWMTUzNzRqhLLSytrG1s7dTsEX5hgyJsAAD+1g+48b/riQAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0wMi0xNFQxMjozNTowMyswMDowMKG3qWIAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDItMTRUMTI6MzU6MDMrMDA6MDDQ6hHeAAAAV3pUWHRSYXcgcHJvZmlsZSB0eXBlIGlwdGMAAHic4/IMCHFWKCjKT8vMSeVSAAMjCy5jCxMjE0uTFAMTIESANMNkAyOzVCDL2NTIxMzEHMQHy4BIoEouAOoXEXTyQjWVAAAAAElFTkSuQmCC">
-    <link rel="manifest" href="data:application/manifest+json;base64,ewogICAgIm5hbWUiOiAiIiwKICAgICJzaG9ydF9uYW1lIjogIiIsCiAgICAiaWNvbnMiOiBbCiAgICAgICAgewogICAgICAgICAgICAic3JjIjogIi4vYW5kcm9pZC1jaHJvbWUtMTkyeDE5Mi5wbmciLAogICAgICAgICAgICAic2l6ZXMiOiAiMTkyeDE5MiIsCiAgICAgICAgICAgICJ0eXBlIjogImltYWdlL3BuZyIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICAgInNyYyI6ICIuL2FuZHJvaWQtY2hyb21lLTI1NngyNTYucG5nIiwKICAgICAgICAgICAgInNpemVzIjogIjI1NngyNTYiLAogICAgICAgICAgICAidHlwZSI6ICJpbWFnZS9wbmciCiAgICAgICAgfQogICAgXSwKICAgICJ0aGVtZV9jb2xvciI6ICIjZmZmZmZmIiwKICAgICJiYWNrZ3JvdW5kX2NvbG9yIjogIiNmZmZmZmYiLAogICAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIKfQo=">
-    <link rel="mask-icon" href="/mimino-group-06/assets/safari-pinned-tab-77d5d179.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <!-- favicon -->
-    <!-- Slider -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-    <!-- Slider -->
-    
-    <script type="module" crossorigin src="/mimino-group-06/assets/modals-7ae64c72.js"></script>
-    <script type="module" crossorigin src="/mimino-group-06/assets/aos-init-4fd16824.js"></script>
-    <link rel="stylesheet" href="/mimino-group-06/assets/modals-b9ff1558.css">
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>МІМІНО</title>
+  <!-- favicon  https://realfavicongenerator.net/ -->
+  <link rel="apple-touch-icon" sizes="180x180" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAMAAAAKE/YAAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAC9FBMVEUODAcNCwcMCwYLCgYLCQYKCQYPDQcbFwseGQwiHA4mHw8jHQ4bFgsXFAoQDggMCgYVEgkcFwwhGw0lHw8NDAcWEgodGAwqIhBdTCFxXCh1XymSdzOvjzy0kz69m0HFoUTFoES/nEKujjyniDqVejR9ZixrVyZWRh8TEAgaFgsfGg0/NBdzXimihDiwkD26mEDEoESNczFwXCdVRh89MhcpIhAXEwoSDwgPDAdYSB+lhjnGoUTrv1Dww1LxxFL2yVT2yFT1yFT0xlPuwlHovU+ykT05LxUeGAwYFAqBaS2oiTrXr0rqv1DwxFL3yVTvw1LnvE/ht028mkFlUiMtJBEZFQotJRGMczHNpkbluk71x1TzxlP0x1PVrkl3YSlcSyA2LRQmIA9VRh7PqEftwVHdtEuZfDUwKBJEOBmHbi+1lD7MpkaQdjJiUCM1LBQcGAxKPRvBnkLswFDyxlPyxVPrwFDIo0VGORk4LhVHOxqOdDHVrUnJpEVXRx9ANBdZSSCcgDbmvE/swFHYsEpjUSMoIRCJcDDjuU7dtUzpvlDiuE2vjjxaSSAWEwp7ZCvaskvEn0M6MBZKPBqkhjixkT0RDwgNCwbbs0usjTuafjVNPxwiHA0MCwcTEAlIOxrHokTxxVLgt02+m0HOp0fTrEjHo0TCnkPOqEdmVCQrJBG7mEC2lD9bSyFANBgvJxIgGw0fGQ0uJhJmUyTkuk55YypOPxwzKhMoIQ8gGg0iHQ5HOhqKcTC2lD5eTSEZFQvUrUk+MxcKCAYKCAWYfDW0kj4uJhFPQR3dtEy9mUFFORkoIhCggzhxXCcUEQkRDghoViXftkyUeDN3YipeTCE/MxdSRB6dgDcaFQtsWCbjuE7swVGIby8QDQgkHg5wWyfSq0ijhTh2YSnJo0XvwlE3LhWAaS2AaSzGokSAaCz3ylTIo0QfGQzKpUVkUiOBai3Lpkb4ylT4ylVpViXDoEOkhjnEoENSQx0wJxKmiDmZfTUfGgz///91/kcPAAAAAWJLR0T7omo23AAAAAlwSFlzAAAOwgAADsIBFShKgAAAAAd0SU1FB+cCDgwjA3MwenYAAAPISURBVHja7dxpcBNlAMbxvrvbJKSYjdjWKIUmHsVwWAGBKkk3mxQVbdJKlaO7CJYWQUSE1lqkoK3laKEgWG/xgHpDual3BVRQaPECUTmKCh6NF4ocnyDDDPR9kzbUYdMZ5vl/zTOTXzbZzX7aqCiEEEIIIYQQQgghhBBCCKGWI4QLREgri7CTSHJ5IVqnN3QwGo0xHS8wRQs8YRciL+jMF3a6KDAxmDmBF0lse5rj4i+2XHJp54QuXROtVttll19xZVK3mKtMzRY6e/celp6de12dfI3Vmmjr0qt3n77X9us/IKW9yIRcd/1AhzNVcrnkQC5JcnvSBt1w45kfAX/T4JtvSfdKvlML2eXzZWTeOiTrtgHtQxZ1tw8dNnxEtkLlVkfeMWq0mecCH0rk7sxJGJOr0hNVzhubdRfPixE/yJxp3Pi7J3iVUHlG3jPxXiIKk+4bP3lKfqhFwf2FWQ8UmSJ7Vor2qQ9Oc/tkJXTZ+RnF02c89HCJ0tLCLWeUPlJmj6RaN3PWbEVVWit79pzygjCTirnzKiPFjiWG+QskJUyqqoadZDy6kI+MmsQteqwkLOgsq+pnfjwS6CcsTyruc2RWUp96OicCx9r0jM3FvrVblSVJklvTqYGruCQHf0Ny8rPPaUyOXfz8Cy8Gva/jpTG2JUuW5qqy2oJYKa9+2WZ75dW0AvYTq6Wvpei0Retef8PD/ld431y2vGbFypWrclYPWhPKnO9IWLtufe2Kt95e9c671U7mVdd779dyWprJB8sqGLMzt+7DDYJ48jZOFDaO3uRwBplVx0cfE0HkApMN/T9ZwBxrdfOWT6O1RIufbU2nT0L33G2W+tOvN9RsT2B/IernX9ScudNIifuymvnn96R9JWiJjvo6j/5Fq5nTo5rf1MXyO9jLobzzm+bXB1K569vvmMX3uzUkE/vEXOb96vbQ5z4xTmOuIt69PLWI7rFpHz2RGxdrie6wn0UXx9OXWWL4gUH/WEbfzok/HSimJ64qs4ZoznjQw6B/DkIXth2dXKkp+heggQYaaKCBBhpooIEGGmiggQYaaKCBBhpooIEGGmiggQYaaKCBBhpooIEGGmiggQYaaKCBBhpooIEGGmiggQYaaKCBBhpooIEGGmiggQb6fEUPdspUv/7Gopv8PnqS+juDLvrjz7+oxd9DtESTTof+KaTyNzJPrSL6f/305PB/9MNdxCNJR+mJ/1h9WxRtbXecga5Jzz4kR6dvYjasqKFSf5waHLdr/CA6wvY/FmczQQghhBBCCCGEEEIIIXTedwLWWCYvaJBd2gAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0wMi0xNFQxMjozNTowMyswMDowMKG3qWIAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDItMTRUMTI6MzU6MDMrMDA6MDDQ6hHeAAAAV3pUWHRSYXcgcHJvZmlsZSB0eXBlIGlwdGMAAHic4/IMCHFWKCjKT8vMSeVSAAMjCy5jCxMjE0uTFAMTIESANMNkAyOzVCDL2NTIxMzEHMQHy4BIoEouAOoXEXTyQjWVAAAAAElFTkSuQmCC">
+  <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABO1BMVEUODAcNCwcLCgYMCwYMCgYNDAcaFQtVRR6Hbi+QdTJ7ZCs4LhUZFQtJPBqDay6QdjJIOxoVEQk+Mxezkj7rwFD4ylX3yVTbs0u/nELkuk72yVTmu0+hhDgtJREqIxDIo0XpvlCOdDJjUSOqizvzxlPtwlGVeTRgTyKfgjfxxFKwkD0cFwwKCQZSQx7uwlHBnkMGBgU8Mhblu072yFTTrEglHw8GBgQwKBLYsErgtk0yKRNWRh/vwlK+m0EYFAoLCQY5LxXkuU7RqkgkHg4sJBHUrUngt000KxTvwlEsJRE0KxPvw1L4ylS+m0Lluk7Rq0jVrknht01RQh3ftkznvE+ykT0XFAo2LRTEn0MiHQ7HokTmvE/Sq0gxKRMbFws6MBYvJxIQDggWEwozKhMSDwgUEQk2LBQVEgn///9tTTqUAAAAAWJLR0Roy2z0IgAAAAlwSFlzAAAOwgAADsIBFShKgAAAAAd0SU1FB+cCDgwjA3MwenYAAADOSURBVDjLY2AYUoCRiYmZiQVMMrFikWdhY+fg5OLm4eXj5xMQZMbULyQsIiomJi4hKSolKi0jy4gmzywnL6qgqKSsIqaqpq6hKaaljaZCR1dPSp/HwNDI2MTUzNxCytKKBU2BtY2YrZ29g6OUk7O9i6uUmzuGAg+wAkmQAk9XKUuvUQWDWIG3jy9QgZ+Yv7O9bIBYIHps2gcFh4SG2YcHhEREMslFRcfEoilgjOOOT0hkTAqPT05hTE2OT0vHSJNMTEA9rGCSgYWJhWEwAQCrZE2CXa4b1wAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0wMi0xNFQxMjozNTowMyswMDowMKG3qWIAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDItMTRUMTI6MzU6MDMrMDA6MDDQ6hHeAAAAV3pUWHRSYXcgcHJvZmlsZSB0eXBlIGlwdGMAAHic4/IMCHFWKCjKT8vMSeVSAAMjCy5jCxMjE0uTFAMTIESANMNkAyOzVCDL2NTIxMzEHMQHy4BIoEouAOoXEXTyQjWVAAAAAElFTkSuQmCC">
+  <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAw1BMVEUODAcMCgYRDwgUEQkRDggVEQkNCwcPDQdOQByjhTirjDuBai2dgDaujjx4YioeGQwwKBLYsEqcfzZpViXswFGjhTllUiTkuk51XykLCgY+MxfovU9rWCYqIxDgt015YyskHg7askuLcjA9MhfnvE9tWSctJRHht017ZCsnIA+KcTBuWifiuE18ZSvbs0uLcTA5LxXTrEhkUiTNp0ZxXCglHg7Ho0V/ZywVEgkvJxIdGAwTEAkuJhIfGg0SDwghGw3///9TiRCmAAAAAWJLR0RA/tlc2AAAAAlwSFlzAAAOwgAADsIBFShKgAAAAAd0SU1FB+cCDgwjA3MwenYAAABrSURBVBjTY2AgCjAyMTOysLKxwfjsHJxc3Dy8fPxQEUYBQSFhEVExcQlJiICklLSMrJy8gqISTEBZRVVNXUNTUYuaAlLS2mo6upp6+jABA0MjWWMTUzNzRqhLLSytrG1s7dTsEX5hgyJsAAD+1g+48b/riQAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0wMi0xNFQxMjozNTowMyswMDowMKG3qWIAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDItMTRUMTI6MzU6MDMrMDA6MDDQ6hHeAAAAV3pUWHRSYXcgcHJvZmlsZSB0eXBlIGlwdGMAAHic4/IMCHFWKCjKT8vMSeVSAAMjCy5jCxMjE0uTFAMTIESANMNkAyOzVCDL2NTIxMzEHMQHy4BIoEouAOoXEXTyQjWVAAAAAElFTkSuQmCC">
+  <link rel="manifest" href="data:application/manifest+json;base64,ewogICAgIm5hbWUiOiAiIiwKICAgICJzaG9ydF9uYW1lIjogIiIsCiAgICAiaWNvbnMiOiBbCiAgICAgICAgewogICAgICAgICAgICAic3JjIjogIi4vYW5kcm9pZC1jaHJvbWUtMTkyeDE5Mi5wbmciLAogICAgICAgICAgICAic2l6ZXMiOiAiMTkyeDE5MiIsCiAgICAgICAgICAgICJ0eXBlIjogImltYWdlL3BuZyIKICAgICAgICB9LAogICAgICAgIHsKICAgICAgICAgICAgInNyYyI6ICIuL2FuZHJvaWQtY2hyb21lLTI1NngyNTYucG5nIiwKICAgICAgICAgICAgInNpemVzIjogIjI1NngyNTYiLAogICAgICAgICAgICAidHlwZSI6ICJpbWFnZS9wbmciCiAgICAgICAgfQogICAgXSwKICAgICJ0aGVtZV9jb2xvciI6ICIjZmZmZmZmIiwKICAgICJiYWNrZ3JvdW5kX2NvbG9yIjogIiNmZmZmZmYiLAogICAgImRpc3BsYXkiOiAic3RhbmRhbG9uZSIKfQo=">
+  <link rel="mask-icon" href="/mimino-group-06/assets/safari-pinned-tab-77d5d179.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+  <!-- favicon -->
+  <!-- Slider -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <!-- Slider -->
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- AOS -->
+  
+  <script type="module" crossorigin src="/mimino-group-06/assets/slider-3e0a847c.js"></script>
+  <link rel="stylesheet" href="/mimino-group-06/assets/slider-d2daf4c9.css">
+</head>
 
-  <body>
-    <header>
-      <!-- Olena Trzewik -->
-      <div class="container">
+<body>
+  <header>
+    <!-- Olena Trzewik -->
+    <div class="container">
   <div class="header-thumb">
     <a class="header-logo link" href="./index.html">MIMIHO</a>
 
@@ -94,11 +96,11 @@
     </a>
   </address>
 </div>
-    </header>
+  </header>
 
-    <main>
-      <!-- Ruslana Onyshchuk -->
-      <section class="hero">
+  <main>
+    <!-- Ruslana Onyshchuk -->
+    <section class="hero">
     <div class="container ">
         <h1 class="hero-title">M I M I H O</h1>
             <p class="hero-text">Ресторанно-готельний комплекс</p>
@@ -109,20 +111,21 @@
     </div>
 </div>
 </section>
-      <!-- Gabriella Marusyak -->
-      <section class="about-restaurant">
+    <!-- Gabriella Marusyak -->
+    <section class="about-restaurant">
     <div class="container ">
         <div class="about-rest-container">
             <div class="about-rest-title-container">
-                <p class="about-pretitles">Amet minim mollit non</p>
-                <h2 class="about-titles">MIMINO</h2>
-                <p class="about-subtitles"> Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
+                <p class="about-pretitles" data-aos="fade-right">Amet minim mollit non</p>
+                <h2 class="about-titles" data-aos="fade-right">MIMINO</h2>
+                <p class="about-subtitles" data-aos="fade-right"> Amet minim mollit non deserunt ullamco est sit aliqua
+                    dolor do amet sint.
                     Velit
                     officia consequat duis enim velit
                     mollit. Exercitation veniam consequat sunt nostrud amet.</p>
             </div>
 
-            <picture>
+            <picture data-aos="fade-left">
                 <source
                     srcset="./img/homepage/homepage-about-rest-img1-for-desk.jpg 1x, ./img/homepage/homepage-about-rest-img1-for-desk@2x.jpg 2x "
                     media="(min-width: 1280px)">
@@ -140,7 +143,7 @@
         </div>
         <div class="second-picture-container">
             <!-- <div class="slider-posicion-wraper">-->
-            <picture>
+            <picture data-aos="fade-right">
                 <source
                     srcset="./img/homepage/homepage-about-rest-img2-for-desk.jpg 1x, ./img/homepage/homepage-about-rest-img2-for-desk@2x.jpg 2x "
                     media="(min-width: 1280px)">
@@ -155,14 +158,14 @@
                 <img class="about-second-images" src="./img/homepage/homepage-about-rest-img2-for-mobile.jpg"
                     alt="restaurant terrace">
             </picture>
-            <p class="about-secondary-subtitle">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            <p class="about-secondary-subtitle" data-aos="fade-left" >Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
                 sint.
                 Velit officia consequat duis enim velit
                 mollit. Exercitation veniam consequat sunt nostrud amet.</p>
         </div>
 
         <!------------------------------------SLIDER----------------------------------->
-        <div class="slider-wraper">
+        <div class="slider-wraper" data-aos="fade-right">
 
             <div class=" swiper mySwiper swiper-initialized swiper-horizontal swiper-free-mode swiper-backface-hidden">
                 <div class="swiper-wrapper ">
@@ -194,8 +197,8 @@
         </div>
     </div>
 </section>
-      <!-- Yan Koshel -->
-      <section class="details-restaurant">
+    <!-- Yan Koshel -->
+    <section class="details-restaurant">
   <div class="container">
     <div class="details-restaurant__wrap">
       <h2 class="details-restaurant__name">MIMIHO</h2>
@@ -250,8 +253,8 @@
   </div>
 </section>
 
-      <!-- Gabriella Marusyak -->
-      <section class="about-hotel">
+    <!-- Gabriella Marusyak -->
+    <section class="about-hotel">
   <div class="container">
     <div class="about-hotel-container">
       <div class="about-hotel-title-container">
@@ -331,8 +334,8 @@
   </div>
 
 </section>
-      <!-- Yan Koshel -->
-      <section class="details-hotel">
+    <!-- Yan Koshel -->
+    <section class="details-hotel">
   <div class="container">
     <div class="details-hotel__wrap">
       <h2 class="details-restaurant__name">MIMIHO</h2>
@@ -387,8 +390,8 @@
   </div>
 </section>
 
-      <!-- Viacheslav Dziubenko -->
-      <section class="homepage-contacts section">
+    <!-- Viacheslav Dziubenko -->
+    <section class="homepage-contacts section">
   <div class="container contacts-container">
     <div class="contacts-container-theme">
       <h2 class="contacts-logo">MIMIHO</h2>
@@ -462,11 +465,11 @@
   </div>
 </section>
 
-    </main>
+  </main>
 
-    <footer>
-      <!-- Katerina Kha -->
-      <div class="footer-container container">
+  <footer>
+    <!-- Katerina Kha -->
+    <div class="footer-container container">
   <a href="./index.html" class="footer-logo link">MIMIHO</a>
 
   <div class="footer-wrap">
@@ -510,11 +513,218 @@
     </ul>
   </div>
 </div>
-    </footer>
+  </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    
-    
-  </body>
+  <!-- MODAL -->
+  <div class="overlay js-overlay-modal"></div>
+
+  <div class="modal" data-modal="1">
+  <div class="modal-reserv-room">
+    <!-- "mr" =  short with Modal-reserve-Room -->
+    <!-- "mr" =  short with Modal-reserve-Room -->
+    <button class="mr-close-btn" type="button" data-modal-close>
+      <svg class="mr-svg-close-btn js-modal-close" width="24" height="24">
+        <use href="./img/icons.svg#modal-close"></use>
+      </svg>
+    </button>
+    <h2 class="mr-modal-title">ЗАБРОНЮВАТИ НОМЕР</h2>
+    <form class="mr-form-input">
+      <div class="mr-tablet-version">
+        <div class="mr-input-box">
+          <input class="mr-modal-input" type="text" name="user" required placeholder="Ваше ім’я">
+          <label class="mr-input-after-text">На кого забронювати номер?</label>
+        </div>
+        <div class="mr-input-box">
+          <input class="mr-modal-input " type="tel" name="tel" placeholder="+38 (___) ___-__-__" required>
+          <label class="mr-input-after-text">Номер телефону</label>
+        </div>
+      </div>
+
+      <div class="mr-tablet-version">
+        <div class="mr-input-box">
+          <div class="mr-input-wrap">
+            <select class="mr-modal-input " name="category-room" id="category-room">
+              <option value="Двомісний люкс">Двомісний люкс</option>
+              <option value="жлоб">єконом на собі</option>
+              <option value="для путлера">одиночна камера</option>
+              <option value="холостяк">делюкс на одного</option>
+              <option value="семейній номер">на Ціганській табор</option>
+            </select>
+            <svg class="mr-svg-down-bold" width="24" height="24">
+              <use href="./img/icons.svg#down-bold"></use>
+            </svg>
+          </div>
+          <label class="mr-input-after-text" for="category-room">Категорія номеру</label>
+        </div>
+      </div>
+      <div class="mr-tablet-version">
+        <div class="mr-input-box">
+          <div class="mr-input-wrap">
+            <select class="mr-modal-input mr-text-input" name="arrival-data" id="arrival-data">
+              <option value="Сьогодні">Сьогодні</option>
+              <option value="День Перемоги над рашизмом">День Перемоги над рашизмом</option>
+              <option value="День Незалежності України">День Незалежності України</option>
+            </select>
+            <svg class="mr-svg-down-bold" width="24" height="24">
+              <use href="./img/icons.svg#down-bold"></use>
+            </svg>
+          </div>
+          <label class="mr-input-after-text" for="arrival-data">
+            Дата заїзду</label>
+        </div>
+        <div class="mr-input-box">
+          <div class="mr-input-wrap">
+            <select class="mr-modal-input mr-text-input" name="leave" id="leave">
+              <option value="Сьогодні">Сьогодні</option>
+              <option value="Ніколи">Ніколи</option>
+              <option value="коли Катя перестане їсти на ніч">День Перемоги над рашизмом</option>
+              <option value="коли звільнять крим">коли звільнять крим</option>
+            </select>
+            <svg class="mr-svg-down-bold" width="24" height="24">
+              <use href="./img/icons.svg#down-bold"></use>
+            </svg>
+          </div>
+          <label class="mr-input-after-text" for="leave">
+            Дата виїзду</label>
+        </div>
+      </div>
+      <div>
+        <button class="mr-modal-confirm-btn" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+      </div>
+
+    </form>
+  </div>
+</div>
+  <div class="modal" data-modal="2">
+  <div class="modal-reserv-tab ">
+    <!-- "mt" =  short with Modal-reserve-Room -->
+    <!-- "mt" =  short with Modal-reserve-Room -->
+    <button class="mt-close-btn" type="button" data-modal-close>
+      <svg class="mt-modal-close-btn js-modal-close" width="24" height="24">
+        <use href="./img/icons.svg#modal-close"></use>
+      </svg>
+    </button>
+    <h2 class="mt-modal-title">ЗАБРОНЮВАТИ СТОЛИК</h2>
+    <form class="mt-form-input">
+      <div class="mt-tab-wrap">
+        <div class="mt-tab-version">
+          <div class="mt-input-box">
+            <input class="mt-modal-input " type="text" name="user" required placeholder="Ваше ім’я">
+            <label class="mt-input-after-text">На кого забронювати столик?</label>
+          </div>
+          <div class="mt-input-box">
+            <input class="mt-modal-input " type="tel" name="tel" placeholder="+38 (___) ___-__-__" required>
+            <label class="mt-input-after-text">Номер телефону</label>
+          </div>
+        </div>
+        <div class="mt-tab-version">
+          <div class="mt-input-box">
+            <div class="mt-input-wrap">
+              <select class="mt-modal-input" name="how-many-people" id="how-many-people">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="на Циганській табор">на Ціганській табор</option>
+              </select>
+              <svg class="mt-down-bold" width="24" height="24">
+                <use href="./img/icons.svg#down-bold"></use>
+              </svg>
+            </div>
+            <label class="mt-input-after-text" for="how-many-people">
+              Столик на яку кількість осіб?</label>
+          </div>
+          <div class="mt-input-box">
+            <div class="mt-input-wrap">
+              <select class="mt-modal-input  " name="that-date" id="that-date">
+                <option value="Сьогодні">Сьогодні</option>
+                <option value="День Перемоги над рашизмом">День Перемоги над рашизмом</option>
+                <option value="День Незалежності України">День Незалежності України</option>
+              </select>
+              <svg class="mt-down-bold" width="24" height="24">
+                <use href="./img/icons.svg#down-bold"></use>
+              </svg>
+            </div>
+            <label class="mt-input-after-text" for="that-date">
+              На яку дату бронювати?</label>
+          </div>
+        </div>
+      </div>
+
+    </form>
+  </div>
+</div>
+
+  <div class="modal" data-modal="3">
+  <div class="modal-room-price">
+    <button class="mp-close-btn" type="button" data-modal-close>
+      <svg class="mp-modal-close-btn js-modal-close" width="24" height="24">
+        <use href="./img/icons.svg#modal-close"></use>
+      </svg>
+    </button>
+    <h2 class="mp-modal-title">ЦІНИ НА НОМЕР</h2>
+    <form class="mp-form-input">
+      <div class="mp-input-box">
+        <select class="mp-room-class" name="room-class" id="room-class">
+          <option value="Двомісний люкс">Двомісний люкс</option>
+          <option value="Сімейний люкс">Сімейний люкс</option>
+          <option value="Одномісний люкс">Одномісний люкс</option>
+        </select>
+        <label class="mp-input-after-text" for="room-class"
+          >Категорія номеру</label
+        >
+      </div>
+      <div class="mp-tablet-version">
+        <div class="mp-input-box-one">
+          <select
+            class="mp-modal-input"
+            name="how-many-nights"
+            id="how-many-nights"
+          >
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="1001">1001</option>
+          </select>
+          <svg class="mp-down-bold" width="24" height="24">
+            <use href="./img/icons.svg#down-bold"></use>
+          </svg>
+          <label class="mp-input-after-text stand" for="how-many-nights">
+            Кількість ночей</label
+          >
+        </div>
+        <div class="mp-input-box-two">
+          <input
+            class="mp-modal-input"
+            type="number"
+            name="price"
+            id="price"
+            required
+            placeholder="1000"
+          />
+          <label for="price" class="mp-input-after-text stand">грн</label>
+        </div>
+      </div>
+      <button class="mp-modal-confirm-btn" type="submit">
+        ЗАБРОНЮВАТИ НОМЕР
+      </button>
+    </form>
+  </div>
+</div>
+
+  <!-- MODAL -->
+
+  <!-- Slider -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- Slider -->
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- AOS -->
+  
+
+</body>
 
 </html>

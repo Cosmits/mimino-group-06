@@ -16,12 +16,14 @@
   <meta name="theme-color" content="#ffffff">
   <!-- favicon -->
   <!-- Slider -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
   <!-- Slider -->
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- AOS -->
   
-  <script type="module" crossorigin src="/mimino-group-06/assets/modals-7ae64c72.js"></script>
-  <script type="module" crossorigin src="/mimino-group-06/assets/aos-init-4fd16824.js"></script>
-  <link rel="stylesheet" href="/mimino-group-06/assets/modals-b9ff1558.css">
+  <script type="module" crossorigin src="/mimino-group-06/assets/slider-3e0a847c.js"></script>
+  <link rel="stylesheet" href="/mimino-group-06/assets/slider-d2daf4c9.css">
 </head>
 
 <body class="body-room">
@@ -103,26 +105,32 @@
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img class="room-hero-image" src="./../../public/img/room-page/hero-room-slider0-for-mobile.jpg" alt="" width="414" height="740">
+          <img class="room-hero-image" src="./../../public/img/room-page/hero-room-slider0-for-mobile.jpg" alt=""
+            width="414" height="740">
           <div class="room-hero-container">
             <h2 class="room-hero-title">ДВОМІСНИЙ НОМЕР люкс</h2>
-            <p class="room-hero-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <p class="room-hero-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+              officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
             <button class="btn button-grey">Переглянути ціни</button>
           </div>
         </div>
         <div class="swiper-slide">
-          <img class="room-hero-image" src="./../../public/img/room-page/hero-room-slider1-for-mobile.jpg" alt="" width="414" height="740">
+          <img class="room-hero-image" src="./../../public/img/room-page/hero-room-slider1-for-mobile.jpg" alt=""
+            width="414" height="740">
           <div class="room-hero-container">
             <h2 class="room-hero-title">ТРЬОХМІСНИЙ НОМЕР</h2>
-            <p class="room-hero-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <p class="room-hero-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+              officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
             <button class="btn button-grey">Переглянути ціни</button>
           </div>
         </div>
         <div class="swiper-slide">
-          <img class="room-hero-image" src="./../../public/img/room-page/hero-room-slider2-for-mobile.jpg" alt="" width="414" height="740">
+          <img class="room-hero-image" src="./../../public/img/room-page/hero-room-slider2-for-mobile.jpg" alt=""
+            width="414" height="740">
           <div class="room-hero-container">
             <h2 class="room-hero-title room-hero-title-fix">ДВОМІСНИЙ НОМЕР</h2>
-            <p class="room-hero-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <p class="room-hero-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+              officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
             <button class="btn button-grey">Переглянути ціни</button>
           </div>
         </div>
@@ -140,7 +148,6 @@
     </div>
   </div>
 </section>
-
     <!-- Ілля Шатохін -->
     <section class="room">
   <div class="container">
@@ -255,8 +262,216 @@
 </div>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <!-- MODAL -->
+  <div class="overlay js-overlay-modal"></div>
+
+  <div class="modal" data-modal="1">
+  <div class="modal-reserv-room">
+    <!-- "mr" =  short with Modal-reserve-Room -->
+    <!-- "mr" =  short with Modal-reserve-Room -->
+    <button class="mr-close-btn" type="button" data-modal-close>
+      <svg class="mr-svg-close-btn js-modal-close" width="24" height="24">
+        <use href="./img/icons.svg#modal-close"></use>
+      </svg>
+    </button>
+    <h2 class="mr-modal-title">ЗАБРОНЮВАТИ НОМЕР</h2>
+    <form class="mr-form-input">
+      <div class="mr-tablet-version">
+        <div class="mr-input-box">
+          <input class="mr-modal-input" type="text" name="user" required placeholder="Ваше ім’я">
+          <label class="mr-input-after-text">На кого забронювати номер?</label>
+        </div>
+        <div class="mr-input-box">
+          <input class="mr-modal-input " type="tel" name="tel" placeholder="+38 (___) ___-__-__" required>
+          <label class="mr-input-after-text">Номер телефону</label>
+        </div>
+      </div>
+
+      <div class="mr-tablet-version">
+        <div class="mr-input-box">
+          <div class="mr-input-wrap">
+            <select class="mr-modal-input " name="category-room" id="category-room">
+              <option value="Двомісний люкс">Двомісний люкс</option>
+              <option value="жлоб">єконом на собі</option>
+              <option value="для путлера">одиночна камера</option>
+              <option value="холостяк">делюкс на одного</option>
+              <option value="семейній номер">на Ціганській табор</option>
+            </select>
+            <svg class="mr-svg-down-bold" width="24" height="24">
+              <use href="./img/icons.svg#down-bold"></use>
+            </svg>
+          </div>
+          <label class="mr-input-after-text" for="category-room">Категорія номеру</label>
+        </div>
+      </div>
+      <div class="mr-tablet-version">
+        <div class="mr-input-box">
+          <div class="mr-input-wrap">
+            <select class="mr-modal-input mr-text-input" name="arrival-data" id="arrival-data">
+              <option value="Сьогодні">Сьогодні</option>
+              <option value="День Перемоги над рашизмом">День Перемоги над рашизмом</option>
+              <option value="День Незалежності України">День Незалежності України</option>
+            </select>
+            <svg class="mr-svg-down-bold" width="24" height="24">
+              <use href="./img/icons.svg#down-bold"></use>
+            </svg>
+          </div>
+          <label class="mr-input-after-text" for="arrival-data">
+            Дата заїзду</label>
+        </div>
+        <div class="mr-input-box">
+          <div class="mr-input-wrap">
+            <select class="mr-modal-input mr-text-input" name="leave" id="leave">
+              <option value="Сьогодні">Сьогодні</option>
+              <option value="Ніколи">Ніколи</option>
+              <option value="коли Катя перестане їсти на ніч">День Перемоги над рашизмом</option>
+              <option value="коли звільнять крим">коли звільнять крим</option>
+            </select>
+            <svg class="mr-svg-down-bold" width="24" height="24">
+              <use href="./img/icons.svg#down-bold"></use>
+            </svg>
+          </div>
+          <label class="mr-input-after-text" for="leave">
+            Дата виїзду</label>
+        </div>
+      </div>
+      <div>
+        <button class="mr-modal-confirm-btn" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+      </div>
+
+    </form>
+  </div>
+</div>
+  <div class="modal" data-modal="2">
+  <div class="modal-reserv-tab ">
+    <!-- "mt" =  short with Modal-reserve-Room -->
+    <!-- "mt" =  short with Modal-reserve-Room -->
+    <button class="mt-close-btn" type="button" data-modal-close>
+      <svg class="mt-modal-close-btn js-modal-close" width="24" height="24">
+        <use href="./img/icons.svg#modal-close"></use>
+      </svg>
+    </button>
+    <h2 class="mt-modal-title">ЗАБРОНЮВАТИ СТОЛИК</h2>
+    <form class="mt-form-input">
+      <div class="mt-tab-wrap">
+        <div class="mt-tab-version">
+          <div class="mt-input-box">
+            <input class="mt-modal-input " type="text" name="user" required placeholder="Ваше ім’я">
+            <label class="mt-input-after-text">На кого забронювати столик?</label>
+          </div>
+          <div class="mt-input-box">
+            <input class="mt-modal-input " type="tel" name="tel" placeholder="+38 (___) ___-__-__" required>
+            <label class="mt-input-after-text">Номер телефону</label>
+          </div>
+        </div>
+        <div class="mt-tab-version">
+          <div class="mt-input-box">
+            <div class="mt-input-wrap">
+              <select class="mt-modal-input" name="how-many-people" id="how-many-people">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="на Циганській табор">на Ціганській табор</option>
+              </select>
+              <svg class="mt-down-bold" width="24" height="24">
+                <use href="./img/icons.svg#down-bold"></use>
+              </svg>
+            </div>
+            <label class="mt-input-after-text" for="how-many-people">
+              Столик на яку кількість осіб?</label>
+          </div>
+          <div class="mt-input-box">
+            <div class="mt-input-wrap">
+              <select class="mt-modal-input  " name="that-date" id="that-date">
+                <option value="Сьогодні">Сьогодні</option>
+                <option value="День Перемоги над рашизмом">День Перемоги над рашизмом</option>
+                <option value="День Незалежності України">День Незалежності України</option>
+              </select>
+              <svg class="mt-down-bold" width="24" height="24">
+                <use href="./img/icons.svg#down-bold"></use>
+              </svg>
+            </div>
+            <label class="mt-input-after-text" for="that-date">
+              На яку дату бронювати?</label>
+          </div>
+        </div>
+      </div>
+
+    </form>
+  </div>
+</div>
+
+  <div class="modal" data-modal="3">
+  <div class="modal-room-price">
+    <button class="mp-close-btn" type="button" data-modal-close>
+      <svg class="mp-modal-close-btn js-modal-close" width="24" height="24">
+        <use href="./img/icons.svg#modal-close"></use>
+      </svg>
+    </button>
+    <h2 class="mp-modal-title">ЦІНИ НА НОМЕР</h2>
+    <form class="mp-form-input">
+      <div class="mp-input-box">
+        <select class="mp-room-class" name="room-class" id="room-class">
+          <option value="Двомісний люкс">Двомісний люкс</option>
+          <option value="Сімейний люкс">Сімейний люкс</option>
+          <option value="Одномісний люкс">Одномісний люкс</option>
+        </select>
+        <label class="mp-input-after-text" for="room-class"
+          >Категорія номеру</label
+        >
+      </div>
+      <div class="mp-tablet-version">
+        <div class="mp-input-box-one">
+          <select
+            class="mp-modal-input"
+            name="how-many-nights"
+            id="how-many-nights"
+          >
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="1001">1001</option>
+          </select>
+          <svg class="mp-down-bold" width="24" height="24">
+            <use href="./img/icons.svg#down-bold"></use>
+          </svg>
+          <label class="mp-input-after-text stand" for="how-many-nights">
+            Кількість ночей</label
+          >
+        </div>
+        <div class="mp-input-box-two">
+          <input
+            class="mp-modal-input"
+            type="number"
+            name="price"
+            id="price"
+            required
+            placeholder="1000"
+          />
+          <label for="price" class="mp-input-after-text stand">грн</label>
+        </div>
+      </div>
+      <button class="mp-modal-confirm-btn" type="submit">
+        ЗАБРОНЮВАТИ НОМЕР
+      </button>
+    </form>
+  </div>
+</div>
+
+  <!-- MODAL -->
+
+  <!-- Slider -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <!-- Slider -->
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- AOS -->
   
+
 </body>
 
 </html>
