@@ -233,12 +233,13 @@
   }
 
   /* 
-  /* заглушка слайдеру */
+  заглушка слайдеру
   .details-restaurant__slider-image {
     width: 650px;
     height: 270px;
   }
-  */ .details-restaurant__arrows-list {
+  */
+  .details-restaurant__arrows-list {
     margin-top: 32px;
   }
 
@@ -301,10 +302,10 @@
   }
 
   /* заглушка слайдеру */
-  .details-restaurant__slider-image {
+  /* .details-restaurant__slider-image {
     width: 853px;
     height: 270px;
-  }
+  } */
 
   .btn-section2 {
     padding: 14px 24px;
