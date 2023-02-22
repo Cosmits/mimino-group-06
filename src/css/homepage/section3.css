@@ -50,73 +50,6 @@ margin-bottom: 10px;*/
     bottom: 39px;
 }
 
-/*------------------------TABLET-HOTEL-CSS---------------------------*/
-
-/* @media screen and (min-width: 414px) {.slider-wraper{width: 428px;
-right: 40px;}} */
-@media screen and (min-width: 1024px) {
-    .about-hotel {
-        padding: 0px;
-    }
-
-    .about-hotel-title-container {
-        margin-bottom: 0;
-        padding-top: 120px;
-    }
-
-    .about-hotel-container {
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: flex-start;
-        /* align-items: center; */
-
-        margin-bottom: 0;
-        gap: 46px;
-    }
-
-    .second-hotel-container {
-        position: relative;
-        justify-content: flex-end;
-        align-items: flex-start;
-        gap: 48px;
-        margin-bottom: 0;
-    }
-
-
-    .about-subtitles.hotel-subtitle {
-        max-width: 419px;
-    }
-
-    .slider-wraper {
-        width: 534px;
-        position: relative;
-        left: 0;
-        bottom: 57px;
-    }
-
-}
-
-
-/*-----------------------DESKTOP-HOTEL-CSS---------------------------------*/
-
-@media screen and (min-width: 1280px) {
-    .second-hotel-container {
-        gap: 45px;
-    }
-
-    .about-hotel-container {
-        gap: 67px;
-    }
-
-    .about-subtitles.hotel-subtitle {
-        max-width: 488px;
-    }
-
-}
-
-
-/*-------------------ABOU-HOTEL-SWIPER------------------*/
-
 .swiper-slide {
     width: 100%;
     height: 100%;
@@ -192,16 +125,8 @@ margin-left: 27px;}  */
 }
 
 
-
-.swiper-button-next>.left-swiper-btn {
-    background-color: transparent;
-    border: none;
-}
-
-.swiper-button-prev>.right-swiper-btn {
-    background-color: transparent;
-    border: none;
-}
+.left-swiper-btn, .rigth-swiper-btn {background-color:transparent;}
+.left-swiper-arrow, .right-swiper-arrow {background-color: transparent;}
 
 .swiper-button-next,
 .swiper-button-prev {
@@ -215,6 +140,7 @@ margin-left: 27px;}  */
     display: flex;
     align-items: center;
     justify-content: center;
+  background-color: transparent;
 }
 
 
@@ -223,3 +149,73 @@ margin-left: 27px;}  */
 .swiper-button-prev::after {
     opacity: 0;
 }
+
+
+
+/*------------------------TABLET-HOTEL-CSS---------------------------*/
+
+/* @media screen and (min-width: 414px) {.slider-wraper{width: 428px;
+right: 40px;}} */
+@media screen and (min-width: 1024px) {
+    .about-hotel {
+        padding: 0px;
+    }
+
+    .about-hotel-title-container {
+        margin-bottom: 0;
+        padding-top: 120px;
+    }
+
+    .about-hotel-container {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        /* align-items: center; */
+
+        margin-bottom: 0;
+        gap: 46px;
+    }
+
+    .second-hotel-container {
+        position: relative;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 48px;
+        margin-bottom: 0;
+    }
+
+
+    .about-subtitles.hotel-subtitle {
+        max-width: 419px;
+    }
+
+    .slider-wraper {
+        width: 534px;
+        position: relative;
+        left: 0;
+        bottom: 57px;
+    }
+
+}
+
+
+/*-----------------------DESKTOP-HOTEL-CSS---------------------------------*/
+
+@media screen and (min-width: 1280px) {
+    .second-hotel-container {
+        gap: 45px;
+    }
+
+    .about-hotel-container {
+        gap: 67px;
+    }
+
+    .about-subtitles.hotel-subtitle {
+        max-width: 488px;
+    }
+
+}
+
+
+/*-------------------ABOU-HOTEL-SWIPER------------------*/
+
