@@ -96,7 +96,7 @@
       // when window width is >= 930px
 
       1280: {
-        slidesPerView: 2,
+        slidesPerView: 3,
         spaceBetween: 86,
       },
     },
