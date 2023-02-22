@@ -16,19 +16,22 @@
   <meta name="theme-color" content="#ffffff">
   <!-- favicon -->
   <!-- Slider -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <!-- Slider -->
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- AOS -->
   <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body class="body-room">
   <header>
-    <!-- Olena Trzewik -->
+    <!-- Olena Trzewik + Ілля Шатохін -->
     <load src="./partials/room/header.html" />
   </header>
 
   <main>
-    <!-- Maryna Ruduk    slider-->
+    <!-- Ілля Шатохін    slider-->
     <load src="./partials/room/hero.html" />
     <!-- Ілля Шатохін -->
     <load src="./partials/room/section1.html" />
@@ -39,8 +42,25 @@
     <load src="./partials/room/footer.html" />
   </footer>
 
+  <!-- MODAL -->
+  <div class="overlay js-overlay-modal"></div>
+
+  <load src="./partials/hotel/modal-reserve-room.html" />
+  <load src="./partials/hotel/modal-reserve-table.html" />
+  <load src="./partials/hotel/modal-room-price.html" />
+  <!-- MODAL -->
+
+  <!-- Slider -->
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <script type="module" src="/main.js"></script>
+  <!-- Slider -->
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- AOS -->
+  <script type="module" src="./main.js"></script>
+
 </body>
 
 </html>

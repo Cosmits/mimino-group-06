@@ -1,126 +1,81 @@
 <section class="room-hero">
-  <!-- <h2 class="room-hero-title">ДВОМІСНИЙ НОМЕР люкс</h2>
-  <p class="room-hero-paragraph">
-    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-    Velit officia consequat duis enim velit mollit. Exercitation veniam
-    consequat sunt nostrud amet.
-  </p>
-
-  <button type="button" class="hero-room-button">Переглянути ціни</button> -->
-
-  <!-- <button type="button" class="room-hero-previous">
-    <svg class="room-hero-previous-line" width="37" height="21">
-      <use href="../../public/img/icons.svg#left-arrow"></use>
-    </svg>
-  </button>
-
-  <button type="button" class="room-hero-next" data-menu-open>
-    <svg class="room-hero-next-line" width="37" height="21">
-      <use href="../../public/img/icons.svg#right-arrow"></use>
-    </svg>
-  </button>  -->
-
-  <div class="mySwiper_room">
-    <div class="swiper-wrapper">
-      <div class="swiper-slide">
-        <picture>
-          <source
-            media="(min-width: 1280px)"
-            srcset="./img/room-page/hero-room-slider0-for-desktop.jpg"
-          />
-          <source
-            media="(min-width: 1024px)"
-            srcset="./img/room-page/hero-room-slider0-for-tablet.jpg"
-          />
-          <source
-            media="(max-width: 414px)"
-            srcset="./img/room-page/hero-room-slider0-for-mobile.jpg"
-          />
-          <img
-            src="./img/room-page/hero-room-slider0-for-mobile.jpg"
-            alt="bed"
-          />
-        </picture>
-        <h2 class="room-hero-title">ДВОМІСНИЙ НОМЕР люкс</h2>
-        <p class="room-hero-paragraph">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet.
-        </p>
-
-        <button type="button" class="hero-room-button">Переглянути ціни</button>
+  <div class="container">
+    <div class="swiper mySwiper_room">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="./img/room-page/hero-room-slider0-for-desktop.jpg 1x, ./img/room-page/hero-room-slider0-for-desktop@2x.jpg 2x"
+              media="(min-width: 1280px)" width="1280" height="720">
+            <source
+              srcset="./img/room-page/hero-room-slider0-for-tablet.jpg 1x, ./img/room-page/hero-room-slider0-for-tablet@2x.jpg 2x"
+              media="(min-width: 1024px)" width="1024" height="720">
+            <source
+              srcset="./img/room-page/hero-room-slider0-for-mobile.jpg 1x, ./img/room-page/hero-room-slider0-for-mobile@2x.jpg 2x"
+              media="(max-width: 1023px)" width="414" height="740">
+            <img class="room-hero-image" src="./img/room-page/hero-room-slider0-for-mobile.jpg" alt="" width="414"
+              height="740">
+          </picture>
+          <div class="room-hero-container">
+            <h2 class="room-hero-title">ДВОМІСНИЙ НОМЕР люкс</h2>
+            <p class="room-hero-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+              officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <button class="btn button-grey">Переглянути ціни</button>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="./img/room-page/hero-room-slider1-for-desktop.jpg 1x, ./img/room-page/hero-room-slider1-for-desktop@2x.jpg 2x"
+              media="(min-width: 1280px)" width="1280" height="720">
+            <source
+              srcset="./img/room-page/hero-room-slider1-for-tablet.jpg 1x, ./img/room-page/hero-room-slider1-for-tablet@2x.jpg 2x"
+              media="(min-width: 1024px)" width="1024" height="720">
+            <source
+              srcset="./img/room-page/hero-room-slider1-for-mobile.jpg 1x, ./img/room-page/hero-room-slider1-for-mobile@2x.jpg 2x"
+              media="(max-width: 1023px)" width="414" height="740">
+            <img class="room-hero-image" src="./img/room-page/hero-room-slider1-for-mobile.jpg" alt="" width="414"
+              height="740">
+          </picture>
+          <div class="room-hero-container">
+            <h2 class="room-hero-title">ТРЬОХМІСНИЙ НОМЕР</h2>
+            <p class="room-hero-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+              officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <button class="btn button-grey">Переглянути ціни</button>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <picture>
+            <source
+              srcset="./img/room-page/hero-room-slider2-for-desktop.jpg 1x, ./img/room-page/hero-room-slider2-for-desktop@2x.jpg 2x"
+              media="(min-width: 1280px)" width="1280" height="720">
+            <source
+              srcset="./img/room-page/hero-room-slider2-for-tablet.jpg 1x, ./img/room-page/hero-room-slider2-for-tablet@2x.jpg 2x"
+              media="(min-width: 1024px)" width="1024" height="720">
+            <source
+              srcset="./img/room-page/hero-room-slider2-for-mobile.jpg 1x, ./img/room-page/hero-room-slider2-for-mobile@2x.jpg 2x"
+              media="(max-width: 1023px)" width="414" height="740">
+            <img class="room-hero-image" src="./img/room-page/hero-room-slider2-for-mobile.jpg" alt="" width="414"
+              height="740">
+          </picture>
+          <div class="room-hero-container">
+            <h2 class="room-hero-title room-hero-title-fix">ДВОМІСНИЙ НОМЕР</h2>
+            <p class="room-hero-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+              officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <button class="btn button-grey">Переглянути ціни</button>
+          </div>
+        </div>
       </div>
-
-      <div class="swiper-slide">
-        <picture>
-          <source
-            media="(min-width: 1280px)"
-            srcset="./img/room-page/hero-room-slider1-for-desktop.jpg"
-          />
-          <source
-            media="(min-width: 1024px)"
-            srcset="./img/room-page/hero-room-slider1-for-tablet.jpg"
-          />
-          <source
-            media="(max-width: 414px)"
-            srcset="./img/room-page/hero-room-slider1-for-mobile.jpg"
-          />
-          <img
-            src="./img/room-page/hero-room-slider1-for-mobile.jpg"
-            alt="room"
-          />
-        </picture>
-        <h2 class="room-hero-title">ДВОМІСНИЙ НОМЕР люкс</h2>
-        <p class="room-hero-paragraph">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet.
-        </p>
-
-        <button type="button" class="hero-room-button">Переглянути ціни</button>
+      <div class="swiper-button-next">
+        <svg class="room-hero-icon" width="40" height="40">
+          <use href="./img/icons.svg#right-arrow"></use>
+        </svg>
       </div>
-
-      <div class="swiper-slide">
-        <picture>
-          <source
-            media="(min-width: 1280px)"
-            srcset="./img/room-page/hero-room-slider2-for-desktop.jpg"
-          />
-          <source
-            media="(min-width: 1024px)"
-            srcset="./img/room-page/hero-room-slider2-for-tablet.jpg"
-          />
-          <source
-            media="(max-width: 414px)"
-            srcset="./img/room-page/hero-room-slider2-for-mobile.jpg"
-          />
-          <img
-            src="./img/room-page/hero-room-slider2-for-mobile.jpg"
-            alt="bath"
-          />
-        </picture>
-        <!-- <img srcet="./img/room-page/hero-room-slider2-for-mobile.jpg" alt="bath"
-          srcset="./img/room-page/hero-room-slider2-for-mobile@2x.jpg 2x"> -->
-
-        <h2 class="room-hero-title">ДВОМІСНИЙ НОМЕР люкс</h2>
-        <p class="room-hero-paragraph">
-          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-          sint. Velit officia consequat duis enim velit mollit. Exercitation
-          veniam consequat sunt nostrud amet.
-        </p>
-
-        <button type="button" class="hero-room-button">Переглянути ціни</button>
+      <div class="swiper-button-prev">
+        <svg class="room-hero-icon" width="40" height="40">
+          <use href="./img/icons.svg#left-arrow"></use>
+        </svg>
       </div>
-    </div>
-    <div class="swiper-button-next">
-      <!-- <svg class="room-hero-next-line" width="37" height="21">
-        <use href="../../public/img/icons.svg#right-arrow"></use>
-      </svg> -->
-    </div>
-    <div class="swiper-button-prev">
-      <!-- <svg class="room-hero-previous-line" width="37" height="21">
-        <use href="../../public/img/icons.svg#left-arrow"></use>
-      </svg> -->
     </div>
   </div>
 </section>

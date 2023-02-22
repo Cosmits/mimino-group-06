@@ -31,7 +31,7 @@
 );
   
 
-// var swiper = new Swiper(".mySwiper_2", {
+// var swiper = new Swiper(".mySwiper_room", {
 //       slidesPerView: 1,
 //       spaceBetween: 25,
 //       freeMode: true,
@@ -61,10 +61,16 @@
 
 
     var swiper = new Swiper(".mySwiper", {
-       slidesPerView: 1,
+      slidesPerView: 'auto',
       spaceBetween: 40,
     // allowSlideNext: true,
       freeMode: true,
+      speed: 1500,
+
+      autoplay: {
+        delay: 2000,
+      },   
+
        navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
