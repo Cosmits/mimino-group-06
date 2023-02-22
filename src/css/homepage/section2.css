@@ -208,15 +208,36 @@
     /* margin-left: 18px; */
     margin-right: 0px;
     margin-bottom: 0px;
+    width: 270px;
   }
 
+  .swiper.mySwiper_2 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .mySwiper_2 .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mySwiper_2 .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* 
   /* заглушка слайдеру */
   .details-restaurant__slider-image {
     width: 650px;
     height: 270px;
   }
-
-  .details-restaurant__arrows-list {
+  */ .details-restaurant__arrows-list {
     margin-top: 32px;
   }
 
