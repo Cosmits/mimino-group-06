@@ -95,6 +95,14 @@
   margin-top: 24px;
 }
 
+.details-hotel__button-arrow {
+  background-color: transparent;
+}
+
+.details-hotel__arrow-svg {
+  fill: var(--white-color);
+}
+
 .details-hotel__buttons {
   display: flex;
   flex-direction: column;
