@@ -35,130 +35,15 @@
     margin-bottom: 28px;
 }
 
-/*-----------------SWIPER----------------------*/
-
-.swiper-buttons {
-    display: flex;
-    gap: 33px;
-    /* margin-top: 27px;
-margin-bottom: 10px;*/
-}
-
-.slider-wraper {
-    width: 245px;
-    /* left: 47px; */
-    bottom: 39px;
-}
-
-.swiper-slide {
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-
-
-
-
-.swiper-slide img {
-    display: block;
-    max-width: 100%;
-    height: 100%;
-    margin: 0;
-    object-fit: cover;
-}
-
-
-
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-    display: flex;
-    width: 245px;
-}
-
-.left-swiper-arrow {
-    width: 30px;
-    height: 16px;
-    fill: black;
-    border: none;
-}
-
-.right-swiper-arrow {
-    width: 30px;
-    height: 16px;
-    fill: black;
-    border: none;
-}
-
-.hotel-swiper-img {
-    box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.25);
-
-}
-
-/* .swiper-slide {
-    display: block;
-    max-width: 245px;
-    max-height: 245px;
-    object-fit: cover;
-} */
-
-.swiper-slide .swiper-slide-active {
-    width: 194px;
-
-}
-
-.swiper-flex-btn {
-    display: flex;
-    gap: 33px;
-    /* margin-bottom: 39px; */
-    margin-left: 27px;
-}
-
-/* .kitchen-flex-btn {display: flex;
-gap: 33px;
-margin-bottom: 39px;
-margin-left: 27px;}  */
-
-.swiper-wrapper {
-    min-width: 0;
-}
-
-
-.left-swiper-btn, .rigth-swiper-btn {background-color:transparent;}
-.left-swiper-arrow, .right-swiper-arrow {background-color: transparent;}
-
-.swiper-button-next,
-.swiper-button-prev {
-    position: static;
-
-    width: 30px;
-    height: 16px;
-    margin-top: 30px;
-    z-index: 100;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  background-color: transparent;
-}
-
-
-
-.swiper-button-next::after,
-.swiper-button-prev::after {
-    opacity: 0;
-}
 
 
 
 /*------------------------TABLET-HOTEL-CSS---------------------------*/
 
-/* @media screen and (min-width: 414px) {.slider-wraper{width: 428px;
-right: 40px;}} */
 @media screen and (min-width: 1024px) {
     .about-hotel {
         padding: 0px;
+        padding-bottom: 39px;
     }
 
     .about-hotel-title-container {
@@ -188,20 +73,16 @@ right: 40px;}} */
     .about-subtitles.hotel-subtitle {
         max-width: 419px;
     }
-
-    .slider-wraper {
-        width: 534px;
-        position: relative;
-        left: 0;
-        bottom: 57px;
-    }
-
 }
 
 
 /*-----------------------DESKTOP-HOTEL-CSS---------------------------------*/
 
 @media screen and (min-width: 1280px) {
+    .about-hotel {
+        padding: 0px;
+
+    }
     .second-hotel-container {
         gap: 45px;
     }
@@ -216,6 +97,4 @@ right: 40px;}} */
 
 }
 
-
-/*-------------------ABOU-HOTEL-SWIPER------------------*/
 
