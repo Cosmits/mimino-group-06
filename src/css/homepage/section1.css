@@ -80,45 +80,26 @@
 
 /*---------------SLIDERS-for-Homepage-and-Restaurant-page---------*/
 
-.slider-container {
+.homepage-slider-container {
     width: 245px;
     margin-left: auto;
-      bottom: 39px;
- right: 40px;
-} 
+    bottom: 39px;
+    right: 40px;
+}
 
-.slider-container.rest-wraper {
+.homepage-slider-container.hotel-wraper {
     width: 245px;
     margin-left: 0;
 }
-.slider-container.kitchen-wraper {
+
+.homepage-slider-container.kitchen-wraper {
     width: 245px;
     margin-left: auto;
     bottom: 0;
 }
 
-.swiper-flex-btn.rest-swiper-btn,
-.swiper-flex-btn.kitchen-flex-btn
-{justify-content: right;}
-
-
-.swiper-buttons {
-    display: flex;
-    gap: 33px;
-    /* margin-top: 27px;
-margin-bottom: 10px;*/
-}
-
-
-/* .slider-container {
- width: 245px;
- 
-    bottom: 39px;
- right: 40px;
-} */
-
-.swiper-slide {
-    width: 245px;
+.swiper-slide.homepage-swipers {
+     /* width: 245px; */
     /* width: 100%;
     height: 100%; */
     display: block;
@@ -129,12 +110,13 @@ margin-bottom: 10px;*/
 }
 
 
-.swiper-slide img {
+.homepage-slider-container img {
     display: block;
     margin: 0;
     object-fit: cover;
-     max-width: 245px;
+    /* max-width: 245px; */
 }
+
 .left-swiper-arrow {
     width: 30px;
     height: 16px;
@@ -149,23 +131,32 @@ margin-bottom: 10px;*/
     border: none;
 }
 
-.hotel-swiper-img {
+.homepage-swiper-img  {
     box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.25);
 
 }
+
 .swiper-flex-btn {
     display: flex;
     gap: 33px;
     /* margin-bottom: 39px; */
     margin-left: 27px;
 }
+
 .swiper-wrapper {
     min-width: 0;
 }
 
 
-.left-swiper-btn, .rigth-swiper-btn {background-color:transparent;}
-.left-swiper-arrow, .right-swiper-arrow {background-color: transparent;}
+.left-swiper-btn,
+.rigth-swiper-btn {
+    background-color: transparent;
+}
+
+.left-swiper-arrow,
+.right-swiper-arrow {
+    background-color: transparent;
+}
 
 .swiper-button-next,
 .swiper-button-prev {
@@ -179,7 +170,7 @@ margin-bottom: 10px;*/
     display: flex;
     align-items: center;
     justify-content: center;
-  background-color: transparent;
+    background-color: transparent;
 }
 
 
@@ -188,6 +179,23 @@ margin-bottom: 10px;*/
 .swiper-button-prev::after {
     opacity: 0;
 }
+
+
+
+/*-----------------------------Swiper-buttons-----------------------------*/
+.swiper-flex-btn.rest-swiper-btn,
+.swiper-flex-btn.kitchen-flex-btn {
+    justify-content: right;
+}
+
+
+.swiper-buttons {
+    display: flex;
+    gap: 33px;
+
+}
+
+
 
 
 
@@ -259,22 +267,26 @@ margin-bottom: 10px;*/
         margin-bottom: 0;
     }
 
- .slider-container {
+    .homepage-slider-container {
         width: 428px;
-        right: 40px;
+         right: 40px; 
         margin-top: -83px;
     }
 
-    .slider-container.rest-wraper,
-    .slider-container.kitchen-wraper
-    { width: 428px;}
-    
-    .swiper-slide img {
-        width: 194px;}
+    .homepage-slider-container.hotel-wraper,
+    .homepage-slider-container.kitchen-wraper {
+        width: 428px;
+    }
+
+   .homepage-slider-container img {
+        width: 194px;
+    }
 
 
-.slider-container.kitchen-wraper,
-.slider-container.rest-wraper {margin-top: -83px;}
+    .homepage-slider-container.kitchen-wraper,
+    .homepage-slider-container.hotel-wraper {
+        margin-top: -83px;
+    }
 
 }
 
@@ -286,7 +298,7 @@ margin-bottom: 10px;*/
     .about-restaurant {
         padding: 0;
     }
-        
+
     .about-pretitles {
         margin-bottom: 4px;
     }
@@ -299,7 +311,7 @@ margin-bottom: 10px;*/
         max-width: 518px;
     }
 
-    .about-secondary-subtitle{
+    .about-secondary-subtitle {
         top: 115px;
     }
 
@@ -324,36 +336,39 @@ margin-bottom: 10px;*/
         top: 89px;
     } */
 
-    
-   .slider-container {
+
+    .homepage-slider-container {
         width: 534px;
         position: relative;
         left: 0;
         bottom: 57px;
     }
 
-   
 
-    .swiper-slide img {
+
+    .homepage-slider-container img {
         width: 254px;
     }
 
-    .slider-container.rest-wraper,
-    .slider-container.kitchen-wraper
-    {
+    .homepage-slider-container.hotel-wraper,
+    .homepage-slider-container.kitchen-wraper {
         width: 534px;
         margin-top: -28px;
         position: relative;
         left: 0;
         bottom: 57px;
     }
-    /* .slider-wraper.rest-wraper {margin-top: -178px;} */
-    .slider-container,
-    .slider-container.rest-wraper,
-    .slider-container.kitchen-wraper
-    {margin-top: -178px;}
 
-    .swiper-slide img {box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.25) ;}
+    /* .slider-wraper.rest-wraper {margin-top: -178px;} */
+    .homepage-slider-container,
+   .homepage-slider-container.hotel-wraper,
+   .homepage-slider-container.kitchen-wraper {
+        margin-top: -178px;
+    }
+
+    .homepage-slider-container img {
+        box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.25);
+    }
 
 }
 
