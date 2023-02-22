@@ -109,6 +109,7 @@ select {
   letter-spacing: 0.02em;
   color: var(--brown-color);
   padding-left: 15px;
+  margin-top: 8px;
 }
 
 .mp-input-box {
@@ -176,8 +177,11 @@ select {
 @media screen and (min-width: 1024px) {
   .modal-room-price {
     width: 712px;
-    height: 489px;
+    height: auto;
     padding: 60px;
+  }
+  .mp-form-input {
+    height: auto;
   }
   .mp-modal-input::placeholder {
     font-size: 24px;
@@ -192,6 +196,7 @@ select {
     font-size: 32px;
     line-height: 1.15;
   }
+
   .mp-modal-input {
     padding-right: 20px;
     height: 64px;
@@ -199,7 +204,6 @@ select {
   .mp-tablet-version {
     display: flex;
     column-gap: 16px;
-    row-gap: 40px;
   }
 
   .mp-modal-confirm-btn {
@@ -225,5 +229,12 @@ select {
     font-weight: 700;
     font-size: 40px;
     line-height: 1.16;
+  }
+  .mp-btn-box {
+    margin-top: 60px;
+  }
+  .mp-tablet-version > .mp-input-box:nth-child(1),
+  .mp-tablet-version > .mp-input-box:nth-child(2) {
+    margin-bottom: 0;
   }
 }
