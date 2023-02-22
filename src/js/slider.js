@@ -74,9 +74,9 @@
     freeMode: true,
     speed: 1500,
 
-    autoplay: {
-      delay: 2000,
-    },
+    // autoplay: {
+    //   delay: 2000,
+    // },
 
     navigation: {
       nextEl: '.swiper-button-next',
