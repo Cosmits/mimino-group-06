@@ -6,8 +6,11 @@
 */
 
 @import url('./components/fonts.css');
+@import url('./components/modern-normalize.min.css');
 @import url('./components/normalize.css');
 @import url('./components/reset.css');
+
+@import url('./components/aos.css');
 
 @import url('./components/variables.css');
 @import url('./components/global.css');
