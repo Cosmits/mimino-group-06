@@ -231,7 +231,7 @@ select {
     line-height: 1.16;
   }
   .mp-btn-box {
-    margin-top: 60px;
+    margin-top: 40px;
   }
   .mp-tablet-version > .mp-input-box:nth-child(1),
   .mp-tablet-version > .mp-input-box:nth-child(2) {
