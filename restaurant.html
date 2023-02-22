@@ -23,7 +23,7 @@
   <!-- AOS -->
   
   <script type="module" crossorigin src="/mimino-group-06/assets/slider-3e0a847c.js"></script>
-  <link rel="stylesheet" href="/mimino-group-06/assets/slider-d2daf4c9.css">
+  <link rel="stylesheet" href="/mimino-group-06/assets/slider-e3d54d31.css">
 </head>
 
 <body>
@@ -634,9 +634,7 @@
   </div>
 </div>
   <div class="modal" data-modal="2">
-  <div class="modal-reserv-tab ">
-    <!-- "mt" =  short with Modal-reserve-Room -->
-    <!-- "mt" =  short with Modal-reserve-Room -->
+  <div class="modal-reserv-tab">
     <button class="mt-close-btn" type="button" data-modal-close>
       <svg class="mt-modal-close-btn js-modal-close" width="24" height="24">
         <use href="./img/icons.svg#modal-close"></use>
@@ -647,18 +645,36 @@
       <div class="mt-tab-wrap">
         <div class="mt-tab-version">
           <div class="mt-input-box">
-            <input class="mt-modal-input " type="text" name="user" required placeholder="Ваше ім’я">
-            <label class="mt-input-after-text">На кого забронювати столик?</label>
+            <input
+              class="mt-modal-input"
+              type="text"
+              name="user"
+              required
+              placeholder="Ваше ім’я"
+            />
+            <label class="mt-input-after-text"
+              >На кого забронювати столик?</label
+            >
           </div>
           <div class="mt-input-box">
-            <input class="mt-modal-input " type="tel" name="tel" placeholder="+38 (___) ___-__-__" required>
+            <input
+              class="mt-modal-input"
+              type="tel"
+              name="tel"
+              placeholder="+38 (___) ___-__-__"
+              required
+            />
             <label class="mt-input-after-text">Номер телефону</label>
           </div>
         </div>
         <div class="mt-tab-version">
           <div class="mt-input-box">
             <div class="mt-input-wrap">
-              <select class="mt-modal-input" name="how-many-people" id="how-many-people">
+              <select
+                class="mt-modal-input mt-modal-input-select"
+                name="how-many-people"
+                id="how-many-people"
+              >
                 <option value="1">1</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -670,25 +686,38 @@
               </svg>
             </div>
             <label class="mt-input-after-text" for="how-many-people">
-              Столик на яку кількість осіб?</label>
+              Столик на яку кількість осіб?</label
+            >
           </div>
           <div class="mt-input-box">
             <div class="mt-input-wrap">
-              <select class="mt-modal-input  " name="that-date" id="that-date">
+              <select
+                class="mt-modal-input mt-modal-input-select"
+                name="that-date"
+                id="that-date"
+              >
                 <option value="Сьогодні">Сьогодні</option>
-                <option value="День Перемоги над рашизмом">День Перемоги над рашизмом</option>
-                <option value="День Незалежності України">День Незалежності України</option>
+                <option value="День Перемоги над рашизмом">
+                  День Перемоги над рашизмом
+                </option>
+                <option value="День Незалежності України">
+                  День Незалежності України
+                </option>
               </select>
               <svg class="mt-down-bold" width="24" height="24">
                 <use href="./img/icons.svg#down-bold"></use>
               </svg>
             </div>
             <label class="mt-input-after-text" for="that-date">
-              На яку дату бронювати?</label>
+              На яку дату бронювати?</label
+            >
           </div>
         </div>
       </div>
 
+      <button type="submit" class="mt-form-send btn-mob">
+        ОФОРМИТИ БРОНЮВАННЯ
+      </button>
     </form>
   </div>
 </div>
