@@ -4,7 +4,7 @@ header {
   position: absolute;
 }
 
-header > .container {
+header>.container {
   position: relative;
 }
 
@@ -97,8 +97,15 @@ header > .container {
   border-radius: 2px;
   padding: 10px 6px;
   margin-left: auto;
-  transition: fill var(--timing-function);
+  transition: fill var(--timing-function), border var(--timing-function);
 }
+
+.header-adress-link:hover,
+.header-adress-link:focus,
+.header-adress-link:active {
+  border: 1px solid var(--brown-color);
+}
+
 
 .header-adress-icon {
   fill: var(--svg-fill);
@@ -109,6 +116,7 @@ header > .container {
 .header-adress-link:active .header-adress-icon,
 .header-adress-link:focus .header-adress-icon {
   fill: var(--brown-color);
+
 }
 
 .header-adress-text {
@@ -192,7 +200,14 @@ header > .container {
     border: 1px solid var(--svg-fill);
     border-radius: 2px;
     padding: 8px;
-    transition: color var(--timing-function);
+    transition: color var(--timing-function),
+      border var(--timing-function);
+  }
+
+  .header-navigation-tel:focus,
+  .header-navigation-tel:active,
+  .header-navigation-tel:hov {
+    border: 1px solid var(--brown-color);
   }
 
   .header-navigation-text {

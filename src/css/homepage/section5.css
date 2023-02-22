@@ -76,18 +76,6 @@
     height: 40px;
 }
 
-.contacts-thumb:hover,
-.contacts-thumb:focus,
-.contacts-thumb:active {
-    border: 0.5px solid var(--brown-color);
-}
-
-.contacts-thumb-two:hover,
-.contacts-thumb-two:focus,
-.contacts-thumb-two:active {
-    border: 0.5px solid var(--brown-color);
-}
-
 .contacts-link,
 .contacts-link-second {
     display: inline-block;
@@ -98,34 +86,48 @@
     color: var(--third-grey-color);
     transition: color var(--timing-function);
 }
+
+.contacts-thumb-three .contacts-link {
+    margin-right: 12px;
+}
+
 .contacts-thumb:hover .contacts-link,
 .contacts-thumb:focus .contacts-link,
 .contacts-thumb:active .contacts-link {
     color: var(--accent-yellow-color);
 }
-.contacts-thumb-two:hover .contacts-link ,
-.contacts-thumb-two:focus .contacts-link ,
+
+.contacts-thumb-two:hover .contacts-link,
+.contacts-thumb-two:focus .contacts-link,
 .contacts-thumb-two:active .contacts-link {
     color: var(--accent-yellow-color);
 }
-.contacts-thumb-two:hover .contacts-link-second ,
+
+.contacts-thumb-two:hover .contacts-link-second,
 .contacts-thumb-two:focus .contacts-link-second,
 .contacts-thumb-two:active .contacts-link-second {
     color: var(--accent-yellow-color);
 }
+
 .contacts-icon-link {
     display: block;
+    width: 24px;
+    height: 24px;
+    margin: 8px;
 }
+
 .contacts-icon {
     fill: var(--brown-color);
-    margin-right: 8px;
+
     transition: fill var(--timing-function);
 }
+
 .contacts-thumb:hover .contacts-icon,
 .contacts-thumb:focus .contacts-icon,
 .contacts-thumb:active .contacts-icon {
     fill: var(--accent-yellow-color);
 }
+
 .contacts-thumb-two:hover .contacts-icon,
 .contacts-thumb-two:focus .contacts-icon,
 .contacts-thumb-two:active .contacts-icon {
@@ -178,6 +180,7 @@
     margin-left: 10px;
     transition: color var(--timing-function);
 }
+
 .contacts-address-thumb:hover .contacts-address-location,
 .contacts-address-thumb:focus .contacts-address-location,
 .contacts-address-thumb:active .contacts-address-location {
@@ -192,9 +195,6 @@
 @media screen and (min-width: 414px) {
     .contacts-address-map {
         width: 384px;
-    }
-    .contacts-link-second {
-        margin-left: 12px;
     }
 }
 
@@ -242,8 +242,13 @@
         margin-bottom: 24px;
         padding: 9px 8px 7px 8px;
     }
+
     .contacts-thumb-two {
         padding: 9px 8px 7px 8px;
+    }
+
+    .contacts-thumb-three .contacts-link {
+        margin-right: 0px;
     }
 
     .contacts-link-second {
