@@ -16,19 +16,19 @@
   <meta name="theme-color" content="#ffffff">
   <!-- favicon -->
   <!-- Slider -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
   <!-- Slider -->
   <!-- AOS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- AOS -->
   
-  <script type="module" crossorigin src="/mimino-group-06/assets/slider-3e0a847c.js"></script>
-  <link rel="stylesheet" href="/mimino-group-06/assets/slider-e3d54d31.css">
+  <script type="module" crossorigin src="/mimino-group-06/assets/slider-10ec1d7f.js"></script>
+  <link rel="stylesheet" href="/mimino-group-06/assets/slider-b1b937e2.css">
 </head>
 
 <body class="body-room">
   <header>
-    <!-- Olena Trzewik -->
+    <!-- Olena Trzewik + Ілля Шатохін -->
     <div class="container">
   <div class="header-thumb">
     <a class="header-logo link" href="./index.html">MIMIHO</a>
@@ -99,14 +99,25 @@
   </header>
 
   <main>
-    <!-- Maryna Ruduk    slider-->
+    <!-- Ілля Шатохін    slider-->
     <section class="room-hero">
   <div class="container">
-    <div class="swiper mySwiper">
+    <div class="swiper mySwiper_room">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img class="room-hero-image" src="./../../public/img/room-page/hero-room-slider0-for-mobile.jpg" alt=""
-            width="414" height="740">
+          <picture>
+            <source
+              srcset="./img/room-page/hero-room-slider0-for-desktop.jpg 1x, ./img/room-page/hero-room-slider0-for-desktop@2x.jpg 2x"
+              media="(min-width: 1280px)" width="1280" height="720">
+            <source
+              srcset="./img/room-page/hero-room-slider0-for-tablet.jpg 1x, ./img/room-page/hero-room-slider0-for-tablet@2x.jpg 2x"
+              media="(min-width: 1024px)" width="1024" height="720">
+            <source
+              srcset="./img/room-page/hero-room-slider0-for-mobile.jpg 1x, ./img/room-page/hero-room-slider0-for-mobile@2x.jpg 2x"
+              media="(max-width: 1023px)" width="414" height="740">
+            <img class="room-hero-image" src="./img/room-page/hero-room-slider0-for-mobile.jpg" alt="" width="414"
+              height="740">
+          </picture>
           <div class="room-hero-container">
             <h2 class="room-hero-title">ДВОМІСНИЙ НОМЕР люкс</h2>
             <p class="room-hero-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
@@ -115,8 +126,19 @@
           </div>
         </div>
         <div class="swiper-slide">
-          <img class="room-hero-image" src="./../../public/img/room-page/hero-room-slider1-for-mobile.jpg" alt=""
-            width="414" height="740">
+          <picture>
+            <source
+              srcset="./img/room-page/hero-room-slider1-for-desktop.jpg 1x, ./img/room-page/hero-room-slider1-for-desktop@2x.jpg 2x"
+              media="(min-width: 1280px)" width="1280" height="720">
+            <source
+              srcset="./img/room-page/hero-room-slider1-for-tablet.jpg 1x, ./img/room-page/hero-room-slider1-for-tablet@2x.jpg 2x"
+              media="(min-width: 1024px)" width="1024" height="720">
+            <source
+              srcset="./img/room-page/hero-room-slider1-for-mobile.jpg 1x, ./img/room-page/hero-room-slider1-for-mobile@2x.jpg 2x"
+              media="(max-width: 1023px)" width="414" height="740">
+            <img class="room-hero-image" src="./img/room-page/hero-room-slider1-for-mobile.jpg" alt="" width="414"
+              height="740">
+          </picture>
           <div class="room-hero-container">
             <h2 class="room-hero-title">ТРЬОХМІСНИЙ НОМЕР</h2>
             <p class="room-hero-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
@@ -125,8 +147,19 @@
           </div>
         </div>
         <div class="swiper-slide">
-          <img class="room-hero-image" src="./../../public/img/room-page/hero-room-slider2-for-mobile.jpg" alt=""
-            width="414" height="740">
+          <picture>
+            <source
+              srcset="./img/room-page/hero-room-slider2-for-desktop.jpg 1x, ./img/room-page/hero-room-slider2-for-desktop@2x.jpg 2x"
+              media="(min-width: 1280px)" width="1280" height="720">
+            <source
+              srcset="./img/room-page/hero-room-slider2-for-tablet.jpg 1x, ./img/room-page/hero-room-slider2-for-tablet@2x.jpg 2x"
+              media="(min-width: 1024px)" width="1024" height="720">
+            <source
+              srcset="./img/room-page/hero-room-slider2-for-mobile.jpg 1x, ./img/room-page/hero-room-slider2-for-mobile@2x.jpg 2x"
+              media="(max-width: 1023px)" width="414" height="740">
+            <img class="room-hero-image" src="./img/room-page/hero-room-slider2-for-mobile.jpg" alt="" width="414"
+              height="740">
+          </picture>
           <div class="room-hero-container">
             <h2 class="room-hero-title room-hero-title-fix">ДВОМІСНИЙ НОМЕР</h2>
             <p class="room-hero-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit
@@ -491,7 +524,7 @@
   <!-- MODAL -->
 
   <!-- Slider -->
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
   <!-- Slider -->
   <!-- AOS -->
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
