@@ -1177,38 +1177,20 @@
       <div class="mt-tab-wrap">
         <div class="mt-tab-version-room">
           <div class="mt-input-box">
-            <input
-              class="mt-modal-input"
-              type="text"
-              name="user"
-              required
-              placeholder="Ваше ім’я"
-            />
-            <label class="mt-input-after-text"
-              >На кого забронювати номер?</label
-            >
+            <input class="mt-modal-input" type="text" name="user" id="userName_m1" required placeholder="Ваше ім’я">
+            <label class="mt-input-after-text" for="userName_m1">На кого забронювати номер?</label>
           </div>
 
           <div class="mt-input-box">
-            <input
-              class="mt-modal-input"
-              type="tel"
-              name="tel"
-              placeholder="+38 (___) ___-__-__"
-              required
-            />
-            <label class="mt-input-after-text">Номер телефону</label>
+            <input class="mt-modal-input" type="tel" name="tel" id="tel_m1" placeholder="+38 (___) ___-__-__" required>
+            <label class="mt-input-after-text" for="tel_m1">Номер телефону</label>
           </div>
         </div>
 
         <div class="mt-tab-version">
           <div class="mt-input-box">
             <div class="mt-input-wrap">
-              <select
-                class="mt-modal-input mt-modal-input-select"
-                name="category-room"
-                id="category-room"
-              >
+              <select class="mt-modal-input mt-modal-input-select" name="category-room" id="category-room">
                 <option value="Двомісний люкс">Двомісний люкс</option>
                 <option value="Двомісний стандарт">Трьохмісний</option>
                 <option value="Одномісний стандарт">Двомісний</option>
@@ -1218,16 +1200,11 @@
               </svg>
             </div>
             <label class="mt-input-after-text" for="category-room">
-              Категорія номера</label
-            >
+              Категорія номера</label>
           </div>
           <div class="mt-input-box">
             <div class="mt-input-wrap">
-              <select
-                class="mt-modal-input mt-modal-input-select"
-                name="arrival-data"
-                id="arrival-data"
-              >
+              <select class="mt-modal-input mt-modal-input-select" name="arrival-data" id="arrival-data">
                 <option value="Сьогодні">Сьогодні</option>
                 <option value="Завтра">Завтра</option>
                 <option value="Після завтра">Після завтра</option>
@@ -1236,18 +1213,13 @@
                 <use href="./img/icons.svg#down-bold"></use>
               </svg>
             </div>
-            <label class="mt-input-after-text" for="arrival-datae">
-              Дата заїзду</label
-            >
+            <label class="mt-input-after-text" for="arrival-data">
+              Дата заїзду</label>
           </div>
 
           <div class="mt-input-box">
             <div class="mt-input-wrap">
-              <select
-                class="mt-modal-input mt-modal-input-select"
-                name="leave-data"
-                id="leave-data"
-              >
+              <select class="mt-modal-input mt-modal-input-select" name="leave-data" id="leave-data">
                 <option value="Сьогодні">Сьогодні</option>
                 <option value="Завтра">Завтра</option>
                 <option value="Після завтра">Після завтра</option>
@@ -1257,8 +1229,7 @@
               </svg>
             </div>
             <label class="mt-input-after-text" for="leave-data">
-              Дата виїзду</label
-            >
+              Дата виїзду</label>
           </div>
         </div>
       </div>
@@ -1269,7 +1240,6 @@
     </form>
   </div>
 </div>
-
   <div class="modal" data-modal="2">
   <div class="modal-reserv-tab">
     <button class="mt-close-btn" type="button" data-modal-close>
@@ -1282,36 +1252,18 @@
       <div class="mt-tab-wrap">
         <div class="mt-tab-version">
           <div class="mt-input-box">
-            <input
-              class="mt-modal-input"
-              type="text"
-              name="user"
-              required
-              placeholder="Ваше ім’я"
-            />
-            <label class="mt-input-after-text"
-              >На кого забронювати столик?</label
-            >
+            <input class="mt-modal-input" type="text" id="userName_m2" name="user" required placeholder="Ваше ім’я">
+            <label class="mt-input-after-text" for="userName_m2">На кого забронювати столик?</label>
           </div>
           <div class="mt-input-box">
-            <input
-              class="mt-modal-input"
-              type="tel"
-              name="tel"
-              placeholder="+38 (___) ___-__-__"
-              required
-            />
-            <label class="mt-input-after-text">Номер телефону</label>
+            <input class="mt-modal-input" type="tel" name="tel" id="tel_m2" placeholder="+38 (___) ___-__-__" required>
+            <label class="mt-input-after-text" for="tel_m2">Номер телефону</label>
           </div>
         </div>
         <div class="mt-tab-version">
           <div class="mt-input-box">
             <div class="mt-input-wrap">
-              <select
-                class="mt-modal-input mt-modal-input-select"
-                name="how-many-people"
-                id="how-many-people"
-              >
+              <select class="mt-modal-input mt-modal-input-select" name="how-many-people" id="how-many-people">
                 <option value="1">1</option>
                 <option value="2-5">2-5</option>
                 <option value="6-10">6-10</option>
@@ -1324,16 +1276,11 @@
               </svg>
             </div>
             <label class="mt-input-after-text" for="how-many-people">
-              Столик на яку кількість осіб?</label
-            >
+              Столик на яку кількість осіб?</label>
           </div>
           <div class="mt-input-box">
             <div class="mt-input-wrap">
-              <select
-                class="mt-modal-input mt-modal-input-select"
-                name="that-date"
-                id="that-date"
-              >
+              <select class="mt-modal-input mt-modal-input-select" name="that-date" id="that-date">
                 <option value="Сьогодні">Сьогодні</option>
                 <option value="Завтра">Завтра</option>
                 <option value="Після завтра">Після завтра</option>
@@ -1343,8 +1290,7 @@
               </svg>
             </div>
             <label class="mt-input-after-text" for="that-date">
-              На яку дату бронювати?</label
-            >
+              На яку дату бронювати?</label>
           </div>
         </div>
       </div>
@@ -1355,8 +1301,7 @@
     </form>
   </div>
 </div>
-
-  <!--------------- Двомісний люкс ------------------>
+  <!-- Двомісний люкс -->
 
 <div class="modal" data-modal="3">
   <div class="modal-reserv-tab">
@@ -1373,20 +1318,14 @@
     <form class="mt-form-input-price">
       <div class="mp-tab-wrap">
         <div class="mt-input-box mp-input-box">
-          <select
-            class="mt-modal-input mt-modal-input-select"
-            name="nights"
-            id="nights"
-          >
+          <select class="mt-modal-input mt-modal-input-select" name="nights_2_plus" id="nights_2_plus">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5</option>
           </select>
-          <label class="mt-input-after-text" for="nights"
-            >Кількість ночей</label
-          >
+          <label class="mt-input-after-text" for="nights_2_plus">Кількість ночей</label>
         </div>
 
         <div class="mt-input-box mp-input-box">
@@ -1402,7 +1341,7 @@
   </div>
 </div>
 
-<!-- -----------------Трьохмісний--------------------->
+<!-- Трьохмісний -->
 
 <div class="modal" data-modal="4">
   <div class="modal-reserv-tab">
@@ -1419,20 +1358,14 @@
     <form class="mt-form-input-price">
       <div class="mp-tab-wrap">
         <div class="mt-input-box mp-input-box">
-          <select
-            class="mt-modal-input mt-modal-input-select"
-            name="nights"
-            id="nights"
-          >
+          <select class="mt-modal-input mt-modal-input-select" name="nights_3" id="nights_3">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5</option>
           </select>
-          <label class="mt-input-after-text" for="nights"
-            >Кількість ночей</label
-          >
+          <label class="mt-input-after-text" for="nights_3">Кількість ночей</label>
         </div>
 
         <div class="mt-input-box mp-input-box">
@@ -1448,7 +1381,7 @@
   </div>
 </div>
 
-<!--------------- Двомісний ------------------>
+<!-- Двомісний -->
 
 <div class="modal" data-modal="5">
   <div class="modal-reserv-tab">
@@ -1465,20 +1398,14 @@
     <form class="mt-form-input-price">
       <div class="mp-tab-wrap">
         <div class="mt-input-box mp-input-box">
-          <select
-            class="mt-modal-input mt-modal-input-select"
-            name="nights"
-            id="nights"
-          >
+          <select class="mt-modal-input mt-modal-input-select" name="nights_2" id="nights_2">
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
             <option value="4">4</option>
             <option value="5">5</option>
           </select>
-          <label class="mt-input-after-text" for="nights"
-            >Кількість ночей</label
-          >
+          <label class="mt-input-after-text" for="nights_2">Кількість ночей</label>
         </div>
 
         <div class="mt-input-box mp-input-box">
@@ -1493,7 +1420,6 @@
     </form>
   </div>
 </div>
-
   <!-- MODAL -->
 
   <!-- Slider -->
