@@ -23,7 +23,7 @@
   <!-- AOS -->
   
   <script type="module" crossorigin src="/mimino-group-06/assets/slider-e474349c.js"></script>
-  <link rel="stylesheet" href="/mimino-group-06/assets/slider-f60676dd.css">
+  <link rel="stylesheet" href="/mimino-group-06/assets/slider-ab852d6d.css">
 </head>
 
 <body>
@@ -504,82 +504,110 @@
   <div class="overlay js-overlay-modal"></div>
 
   <div class="modal" data-modal="1">
-  <div class="modal-reserv-room">
-    <!-- "mr" =  short with Modal-reserve-Room -->
-    <!-- "mr" =  short with Modal-reserve-Room -->
-    <button class="mr-close-btn" type="button" data-modal-close>
-      <svg class="mr-svg-close-btn js-modal-close" width="24" height="24">
+  <div class="modal-reserv-tab">
+    <button class="mt-close-btn" type="button" data-modal-close>
+      <svg class="mt-modal-close-btn js-modal-close" width="24" height="24">
         <use href="./img/icons.svg#modal-close"></use>
       </svg>
     </button>
-    <h2 class="mr-modal-title">ЗАБРОНЮВАТИ НОМЕР</h2>
-    <form class="mr-form-input">
-      <div class="mr-tablet-version">
-        <div class="mr-input-box">
-          <input class="mr-modal-input" type="text" name="user" required placeholder="Ваше ім’я">
-          <label class="mr-input-after-text">На кого забронювати номер?</label>
+    <h2 class="mt-modal-title">ЗАБРОНЮВАТИ НОМЕР</h2>
+    <form class="mt-form-input">
+      <div class="mt-tab-wrap">
+        <div class="mt-tab-version-room">
+          <div class="mt-input-box">
+            <input
+              class="mt-modal-input"
+              type="text"
+              name="user"
+              required
+              placeholder="Ваше ім’я"
+            />
+            <label class="mt-input-after-text"
+              >На кого забронювати номер?</label
+            >
+          </div>
+
+          <div class="mt-input-box">
+            <input
+              class="mt-modal-input"
+              type="tel"
+              name="tel"
+              placeholder="+38 (___) ___-__-__"
+              required
+            />
+            <label class="mt-input-after-text">Номер телефону</label>
+          </div>
         </div>
-        <div class="mr-input-box">
-          <input class="mr-modal-input " type="tel" name="tel" placeholder="+38 (___) ___-__-__" required>
-          <label class="mr-input-after-text">Номер телефону</label>
+
+        <div class="mt-tab-version">
+          <div class="mt-input-box">
+            <div class="mt-input-wrap">
+              <select
+                class="mt-modal-input mt-modal-input-select"
+                name="category-room"
+                id="category-room"
+              >
+                <option value="Двомісний люкс">Двомісний люкс</option>
+                <option value="Двомісний стандарт">Трьохмісний</option>
+                <option value="Одномісний стандарт">Двомісний</option>
+              </select>
+              <svg class="mt-down-bold" width="24" height="24">
+                <use href="./img/icons.svg#down-bold"></use>
+              </svg>
+            </div>
+            <label class="mt-input-after-text" for="category-room">
+              Категорія номера</label
+            >
+          </div>
+          <div class="mt-input-box">
+            <div class="mt-input-wrap">
+              <select
+                class="mt-modal-input mt-modal-input-select"
+                name="arrival-data"
+                id="arrival-data"
+              >
+                <option value="Сьогодні">Сьогодні</option>
+                <option value="Завтра">Завтра</option>
+                <option value="Після завтра">Після завтра</option>
+              </select>
+              <svg class="mt-down-bold" width="24" height="24">
+                <use href="./img/icons.svg#down-bold"></use>
+              </svg>
+            </div>
+            <label class="mt-input-after-text" for="arrival-datae">
+              Дата заїзду</label
+            >
+          </div>
+
+          <div class="mt-input-box">
+            <div class="mt-input-wrap">
+              <select
+                class="mt-modal-input mt-modal-input-select"
+                name="leave-data"
+                id="leave-data"
+              >
+                <option value="Сьогодні">Сьогодні</option>
+                <option value="Завтра">Завтра</option>
+                <option value="Після завтра">Після завтра</option>
+              </select>
+              <svg class="mt-down-bold" width="24" height="24">
+                <use href="./img/icons.svg#down-bold"></use>
+              </svg>
+            </div>
+            <label class="mt-input-after-text" for="leave-data">
+              Дата виїзду</label
+            >
+          </div>
         </div>
       </div>
 
-      <div class="mr-tablet-version">
-        <div class="mr-input-box">
-          <div class="mr-input-wrap">
-            <select class="mr-modal-input " name="category-room" id="category-room">
-              <option value="Двомісний люкс">Двомісний люкс</option>
-              <option value="жлоб">єконом на собі</option>
-              <option value="для путлера">одиночна камера</option>
-              <option value="холостяк">делюкс на одного</option>
-              <option value="семейній номер">на Ціганській табор</option>
-            </select>
-            <svg class="mr-svg-down-bold" width="24" height="24">
-              <use href="./img/icons.svg#down-bold"></use>
-            </svg>
-          </div>
-          <label class="mr-input-after-text" for="category-room">Категорія номеру</label>
-        </div>
-      </div>
-      <div class="mr-tablet-version">
-        <div class="mr-input-box">
-          <div class="mr-input-wrap">
-            <select class="mr-modal-input mr-text-input" name="arrival-data" id="arrival-data">
-              <option value="Сьогодні">Сьогодні</option>
-              <option value="День Перемоги над рашизмом">День Перемоги над рашизмом</option>
-              <option value="День Незалежності України">День Незалежності України</option>
-            </select>
-            <svg class="mr-svg-down-bold" width="24" height="24">
-              <use href="./img/icons.svg#down-bold"></use>
-            </svg>
-          </div>
-          <label class="mr-input-after-text" for="arrival-data">
-            Дата заїзду</label>
-        </div>
-        <div class="mr-input-box">
-          <div class="mr-input-wrap">
-            <select class="mr-modal-input mr-text-input" name="leave" id="leave">
-              <option value="Сьогодні">Сьогодні</option>
-              <option value="Ніколи">Ніколи</option>
-              <option value="коли Катя перестане їсти на ніч">День Перемоги над рашизмом</option>
-              <option value="коли звільнять крим">коли звільнять крим</option>
-            </select>
-            <svg class="mr-svg-down-bold" width="24" height="24">
-              <use href="./img/icons.svg#down-bold"></use>
-            </svg>
-          </div>
-          <label class="mr-input-after-text" for="leave">
-            Дата виїзду</label>
-        </div>
-      </div>
-      <div>
-        <button class="mr-modal-confirm-btn" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
-      </div>
-
+      <button type="submit" class="mt-form-send btn-mob">
+        ОФОРМИТИ БРОНЮВАННЯ
+      </button>
     </form>
   </div>
 </div>
+
   <div class="modal" data-modal="2">
   <div class="modal-reserv-tab">
     <button class="mt-close-btn" type="button" data-modal-close>
@@ -623,10 +651,11 @@
                 id="how-many-people"
               >
                 <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="на Циганській табор">на Ціганській табор</option>
+                <option value="2-5">2-5</option>
+                <option value="6-10">6-10</option>
+                <option value="11-20">11-20</option>
+                <option value="21-50">21-50</option>
+                <option value="51-200">51-200</option>
               </select>
               <svg class="mt-down-bold" width="24" height="24">
                 <use href="./img/icons.svg#down-bold"></use>
@@ -644,12 +673,8 @@
                 id="that-date"
               >
                 <option value="Сьогодні">Сьогодні</option>
-                <option value="День Перемоги над рашизмом">
-                  День Перемоги над рашизмом
-                </option>
-                <option value="День Незалежності України">
-                  День Незалежності України
-                </option>
+                <option value="Завтра">Завтра</option>
+                <option value="Після завтра">Після завтра</option>
               </select>
               <svg class="mt-down-bold" width="24" height="24">
                 <use href="./img/icons.svg#down-bold"></use>
@@ -669,62 +694,167 @@
   </div>
 </div>
 
-  <div class="modal" data-modal="3">
-  <div class="modal-room-price">
-    <button class="mp-close-btn" type="button" data-modal-close>
-      <svg class="mp-modal-close-btn js-modal-close" width="24" height="24">
+  <!--------------- Двомісний люкс ------------------>
+
+<div class="modal" data-modal="3">
+  <div class="modal-reserv-tab">
+    <button class="mt-close-btn" type="button" data-modal-close>
+      <svg class="mt-modal-close-btn js-modal-close" width="24" height="24">
         <use href="./img/icons.svg#modal-close"></use>
       </svg>
     </button>
-    <h2 class="mp-modal-title">ЦІНИ НА НОМЕР</h2>
-    <form class="mp-form-input">
-      <div class="mp-input-box">
-        <select class="mp-room-class" name="room-class" id="room-class">
-          <option value="Двомісний люкс">Двомісний люкс</option>
-          <option value="Сімейний люкс">Сімейний люкс</option>
-          <option value="Одномісний люкс">Одномісний люкс</option>
-        </select>
-        <label class="mp-input-after-text" for="room-class"
-          >Категорія номеру</label
-        >
-      </div>
-      <div class="mp-tablet-version">
-        <div class="mp-input-box-one">
+    <h2 class="mt-modal-title">ЦІНИ НА НОМЕР</h2>
+
+    <h3 class="mp-catecory-name">Двомісний люкс</h3>
+
+    <p class="mp-category-text">Категорія номеру</p>
+    <form class="mt-form-input-price">
+      <div class="mp-tab-wrap">
+        <div class="mt-input-box mp-input-box">
           <select
-            class="mp-modal-input select"
-            name="how-many-nights"
-            id="how-many-nights"
+            class="mt-modal-input mt-modal-input-select"
+            name="nights"
+            id="nights"
           >
             <option value="1">1</option>
             <option value="2">2</option>
             <option value="3">3</option>
-            <option value="1001">1001</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
           </select>
-          <svg class="mp-down-bold" width="24" height="24">
-            <use href="./img/icons.svg#down-bold"></use>
-          </svg>
-          <label class="mp-input-after-text stand" for="how-many-nights">
-            Кількість ночей</label
+          <label class="mt-input-after-text" for="nights"
+            >Кількість ночей</label
           >
         </div>
-        <div class="mp-input-box-two">
-          <input
-            class="mp-modal-input"
-            type="number"
-            name="price"
-            id="price"
-            required
-            placeholder="1000"
-          />
-          <label for="price" class="mp-input-after-text stand">грн</label>
+
+        <div class="mt-input-box mp-input-box">
+          <p class="mt-modal-input mp-modal-input">1000</p>
+          <p class="mt-input-after-text">грн</p>
         </div>
       </div>
-      <button class="mp-modal-confirm-btn" type="submit">
-        ЗАБРОНЮВАТИ НОМЕР
+
+      <button type="submit" class="mt-form-send btn-mob">
+        ОФОРМИТИ БРОНЮВАННЯ
       </button>
     </form>
   </div>
 </div>
+
+<input
+  class="mt-modal-input"
+  type="text"
+  name="user"
+  required
+  placeholder="Ваше ім’я"
+/>
+
+<!-- -----------------Трьохмісний--------------------->
+
+<div class="modal" data-modal="4">
+  <div class="modal-reserv-tab">
+    <button class="mt-close-btn" type="button" data-modal-close>
+      <svg class="mt-modal-close-btn js-modal-close" width="24" height="24">
+        <use href="./img/icons.svg#modal-close"></use>
+      </svg>
+    </button>
+    <h2 class="mt-modal-title">ЦІНИ НА НОМЕР</h2>
+
+    <h3 class="mp-catecory-name">Трьохмісний</h3>
+
+    <p class="mp-category-text">Категорія номеру</p>
+    <form class="mt-form-input-price">
+      <div class="mp-tab-wrap">
+        <div class="mt-input-box mp-input-box">
+          <select
+            class="mt-modal-input mt-modal-input-select"
+            name="nights"
+            id="nights"
+          >
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <label class="mt-input-after-text" for="nights"
+            >Кількість ночей</label
+          >
+        </div>
+
+        <div class="mt-input-box mp-input-box">
+          <p class="mt-modal-input mp-modal-input">750</p>
+          <p class="mt-input-after-text">грн</p>
+        </div>
+      </div>
+
+      <button type="submit" class="mt-form-send btn-mob">
+        ОФОРМИТИ БРОНЮВАННЯ
+      </button>
+    </form>
+  </div>
+</div>
+
+<input
+  class="mt-modal-input"
+  type="text"
+  name="user"
+  required
+  placeholder="Ваше ім’я"
+/>
+
+<!--------------- Двомісний ------------------>
+
+<div class="modal" data-modal="4">
+  <div class="modal-reserv-tab">
+    <button class="mt-close-btn" type="button" data-modal-close>
+      <svg class="mt-modal-close-btn js-modal-close" width="24" height="24">
+        <use href="./img/icons.svg#modal-close"></use>
+      </svg>
+    </button>
+    <h2 class="mt-modal-title">ЦІНИ НА НОМЕР</h2>
+
+    <h3 class="mp-catecory-name">Трьохмісний</h3>
+
+    <p class="mp-category-text">Категорія номеру</p>
+    <form class="mt-form-input-price">
+      <div class="mp-tab-wrap">
+        <div class="mt-input-box mp-input-box">
+          <select
+            class="mt-modal-input mt-modal-input-select"
+            name="nights"
+            id="nights"
+          >
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+          <label class="mt-input-after-text" for="nights"
+            >Кількість ночей</label
+          >
+        </div>
+
+        <div class="mt-input-box mp-input-box">
+          <p class="mt-modal-input mp-modal-input">750</p>
+          <p class="mt-input-after-text">грн</p>
+        </div>
+      </div>
+
+      <button type="submit" class="mt-form-send btn-mob">
+        ОФОРМИТИ БРОНЮВАННЯ
+      </button>
+    </form>
+  </div>
+</div>
+
+<input
+  class="mt-modal-input"
+  type="text"
+  name="user"
+  required
+  placeholder="Ваше ім’я"
+/>
 
   <!-- MODAL -->
 
