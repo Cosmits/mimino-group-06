@@ -7,10 +7,10 @@
 }
 
 .room-hero img {
+  max-width: none;
   position: absolute;
   z-index: -1;
   width: 414px;
-  max-width: none;
 }
 
 .room-hero-container {
