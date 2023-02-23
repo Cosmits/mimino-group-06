@@ -44,20 +44,12 @@
 .mp-modal-title {
     margin-bottom: 40px;
     text-align: center;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Times New Roman Bold';
     font-weight: 700;
     font-size: 24px;
     line-height: 1.16;
     letter-spacing: 0.05em;
     color: var(--black-color);
-}
-.mp-modal-input::placeholder {
-    font-family: 'Times New Roman', serif;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.16;
-    letter-spacing: 0.05em;
-    color: var(--input-text-color);
 }
 select {
     -webkit-appearance: none;
@@ -67,20 +59,42 @@ select {
 .mp-modal-input {
     padding-left: 12px;
     padding-right: 15px;
+    font-family: 'Times New Roman Bold';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
     border: 1px solid var(--brown-color);
+    border-radius: 2px;
     height: 54px;
     background-color: transparent;
-    transition: outline var(--timing-function);
+    color: var( --input-text-color);
+    transition: outline var(--timing-function), color var(--timing-function);
+}
+
+.mp-modal-input::placeholder {
+    font-family: 'Times New Roman Bold';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.05em;
+    color: var(--input-text-color);
 }
 .mp-modal-input:hover,
 .mp-modal-input:focus,
 .mp-modal-input:active {
     outline: 1px solid var(--brown-color);
+    color: var(--brown-color);
 }
+.mp-modal-input:hover::placeholder,
+.mp-modal-input:focus::placeholder,
+.mp-modal-input:active::placeholder {
+    color: var(--brown-color);
+} 
 .mp-input-after-text {
     display: block;
     align-self: flex-start;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Medium';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
@@ -101,7 +115,7 @@ select {
 .mp-room-class {
     background-color: transparent;
     border: none;
-    font-family: 'Times New Roman', serif;
+    font-family: 'Times New Roman Bold';
     font-weight: 700;
     font-size: 24px;
     line-height: 1.16;
@@ -128,7 +142,7 @@ select {
     width: 100%;
     height: 64px;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Medium';
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -166,7 +180,6 @@ select {
 @media screen and (min-width: 1024px) {
     .modal-room-price {
         width: 712px;
-        height: 489px;
         padding: 60px;
     }
     .mp-modal-title {
@@ -179,69 +192,25 @@ select {
     }
     .mp-tablet-version {
         display: flex;
-        column-gap: 16px;
-        row-gap: 40px;
-
     }
     .mp-input-box-one,
     .mp-input-box-two {
-        position: relative;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 20px;
-        /* gap: 8px; */
-    }
-    .mp-down-bold {
-        display: none;
-    }
-    .mp-input-box-two {
         margin-bottom: 40px;
     }
+    .mp-input-box-two {
+        margin-left: 16px;
+    }
     .mp-modal-confirm-btn {
-        width: 100%;
-        height: 64px;
-        padding: 0;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        border: 1px solid var(--accent-yellow-color);
-        border-radius: 2px;
-        color: var( --white-color);
-        background-color: var(--black-color);
-    }
-    .mp-modal-confirm-btn:hover,
-    .mp-modal-confirm-btn:focus,
-    .mp-modal-confirm-btn:active {
-        background-color: var(--accent-yellow-color);
-        color: var(--black-color);
-    }
-    .is-hidden {
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
-    }
-    .mp-tablet-version {
-        width: 100%;
-    }
-
-
-    .mp-modal-input {}
-
-    .mp-modal-title {
-        font-weight: 700;
-        font-size: 40px;
-        line-height: 46px;
+        font-size: 24px;
     }
     .mp-down-bold {
-        fill: #c79002;
+        display: contents;
+        fill: var(--brown-color);
         position: absolute;
-        right: 15px;
+        top: 30px;
+        right: 20px;
         height: 24px;
         width: 24px;
-        top: 20px;
-        right: 20px;
         transform: translateY(-50%);
         pointer-events: none;
     }
