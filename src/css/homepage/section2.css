@@ -90,6 +90,14 @@
   align-items: center;
 }
 
+.swiper-slide.swiper-slide-wide {
+  width: 270px !important;
+}
+
+.swiper-slide.swiper-slide-narrow {
+  width: 162px !important;
+}
+
 .details-restaurant .swiper-slide img {
   display: block;
   width: 100%;
