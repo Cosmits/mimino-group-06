@@ -1,3 +1,7 @@
+body.modal-open {
+  overflow: hidden;
+}
+
 .overlay {
   /* Скрываем подложку  */
   opacity: 0;
@@ -204,7 +208,7 @@ select {
 .mt-tab-version {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 24px;
+  gap: 24px;
 }
 
 .mt-tab-wrap {
@@ -236,7 +240,6 @@ select {
     padding-bottom: 60px;
     padding-left: 60px;
     padding-right: 60px;
-    box-sizing: border-box;
   }
 
   .mt-tab-wrap {
