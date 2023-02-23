@@ -23,7 +23,7 @@
   <!-- AOS -->
   
   <script type="module" crossorigin src="/mimino-group-06/assets/slider-f541939b.js"></script>
-  <link rel="stylesheet" href="/mimino-group-06/assets/slider-a6730829.css">
+  <link rel="stylesheet" href="/mimino-group-06/assets/slider-fdcfbc15.css">
 </head>
 
 <body>
@@ -106,8 +106,8 @@
             <p class="hero-text">Ресторанно-готельний комплекс</p>
         <h2 class="hero-subtitle">СМАК ЖИТТЯ 24/7</h2>
     <div class="hero-btn-thumb">
-        <button type="button" class="hero-btn btn" href="">Забронювати столик</button>
-        <button type="button" class="hero-btn btn" href="">Забронювати номер</button>
+        <button type="button" class="hero-btn btn js-open-modal" data-modal="2">Забронювати столик</button>
+        <button type="button" class="hero-btn btn js-open-modal" data-modal="1">Забронювати номер</button>
     </div>
 </div>
 </section>
@@ -560,43 +560,12 @@
         <!-- <div class="swiper-scrollbar"></div> -->
       </div>
 
-      <!-- <div class="details-restaurant__slider">
-        <img
-          class="details-restaurant__slider-image"
-          src="./img/homepage/homepage-details-food-slider1-for-mobile.jpg"
-          srcset="
-            ./img/homepage/homepage-details-food-slider1-for-mobile.jpg    1x,
-            ./img/homepage/homepage-details-food-slider1-for-mobile@2x.jpg 2x
-          "
-          alt="Фото готової страви"
-          width="370"
-          height="270"
-        />
-
-        <ul class="details-restaurant__arrows-list">
-          <li class="details-restaurant__arrow">
-            <button class="details-restaurant__button-arrow">
-              <svg class="details-restaurant__arrow-svg" width="30" height="17">
-                <use href="./img/icons.svg#left-arrow"></use>
-              </svg>
-            </button>
-          </li>
-          <li class="details-restaurant__arrow">
-            <button class="details-restaurant__button-arrow">
-              <svg class="details-restaurant__arrow-svg" width="30" height="17">
-                <use href="./img/icons.svg#right-arrow"></use>
-              </svg>
-            </button>
-          </li>
-        </ul>
-      </div> -->
-
       <div class="details-restaurant__buttons">
-        <button type="button" class="btn button-grey btn-section2">
+        <button type="button" class="btn button-grey btn-section2 js-open-modal" data-modal="2">
           Забронювати столик
         </button>
         <button type="button" class="btn button-grey btn-section2">
-          Переглянути меню
+          Переглянути меню --tag a
         </button>
       </div>
     </div>
@@ -1043,11 +1012,11 @@
       </div>
 
       <div class="details-hotel__buttons">
-        <button type="button" class="btn button-grey btn-section4">
+        <button type="button" class="btn button-grey btn-section4 js-open-modal" data-modal="1">
           Забронювати номер
         </button>
         <button type="button" class="btn button-grey btn-section4">
-          Переглянути ціни
+          Переглянути ціни --tag a
         </button>
       </div>
     </div>
@@ -1483,7 +1452,7 @@
 
 <!--------------- Двомісний ------------------>
 
-<div class="modal" data-modal="4">
+<div class="modal" data-modal="5">
   <div class="modal-reserv-tab">
     <button class="mt-close-btn" type="button" data-modal-close>
       <svg class="mt-modal-close-btn js-modal-close" width="24" height="24">
