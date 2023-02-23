@@ -57,7 +57,6 @@
 
 .contacts-thumb,
 .contacts-thumb-two {
-  gap: 3px;
   display: flex;
   align-items: center;
   background-color: var(--white-color);
@@ -89,7 +88,7 @@
 }
 
 .contacts-thumb-three .contacts-link {
-  margin-right: 12px;
+  margin-right: 6px;
 }
 
 .contacts-thumb:hover .contacts-link,
