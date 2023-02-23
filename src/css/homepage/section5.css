@@ -240,19 +240,20 @@
 
     .contacts-thumb {
         margin-bottom: 24px;
-        padding: 9px 8px 7px 8px;
+        /* padding: 9px 8px 7px 8px; */
     }
 
     .contacts-thumb-two {
-        padding: 9px 8px 7px 8px;
+        /* padding: 9px 8px 7px 8px; */
+       width: 264px;
     }
 
     .contacts-thumb-three .contacts-link {
-        margin-right: 0px;
+        margin-right: 16px;
     }
 
     .contacts-link-second {
-        margin-left: 16px;
+        /* margin-left: 16px; */
     }
 
     .contacts-address-thumb {
