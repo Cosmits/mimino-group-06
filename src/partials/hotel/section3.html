@@ -22,78 +22,84 @@
       ./img/hotel/hotel-double2-room-for-mobile@2x.jpg 2x
       " alt="hotel-double2-room-img1-for-desktop.jpg" width="244" height="322">
         </div>
-        <div class="slider-hotel-s1 section-hotel">
-            <img class="active" src="./img/hotel/hotel-double1-slider2-for-mobile.jpg" srcset="
-        ./img/hotel/hotel-double1-slider2-for-mobile.jpg     1x,
-        ./img/hotel/hotel-double1-slider1-for-desktop@2x.jpg 2x
-        " alt="hotel-double1-slider1-for-mobile.jpg" width="194" height="194">
-            <ul class="arrow-hotel-1">
-                <li class="arrow">
-                    <button class="previous">
-                        <svg class="arrow-hotel-item" width="30" height="17">
-                            <use href="./img/icons.svg#left-arrow">
-                            </use>
-                        </svg>
-                    </button>
-                </li>
-                <li class="arrow">
-                    <button class="next">
-                        <svg class="arrow-hotel-item" width="30" height="17">
-                            <use href="./img/icons.svg#right-arrow">
-                            </use>
-                        </svg>
-                    </button>
-                </li>
-            </ul>
-        </div>
-        <div class="section-hotel section-hotel-down">
-            <div class="slider-hotel-s1-tablet">
-                <img class="active" src="./img/hotel/hotel-double1-slider2-for-mobile.jpg" srcset="
-          ./img/hotel/hotel-double1-slider2-for-mobile.jpg     1x,
-          ./img/hotel/hotel-double1-slider1-for-desktop@2x.jpg 2x
-          " alt="hotel-double1-slider1-for-mobile.jpg" width="194" height="194">
-                <ul class="arrow-hotel-1">
-                    <li class="arrow">
-                        <button class="previous">
-                            <svg class="arrow-hotel-item" width="30" height="17">
-                                <use href="./img/icons.svg#left-arrow">
-                                </use>
+        <div class="hotel-swiper-container  ">
+            <div class=" hotel-slide-container swiper mySwiper">
+                <div class="hotel-swiper swiper-wrapper ">
+                    <div class="hotel-page-slide swiper-slide ">
+                        <picture>
+                            <source
+                                srcset="./img/hotel/hotel-double2-slider1-for-desktop.jpg 1x, ./img/hotel/hotel-double2-slider1-for-desktop@2x.jpg 2x "
+                                media="(min-width: 1280px)">
+                            <source
+                                srcset="./img/hotel/hotel-double2-slider1-for-tablet.jpg 1x, ./img/hotel/vhotel-double2-slider1-for-tablet@2x.jpg 2x"
+                                media="(min-width: 1024px)">
+                            <source
+                                srcset="./img/hotel/hotel-double2-slider1-for-mobile.jpg 1x, ./img/hotel/hotel-double2-slider1-for-mobile@2x.jpg 2x "
+                                media="(max-width: 384px)">
+        
+                            <img class="hotel-slider-images" src="./img/hotel/hotel-double2-slider1-for-mobile.jpg " alt="">
+                        </picture>
+                    </div>
+                    <div class="hotel-page-slide swiper-slide ">
+                        <picture>
+                            <source
+                                srcset="./img/hotel/hotel-double2-slider2-for-desktop.jpg 1x, ./img/hotel/hotel-double2-slider2-for-desktop@2x.jpg 2x "
+                                media="(min-width: 1280px)">
+                            <source
+                                srcset="./img/hotel/hotel-double2-slider2-for-tablet.jpg 1x, ./img/hotel/vhotel-double2-slider2-for-tablet@2x.jpg 2x"
+                                media="(min-width: 1024px)">
+                            <source
+                                srcset="./img/hotel/hotel-double2-slider2-for-mobile.jpg 1x, ../img/hotel/hotel-double2-slider2-for-mobile@2x.jpg 2x "
+                                media="(max-width: 384px)">
+        
+                            <img class="hotel-slider-images" src="./img/hotel/hotel-double2-slider2-for-mobile.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class="hotel-page-slide swiper-slide ">
+                        <picture>
+                            <source
+                                srcset="./img/hotel/hotel-double2-slider3-for-desktop.jpg 1x, ./img/hotel/hotel-double2-slider3-for-desktop2x.jpg 2x "
+                                media="(min-width: 1280px)">
+                            <source
+                                srcset="./img/hotel/hotel-double2-slider3-for-tablet.jpg 1x, ./img/hotel/hotel-double2-slider3-for-tablet@2x.jpg2x"
+                                media="(min-width: 1024px)">
+                            <source
+                                srcset="./img/hotel/hotel-double2-slider3-for-mobile.jpg 1x, ../img/hotel/hotel-double2-slider3-for-mobile@2x.jpg 2x "
+                                media="(max-width: 384px)">
+        
+                            <img class="hotel-slider-images" src="./img/hotel/hotel-double2-slider3-for-mobile.jpg" alt="">
+                        </picture>
+                    </div>
+                    <div class=" hotel-page-slide swiper-slide ">
+                        <picture>
+                            <source
+                                srcset="./img/hotel/hotel-double2-slider4-for-desktop.jpg 1x, ./img/hotel/hotel-double2-slider4-for-desktop@2x.jpg 2x "
+                                media="(min-width: 1280px)">
+                            <source
+                                srcset="./img/hotel/hotel-double2-slider4-for-tablet.jpg 1x, ./img/hotel/vhotel-double2-slider4-for-tablet@2x.jpg 2x"
+                                media="(min-width: 1024px)">
+                            <source
+                                srcset="./img/hotel/hotel-double2-slider4-for-mobile.jpg 1x, ../img/hotel/hotel-double2-slider4-for-mobile@2x.jpg 2x "
+                                media="(max-width: 384px)">
+        
+                            <img class="hotel-slider-images" src="./img/hotel/hotel-double2-slider4-for-desktop.jpg" alt="">
+                        </picture>
+                    </div>
+                </div>
+                <div class="hotel-swiper-btn ">
+                    <div class="swiper-button-next">
+                        <button type="button" class="left-swiper-btn">
+                            <svg class="left-swiper-arrow">
+                                <use class="" href="./img/icons.svg#left-arrow"></use>
+                            </svg></button>
+                    </div>
+                    <div class="swiper-button-prev"><button type="button" class="rigth-swiper-btn">
+                            <svg class="right-swiper-arrow">
+                                <use href="./img/icons.svg#right-arrow"></use>
                             </svg>
                         </button>
-                    </li>
-                    <li class="arrow">
-                        <button class="next">
-                            <svg class="arrow-hotel-item" width="30" height="17">
-                                <use href="./img/icons.svg#right-arrow">
-                                </use>
-                            </svg>
-                        </button>
-                    </li>
-                </ul>
-            </div>
-            <div class="slider-hotel-s1-desktop">
-                <img class="active" src="./img/hotel/hotel-double1-slider4-for-desktop.jpg" srcset="
-      ./img/hotel/hotel-double1-slider4-for-desktop.jpg    1x,
-      ./img/hotel/hotel-double1-slider4-for-desktop@2x.jpg 2x
-      " alt="hotel-double1-slider4-for-desktop.jpg" width="254" height="254">
-                <ul class="arrow-hotel-1">
-                    <li class="arrow">
-                        <button class="previous">
-                            <svg class="arrow-hotel-item" width="30" height="17">
-                                <use href="./img/icons.svg#left-arrow">
-                                </use>
-                            </svg>
-                        </button>
-                    </li>
-                    <li class="arrow">
-                        <button class="next">
-                            <svg class="arrow-hotel-item" width="30" height="17">
-                                <use href="./img/icons.svg#right-arrow">
-                                </use>
-                            </svg>
-                        </button>
-                    </li>
-                </ul>
+                    </div>
+                </div>
             </div>
             <ul class="button-hotel-s1">
                 <li>
@@ -101,7 +107,8 @@
                         <button type="button" class="btn-mob button-mobile-circle btn-hotel-1">Детальніше</button>
                     </a>
                 </li>
-                <li><button type="button" class="btn-mob button-mobile-circle btn-hotel-2">Переглянути ціни</button>
+                <li>
+                    <button type="button" class="btn-mob button-mobile-circle btn-hotel-2">Переглянути ціни</button>
                 </li>
             </ul>
         </div>
