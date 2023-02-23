@@ -2,9 +2,9 @@
     padding-top: 32px;
 }
 
-.section-hotel {
+/* .section-hotel {
     padding-bottom: 32px;
-}
+} */
 
 .topic-hotel-1 {
     font-family: 'Times New Roman';
@@ -343,3 +343,25 @@
     }
 
 }
+
+/*-------------SWIPER-----------------*/
+.hotel-slider-wraper {width: 194px;
+ margin-left: 0;}
+
+.hotel-swiper-btn {display: flex;
+    gap: 33px;
+    justify-content: right;}
+
+    .left-swiper-btn, .rigth-swiper-btn {background-color: transparent;}
+
+    .foto-hotel {margin-bottom: 32px;}
+    
+
+    @media screen and (min-width: 1024px) {.hotel-slider-wraper{width: 428px;
+         
+}}
+ 
+    .hotel-slider-images {max-width: 194px;
+         
+    }
+    .button-hotel-s1{justify-content: flex-end;}
