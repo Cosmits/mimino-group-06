@@ -122,8 +122,6 @@
 
   .room-hero .swiper-button-next,
   .room-hero .swiper-button-prev {
-    margin-top: 0;
-    display: block;
     right: 47px;
     top: 340px;
   }
