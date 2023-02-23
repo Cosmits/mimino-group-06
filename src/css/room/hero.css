@@ -13,6 +13,15 @@
   width: 414px;
 }
 
+.mySwiper_room .btn {
+  font-size: 4vw;
+  width: max-content;
+}
+
+.mySwiper_room .room-hero-title {
+  font-size: 6.5vw;
+}
+
 .room-hero .swiper-slide {
   text-align: left;
   background: transparent;
@@ -75,46 +84,59 @@
   margin-bottom: 46px;
 }
 
+@media screen and (min-width: 414px) {
+  .mySwiper_room .btn {
+    font-size: 16px;
+    width: fit-content;
+  }
+
+  .mySwiper_room .room-hero-title {
+    font-size: 28px;
+  }
+}
+
+
 @media screen and (min-width: 1024px) {
   .room-hero {
     height: 720px;
   }
-  
+
   .room-hero img {
     width: 1024px;
   }
-  
+
   .room-hero-container {
     padding: 468px 47px 102px;
   }
-  
+
   .room-hero-title {
     max-width: none;
     font-size: 36px;
     line-height: calc(41 / 36);
     margin-bottom: 24px;
   }
-  
+
   .room-hero-text {
     max-width: 400px;
     font-size: 16px;
     line-height: calc(20 / 16);
     margin-bottom: 0;
   }
-  
+
   .room-hero .btn {
     position: absolute;
     right: 47px;
     bottom: 62px;
   }
-  
-  .room-hero .swiper-button-next, .room-hero .swiper-button-prev {
+
+  .room-hero .swiper-button-next,
+  .room-hero .swiper-button-prev {
     margin-top: 0;
     display: block;
     right: 47px;
     top: 340px;
   }
-  
+
   .room-hero .swiper-button-prev {
     left: 47px;
   }
@@ -124,21 +146,22 @@
   .room-hero img {
     width: 1280px;
   }
-  
+
   .room-hero-container {
     padding: 524px 85px 48px;
   }
-  
+
   .room-hero .btn {
     right: 85px;
     bottom: 66px;
   }
-  
-  .room-hero .swiper-button-next, .room-hero .swiper-button-prev {
+
+  .room-hero .swiper-button-next,
+  .room-hero .swiper-button-prev {
     right: 85px;
     top: 412px;
   }
-  
+
   .room-hero .swiper-button-prev {
     left: 85px;
   }
