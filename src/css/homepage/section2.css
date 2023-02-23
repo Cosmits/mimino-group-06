@@ -123,6 +123,11 @@
   fill: var(--white-color);
 }
 
+.details-restaurant .swiper-button-next::after,
+.details-restaurant .swiper-button-prev::after {
+  content: '';
+}
+
 .details-restaurant__buttons {
   display: flex;
   flex-direction: column;
