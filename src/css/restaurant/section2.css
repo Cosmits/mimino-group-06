@@ -1,4 +1,22 @@
+.about-restaurant-kitchen {
+  padding-bottom: 40px;
+}
+
+
+.rest-menu-name {
+  font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.16;
+    color: #000000;
+    margin-bottom: 24px;
+
+}
+
+
 .restaurant-menu {
+  background-color: var(--fon-dark-lemon-color);
   padding-top: 32px;
   padding-bottom: 32px;
 }

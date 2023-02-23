@@ -4,9 +4,7 @@
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
-    autoplay: {
-      delay: 3000,
-    },
+    speed: 1000,
     loop: true,
 
     breakpoints: {
@@ -28,7 +26,6 @@
   var swiper = new Swiper('.mySwiper', {
     slidesPerView: 'auto',
     spaceBetween: 40,
-    // allowSlideNext: true,
     freeMode: true,
     speed: 1500,
 
@@ -58,24 +55,15 @@
         spaceBetween: 26,
       },
     },
-    //   autoplay: {
-    // delay: 3000,
-    //   },
     loop: true,
     slideToClickedSlide: true,
-
-    // centeredSlides: true,
   });
 
   var swiper = new Swiper('.mySwiper_2', {
     slidesPerView: 'auto',
     spaceBetween: 40,
-    // allowSlideNext: true,
     freeMode: true,
     speed: 500,
-    // autoplay: {
-    //   delay: 2000,
-    // },
 
     navigation: {
       nextEl: '.swiper-button-next',
@@ -96,12 +84,8 @@
         spaceBetween: 86,
       },
     },
-    //   autoplay: {
-    // delay: 3000,
-    //   },
     loop: true,
     slideToClickedSlide: true,
 
-    // centeredSlides: true,
   });
 })();

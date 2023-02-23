@@ -26,8 +26,8 @@
                 height="270" />
               <source
                 srcset="
-                  ../img/homepage/homepage-details-food-slider1-for-tablet.jpg    1x,
-                  ../img/homepage/homepage-details-food-slider1-for-tablet@2x.jpg 2x
+                  ./img/homepage/homepage-details-food-slider1-for-tablet.jpg    1x,
+                  ./img/homepage/homepage-details-food-slider1-for-tablet@2x.jpg 2x
                 "
                 media="(min-width: 1024px)"
                 width="270"
@@ -60,8 +60,8 @@
                 height="270" />
               <source
                 srcset="
-                  ../img/homepage/homepage-details-food-slider2-for-tablet.jpg    1x,
-                  ../img/homepage/homepage-details-food-slider2-for-tablet@2x.jpg 2x
+                  ./img/homepage/homepage-details-food-slider2-for-tablet.jpg    1x,
+                  ./img/homepage/homepage-details-food-slider2-for-tablet@2x.jpg 2x
                 "
                 media="(min-width: 1024px)"
                 width="162"
@@ -94,8 +94,8 @@
                 height="270" />
               <source
                 srcset="
-                  ../img/homepage/homepage-details-food-slider3-for-tablet.jpg    1x,
-                  ../img/homepage/homepage-details-food-slider3-for-tablet@2x.jpg 2x
+                  ./img/homepage/homepage-details-food-slider3-for-tablet.jpg    1x,
+                  ./img/homepage/homepage-details-food-slider3-for-tablet@2x.jpg 2x
                 "
                 media="(min-width: 1024px)"
                 width="162"
@@ -128,8 +128,8 @@
                 height="270" />
               <source
                 srcset="
-                  ../img/homepage/homepage-details-food-slider4-for-tablet.jpg    1x,
-                  ../img/homepage/homepage-details-food-slider4-for-tablet@2x.jpg 2x
+                  ./img/homepage/homepage-details-food-slider4-for-tablet.jpg    1x,
+                  ./img/homepage/homepage-details-food-slider4-for-tablet@2x.jpg 2x
                 "
                 media="(min-width: 1024px)"
                 width="270"
@@ -162,8 +162,8 @@
                 height="270" />
               <source
                 srcset="
-                  ../img/homepage/homepage-details-food-slider1-for-tablet.jpg    1x,
-                  ../img/homepage/homepage-details-food-slider1-for-tablet@2x.jpg 2x
+                  ./img/homepage/homepage-details-food-slider1-for-tablet.jpg    1x,
+                  ./img/homepage/homepage-details-food-slider1-for-tablet@2x.jpg 2x
                 "
                 media="(min-width: 1024px)"
                 width="270"
@@ -196,8 +196,8 @@
                 height="270" />
               <source
                 srcset="
-                  ../img/homepage/homepage-details-food-slider2-for-tablet.jpg    1x,
-                  ../img/homepage/homepage-details-food-slider2-for-tablet@2x.jpg 2x
+                  ./img/homepage/homepage-details-food-slider2-for-tablet.jpg    1x,
+                  ./img/homepage/homepage-details-food-slider2-for-tablet@2x.jpg 2x
                 "
                 media="(min-width: 1024px)"
                 width="162"
@@ -230,8 +230,8 @@
                 height="270" />
               <source
                 srcset="
-                  ../img/homepage/homepage-details-food-slider3-for-tablet.jpg    1x,
-                  ../img/homepage/homepage-details-food-slider3-for-tablet@2x.jpg 2x
+                  ./img/homepage/homepage-details-food-slider3-for-tablet.jpg    1x,
+                  ./img/homepage/homepage-details-food-slider3-for-tablet@2x.jpg 2x
                 "
                 media="(min-width: 1024px)"
                 width="162"
@@ -264,8 +264,8 @@
                 height="270" />
               <source
                 srcset="
-                  ../img/homepage/homepage-details-food-slider4-for-tablet.jpg    1x,
-                  ../img/homepage/homepage-details-food-slider4-for-tablet@2x.jpg 2x
+                  ./img/homepage/homepage-details-food-slider4-for-tablet.jpg    1x,
+                  ./img/homepage/homepage-details-food-slider4-for-tablet@2x.jpg 2x
                 "
                 media="(min-width: 1024px)"
                 width="270"
@@ -310,44 +310,20 @@
         <!-- <div class="swiper-scrollbar"></div> -->
       </div>
 
-      <!-- <div class="details-restaurant__slider">
-        <img
-          class="details-restaurant__slider-image"
-          src="./img/homepage/homepage-details-food-slider1-for-mobile.jpg"
-          srcset="
-            ./img/homepage/homepage-details-food-slider1-for-mobile.jpg    1x,
-            ./img/homepage/homepage-details-food-slider1-for-mobile@2x.jpg 2x
-          "
-          alt="Фото готової страви"
-          width="370"
-          height="270"
-        />
-
-        <ul class="details-restaurant__arrows-list">
-          <li class="details-restaurant__arrow">
-            <button class="details-restaurant__button-arrow">
-              <svg class="details-restaurant__arrow-svg" width="30" height="17">
-                <use href="./img/icons.svg#left-arrow"></use>
-              </svg>
-            </button>
-          </li>
-          <li class="details-restaurant__arrow">
-            <button class="details-restaurant__button-arrow">
-              <svg class="details-restaurant__arrow-svg" width="30" height="17">
-                <use href="./img/icons.svg#right-arrow"></use>
-              </svg>
-            </button>
-          </li>
-        </ul>
-      </div> -->
-
       <div class="details-restaurant__buttons">
-        <button type="button" class="btn button-grey btn-section2">
+        <button
+          type="button"
+          class="btn button-grey btn-section2 js-open-modal"
+          data-modal="2"
+        >
           Забронювати столик
         </button>
-        <button type="button" class="btn button-grey btn-section2">
-          Переглянути меню
-        </button>
+        <a
+          class="btn button-grey btn-section2"
+          style="text-align: center"
+          href="./restaurant.html#menu"
+          >Переглянути меню</a
+        >
       </div>
     </div>
   </div>

@@ -16,7 +16,7 @@
     font-size: 20px;
     line-height: 1em;
     margin-bottom: 12px;
-    color: #B4B4B4;
+    color: var(--second-text-color);
 }
 
 .about-titles {
@@ -25,7 +25,7 @@
     line-height: 1em;
     letter-spacing: 0.3em;
     margin-bottom: 12px;
-    color: #494848;
+    color: var(--third-grey-color);
     text-transform: uppercase;
 }
 
@@ -36,11 +36,8 @@
     line-height: 1.25;
     letter-spacing: 0.02em;
     max-width: 258px;
-    color: #7A7A7A;
+    color: var(--primary-text-color);
 }
-
-
-
 
 .about-first-images {
     max-width: 244px;
@@ -67,7 +64,6 @@
     color: var(--brown-color);
 }
 
-
 .second-picture-container {
 
     display: flex;
@@ -78,43 +74,103 @@
     margin-bottom: 32px;
 }
 
-/*---------------SLIDER---------*/
+/*---------------SLIDERS-for-Homepage-and-Restaurant-page---------*/
 
-.slider-wraper {
+.rest-slider-container,
+.kitchen-slider-container {
     width: 245px;
     margin-left: auto;
-    bottom: 0px;
 }
 
- .slider-wraper.rest-wraper {
+.about-hotel-slider-container {
     width: 245px;
     margin-left: 0;
 }
 
-.swiper-flex-btn.rest-swiper-btn {
+.rest-swiper-slide {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    background: var(--white-color);
+    display: flex;
+}
+
+.left-swiper-arrow {
+    width: 30px;
+    height: 16px;
+    fill: black;
+    border: none;
+}
+
+.right-swiper-arrow {
+    width: 30px;
+    height: 16px;
+    fill: black;
+    border: none;
+}
+
+.about-rest-swiper-img,
+.kitchen-swiper-img,
+.about-hotel-swiper-img {
+    box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.25);
+}
+
+.rest-swiper-buttons,
+.kitchen-swiper-buttons,
+.hotel-swiper-buttons {
+    display: flex;
+    gap: 33px;
+    margin-left: 27px;
+}
+
+.swiper-wrapper {
+    min-width: 0;
+}
+
+/*-----------------------------Swiper-buttons-----------------------------*/
+
+.left-swiper-btn,
+.rigth-swiper-btn {
+    background-color: transparent;
+}
+
+.left-swiper-arrow,
+.right-swiper-arrow {
+    background-color: transparent;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    position: static;
+    width: 30px;
+    height: 16px;
+    margin-top: 30px;
+    z-index: 100;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    opacity: 0;
+}
+
+.rest-swiper-buttons,
+.kitchen-swiper-buttons {
     justify-content: right;
 }
 
-/* .swiper-slide img {
-    width: 245px;
-}  */
-
-
 /*--------------------------------Tablet-REST-and-HOTEL_CSS----------------------*/
-@media screen and (min-width: 414px) {
-    .slider-wraper {
-        width: 428px;
-        right: 40px;
-    }
-
-    .swiper-slide img {
-        width: 194px;
-    }
-}
 
 @media screen and (min-width: 1024px) {
     .about-restaurant {
         padding: 0;
+        padding-bottom: 39px;
     }
 
     .about-rest-title-container {
@@ -139,7 +195,6 @@
 
     .about-rest-container {
         display: flex;
-        /* align-items: center; */
         gap: 26px;
     }
 
@@ -159,7 +214,6 @@
         box-shadow: 5px 5px 70px rgba(0, 0, 0, 0.25);
     }
 
-
     .about-secondary-subtitle {
         position: relative;
         font-size: 16px;
@@ -167,34 +221,35 @@
         top: 148px;
     }
 
-
     .second-picture-container {
         justify-content: flex-start;
         align-items: flex-start;
         column-gap: 48px;
+        margin-bottom: 0;
     }
 
-
-
-    .slider-wraper.rest-wraper {
-        width: 534px;
-        margin-top: -28px;
-        position: relative;
-        left: 0;
-        bottom: 57px;
+    .rest-slider-container,
+    .about-hotel-slider-container,
+    .kitchen-slider-container {
+        width: 428px;
+        right: 40px;
+        margin-top: -83px;
     }
 
-    .slider-wraper {
-        margin-top: -56px;
+    .about-rest-swiper-img,
+    .kitchen-swiper-img,
+    .about-hotel-swiper-img {
+        width: 194px;
     }
 }
-
-/* .swiper-slide img {width: 194px;} */
-
 
 /*--------------------------------Desktop-REST-and-HOTEL_CSS----------------------*/
 
 @media screen and (min-width: 1280px) {
+    .about-restaurant {
+        padding: 0;
+    }
+
     .about-pretitles {
         margin-bottom: 4px;
     }
@@ -228,32 +283,34 @@
         column-gap: 32px;
     }
 
-    /* .about-secondary-subtitle {
-        top: 89px;
-    } */
-
-    .slider-wraper {
+    .rest-slider-container,
+    .about-hotel-slider-container,
+    .kitchen-slider-container {
         width: 534px;
+        position: relative;
+        left: 0;
+        bottom: 57px;
+        margin-top: -28px;
     }
 
-    .swiper-slide img {
+    .about-rest-swiper-img,
+    .kitchen-swiper-img,
+    .about-hotel-swiper-img {
         width: 254px;
     }
 
-    .slider-wraper.rest-wraper {
+    .rest-slider-container,
+    .about-hotel-slider-container,
+    .kitchen-slider-container {
         margin-top: -178px;
     }
 
-    .slider-wraper {
-        margin-top: -178px;
-    }
-
-    .swiper-slide img {
+    .about-rest-swiper-img,
+    .kitchen-swiper-img,
+    .about-hotel-swiper-img {
         box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.25);
     }
-
 }
-
 
 /*--------------------------------Mobile-Adaptive-REST-and-HOTEL_CSS----------------------*/
 @media screen and (max-width: 384px) {
@@ -268,15 +325,4 @@
     .about-second-images {
         width: 52vw;
     }
-
-    /* .about-subtitles {
-        font-size: 3vw;
-        width: 67vw;
-    }
-
-    .about-secondary-subtitle {
-        font-size: 3vw;
-    } */
 }
-
-/*-------------------ABOU-RESTAURANT-SWIPER------------------*/
