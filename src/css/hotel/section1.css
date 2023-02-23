@@ -2,9 +2,9 @@
     padding-top: 32px;
 }
 
-/* .section-hotel {
+.section-hotel {
     padding-bottom: 32px;
-} */
+}
 
 .topic-hotel-1 {
     font-family: 'Times New Roman';
@@ -168,7 +168,7 @@
 
     .main-hotel {
         padding-top: 62px;
-
+        padding-bottom: 0px;
     }
 
     .section-hotel {
