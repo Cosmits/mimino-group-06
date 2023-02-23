@@ -59,7 +59,7 @@
         },
         // when window width is >= 930px
       
-       930: {
+       1024: {
       slidesPerView: 2,
        spaceBetween: 26
        },
