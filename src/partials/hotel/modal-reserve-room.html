@@ -10,38 +10,20 @@
       <div class="mt-tab-wrap">
         <div class="mt-tab-version-room">
           <div class="mt-input-box">
-            <input
-              class="mt-modal-input"
-              type="text"
-              name="user"
-              required
-              placeholder="Ваше ім’я"
-            />
-            <label class="mt-input-after-text"
-              >На кого забронювати номер?</label
-            >
+            <input class="mt-modal-input" type="text" name="user" id="userName_m1" required placeholder="Ваше ім’я">
+            <label class="mt-input-after-text" for="userName_m1">На кого забронювати номер?</label>
           </div>
 
           <div class="mt-input-box">
-            <input
-              class="mt-modal-input"
-              type="tel"
-              name="tel"
-              placeholder="+38 (___) ___-__-__"
-              required
-            />
-            <label class="mt-input-after-text">Номер телефону</label>
+            <input class="mt-modal-input" type="tel" name="tel" id="tel_m1" placeholder="+38 (___) ___-__-__" required>
+            <label class="mt-input-after-text" for="tel_m1">Номер телефону</label>
           </div>
         </div>
 
         <div class="mt-tab-version">
           <div class="mt-input-box">
             <div class="mt-input-wrap">
-              <select
-                class="mt-modal-input mt-modal-input-select"
-                name="category-room"
-                id="category-room"
-              >
+              <select class="mt-modal-input mt-modal-input-select" name="category-room" id="category-room">
                 <option value="Двомісний люкс">Двомісний люкс</option>
                 <option value="Двомісний стандарт">Трьохмісний</option>
                 <option value="Одномісний стандарт">Двомісний</option>
@@ -51,16 +33,11 @@
               </svg>
             </div>
             <label class="mt-input-after-text" for="category-room">
-              Категорія номера</label
-            >
+              Категорія номера</label>
           </div>
           <div class="mt-input-box">
             <div class="mt-input-wrap">
-              <select
-                class="mt-modal-input mt-modal-input-select"
-                name="arrival-data"
-                id="arrival-data"
-              >
+              <select class="mt-modal-input mt-modal-input-select" name="arrival-data" id="arrival-data">
                 <option value="Сьогодні">Сьогодні</option>
                 <option value="Завтра">Завтра</option>
                 <option value="Після завтра">Після завтра</option>
@@ -69,18 +46,13 @@
                 <use href="./img/icons.svg#down-bold"></use>
               </svg>
             </div>
-            <label class="mt-input-after-text" for="arrival-datae">
-              Дата заїзду</label
-            >
+            <label class="mt-input-after-text" for="arrival-data">
+              Дата заїзду</label>
           </div>
 
           <div class="mt-input-box">
             <div class="mt-input-wrap">
-              <select
-                class="mt-modal-input mt-modal-input-select"
-                name="leave-data"
-                id="leave-data"
-              >
+              <select class="mt-modal-input mt-modal-input-select" name="leave-data" id="leave-data">
                 <option value="Сьогодні">Сьогодні</option>
                 <option value="Завтра">Завтра</option>
                 <option value="Після завтра">Після завтра</option>
@@ -90,8 +62,7 @@
               </svg>
             </div>
             <label class="mt-input-after-text" for="leave-data">
-              Дата виїзду</label
-            >
+              Дата виїзду</label>
           </div>
         </div>
       </div>
