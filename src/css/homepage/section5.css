@@ -240,20 +240,19 @@
 
     .contacts-thumb {
         margin-bottom: 24px;
-        /* padding: 9px 8px 7px 8px; */
+        padding: 9px 8px 7px 8px;
     }
 
     .contacts-thumb-two {
-        /* padding: 9px 8px 7px 8px; */
-       width: 264px;
+        padding: 9px 8px 7px 8px;
     }
 
     .contacts-thumb-three .contacts-link {
-        margin-right: 16px;
+        margin-right: 0px;
     }
 
     .contacts-link-second {
-        /* margin-left: 16px; */
+        margin-left: 16px;
     }
 
     .contacts-address-thumb {
@@ -296,7 +295,7 @@
 
     .contacts-link,
     .contacts-link-second {
-        color: #828282;
+        color: var(--input-text-color);
     }
 
     .contacts-address-thumb {
@@ -304,7 +303,7 @@
     }
 
     .contacts-address-location {
-        color: #828282;
+        color: var(--input-text-color);
     }
 
     .contacts-address-map {

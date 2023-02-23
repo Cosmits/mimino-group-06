@@ -12,7 +12,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 1.15;
-    color: #B4B4B4;
+    color: var(--second-text-color);
     margin-bottom: 8px;
 }
 
@@ -23,7 +23,7 @@
     font-size: 40px;
     line-height: 1.08;
     letter-spacing: 0.3em;
-    color: #494848;
+    color: var(--third-grey-color);
 
 }
 
@@ -39,7 +39,7 @@
     font-size: 24px;
     line-height: 1.15;
     letter-spacing: 0.05em;
-    color: #000000;
+    color: var(--black-color);
     margin-bottom: 12px;
 }
 
@@ -51,7 +51,7 @@
     font-size: 12px;
     line-height: 1.22;
     letter-spacing: 0.02em;
-    color: #7A7A7A;
+    color: var(--primary-text-color);
 }
 
 .topic-hotel-4 {
@@ -79,13 +79,11 @@
     background-color: transparent;
 }
 
-
 .button-hotel-s1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 16px;
-
 }
 
 .btn-hotel-1 {
@@ -165,9 +163,6 @@
         background-image: url(../../public/img/hotel/hotel-double1-room-img1-for-tablet@2x.jpg);
     }
 }
-
-
-@media screen and (min-width: 414px) {}
 
 @media screen and (min-width: 1024px) {
 

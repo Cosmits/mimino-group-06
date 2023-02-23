@@ -43,7 +43,7 @@ body.modal-open {
   /* box-shadow: 0 3px 10px -0.5px rgba(0, 0, 0, 0.2); */
   text-align: center;
   border-radius: 3px;
-  background-color: #fff;
+  background-color: var(--white-color);
   transition: 0.3s all;
 }
 
@@ -53,7 +53,7 @@ body.modal-open {
   left: 50%;
   transform: translate(-50%, -50%) scale(0.9);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: #fffdee;
+  background-color: var(--fon-lemon-color);
   border-radius: 2px;
   padding-top: 60px;
   padding-bottom: 60px;
