@@ -82,12 +82,15 @@
 }
 
 .details-restaurant .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: auto;
+}
+
+.swiper-slide.swiper-slide-wide {
+  width: 270px !important;
+}
+
+.swiper-slide.swiper-slide-narrow {
+  width: 162px !important;
 }
 
 .details-restaurant .swiper-slide img {
@@ -108,7 +111,8 @@
   justify-content: left;
   gap: 34px;
 
-  margin-top: 24px;
+  /* margin-top: 24px; */
+  padding-left: 25px;
 }
 
 .details-restaurant__button-arrow {
@@ -240,7 +244,7 @@
   }
   */
   .details-restaurant__arrows-list {
-    margin-top: 32px;
+    /* margin-top: 32px; */
   }
 
   .details-restaurant__buttons {
