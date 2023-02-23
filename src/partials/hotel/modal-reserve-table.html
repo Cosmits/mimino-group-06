@@ -10,36 +10,18 @@
       <div class="mt-tab-wrap">
         <div class="mt-tab-version">
           <div class="mt-input-box">
-            <input
-              class="mt-modal-input"
-              type="text"
-              name="user"
-              required
-              placeholder="Ваше ім’я"
-            />
-            <label class="mt-input-after-text"
-              >На кого забронювати столик?</label
-            >
+            <input class="mt-modal-input" type="text" id="userName_m2" name="user" required placeholder="Ваше ім’я">
+            <label class="mt-input-after-text" for="userName_m2">На кого забронювати столик?</label>
           </div>
           <div class="mt-input-box">
-            <input
-              class="mt-modal-input"
-              type="tel"
-              name="tel"
-              placeholder="+38 (___) ___-__-__"
-              required
-            />
-            <label class="mt-input-after-text">Номер телефону</label>
+            <input class="mt-modal-input" type="tel" name="tel" id="tel_m2" placeholder="+38 (___) ___-__-__" required>
+            <label class="mt-input-after-text" for="tel_m2">Номер телефону</label>
           </div>
         </div>
         <div class="mt-tab-version">
           <div class="mt-input-box">
             <div class="mt-input-wrap">
-              <select
-                class="mt-modal-input mt-modal-input-select"
-                name="how-many-people"
-                id="how-many-people"
-              >
+              <select class="mt-modal-input mt-modal-input-select" name="how-many-people" id="how-many-people">
                 <option value="1">1</option>
                 <option value="2-5">2-5</option>
                 <option value="6-10">6-10</option>
@@ -52,16 +34,11 @@
               </svg>
             </div>
             <label class="mt-input-after-text" for="how-many-people">
-              Столик на яку кількість осіб?</label
-            >
+              Столик на яку кількість осіб?</label>
           </div>
           <div class="mt-input-box">
             <div class="mt-input-wrap">
-              <select
-                class="mt-modal-input mt-modal-input-select"
-                name="that-date"
-                id="that-date"
-              >
+              <select class="mt-modal-input mt-modal-input-select" name="that-date" id="that-date">
                 <option value="Сьогодні">Сьогодні</option>
                 <option value="Завтра">Завтра</option>
                 <option value="Після завтра">Після завтра</option>
@@ -71,8 +48,7 @@
               </svg>
             </div>
             <label class="mt-input-after-text" for="that-date">
-              На яку дату бронювати?</label
-            >
+              На яку дату бронювати?</label>
           </div>
         </div>
       </div>
