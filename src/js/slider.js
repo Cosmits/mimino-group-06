@@ -7,6 +7,7 @@
     autoplay: {
       delay: 3000,
     },
+    speed: 1500,
     loop: true,
 
     breakpoints: {
