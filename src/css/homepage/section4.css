@@ -75,24 +75,30 @@
   max-width: 259px;
 }
 
-/* заглушка слайдеру */
 .details-hotel__slider {
-  margin-right: 25px;
-  margin-left: 85px;
+  /* margin-right: 25px; */
 }
 
-/* заглушка слайдеру */
-.details-hotel__slider-image {
-  height: 274x;
-  width: 270px;
+.details-hotel .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.details-hotel .swiper-slide {
+  width: auto;
+}
+
+.details-hotel .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
 }
 
 .details-hotel__arrows-list {
   display: flex;
   justify-content: right;
   gap: 34px;
-
-  margin-top: 24px;
 }
 
 .details-hotel__button-arrow {
@@ -101,6 +107,11 @@
 
 .details-hotel__arrow-svg {
   fill: var(--white-color);
+}
+
+.details-hotel .swiper-button-next::after,
+.details-hotel .swiper-button-prev::after {
+  content: '';
 }
 
 .details-hotel__buttons {
@@ -154,7 +165,7 @@
 @media screen and (min-width: 1024px) {
   .details-hotel {
     padding-top: 48px;
-    padding-bottom: 47px;
+    padding-bottom: 40px;
 
     background-image: linear-gradient(
         to right,
@@ -215,28 +226,15 @@
     gap: 32px;
   }
 
-  /* заглушка слайдеру */
-  .details-hotel__slider {
-    margin-right: 0px;
-    margin-left: 32px;
-    width: 662px;
-  }
-
-  /* заглушка слайдеру */
-  .details-hotel__slider-image {
-    height: 270px;
-    width: 662px;
-  }
-
   .details-hotel__arrows-list {
-    margin-top: 32px;
+    /* margin-top: 32px; */
   }
 
   .details-hotel__buttons {
     justify-content: flex-end;
 
     margin-top: 0px;
-    margin-bottom: 53px;
+    margin-bottom: 45px;
   }
 
   .btn-section4 {
@@ -287,18 +285,6 @@
 
   .details-hotel__bottom-wrap {
     gap: 36px;
-  }
-
-  /* заглушка слайдеру */
-  .details-hotel__slider {
-    margin-left: 29px;
-    width: 894px;
-  }
-
-  /* заглушка слайдеру */
-  .details-hotel__slider-image {
-    height: 270px;
-    width: 894px;
   }
 
   .btn-section4 {
