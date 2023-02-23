@@ -72,8 +72,7 @@
     spaceBetween: 40,
     // allowSlideNext: true,
     freeMode: true,
-    speed: 1500,
-
+    speed: 500,
     // autoplay: {
     //   delay: 2000,
     // },
@@ -85,18 +84,18 @@
     breakpoints: {
       // when window width is >= 320px
       320: {
-        slidesPerView: 1.5,
+        slidesPerView: 'auto',
         spaceBetween: 20,
       },
       // when window width is >= 414px
       1024: {
-        slidesPerView: 3,
+        slidesPerView: 'auto',
         spaceBetween: 34,
       },
       // when window width is >= 930px
 
       1280: {
-        slidesPerView: 3,
+        slidesPerView: 'auto',
         spaceBetween: 86,
       },
     },
