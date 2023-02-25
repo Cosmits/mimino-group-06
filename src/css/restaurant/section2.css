@@ -2,18 +2,15 @@
   padding-bottom: 40px;
 }
 
-
-.rest-menu-name {
+.rest-menu-header {
   font-family: 'Times New Roman';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 1.16;
-    color: #000000;
-    margin-bottom: 24px;
-
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7.73vw;
+  line-height: 1.16;
+  color: #000000;
+  margin-bottom: 24px;
 }
-
 
 .restaurant-menu {
   background-color: var(--fon-dark-lemon-color);
@@ -128,9 +125,8 @@
 /* ---------MOBILE----------- */
 
 @media screen and (min-width: 414px) {
-  .visually-none {
-    position: absolute;
-    color: rgba(255, 255, 255, 0);
+  .rest-menu-header {
+    font-size: 32px;
   }
 
   .rest-menu-table caption {
