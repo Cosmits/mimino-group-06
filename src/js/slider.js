@@ -25,13 +25,13 @@
 
   var swiper = new Swiper('.mySwiper', {
     slidesPerView: 'auto',
-    spaceBetween: 40,
+    // spaceBetween: 40,
     freeMode: true,
     speed: 1500,
 
-    autoplay: {
-      delay: 2000,
-    },
+    // autoplay: {
+    //   delay: 2000,
+    // },
 
     navigation: {
       nextEl: '.swiper-button-next',
@@ -44,13 +44,13 @@
         spaceBetween: 25,
       },
       // when window width is >= 414px
-      414: {
-        slidesPerView: 1,
-        spaceBetween: 40,
-      },
+      // 414: {
+      //   slidesPerView: 1,
+      //   spaceBetween: 40,
+      // },
       // when window width is >= 930px
 
-      930: {
+    1024: {
         slidesPerView: 2,
         spaceBetween: 26,
       },
