@@ -35,6 +35,9 @@
     margin-bottom: 28px;
 }
 
+.about-hotel .swiper-slide {
+    flex-shrink: 1;
+}
 
 
 
