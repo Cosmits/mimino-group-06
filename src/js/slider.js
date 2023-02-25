@@ -1,5 +1,5 @@
 (() => {
-  var swiper = new Swiper('.mySwiper_room', {
+  var mySwiper_room = new Swiper('.mySwiper_room', {
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
@@ -23,7 +23,7 @@
     },
   });
 
-  var swiper = new Swiper('.mySwiper', {
+  var mySwiper = new Swiper('.mySwiper', {
     slidesPerView: 'auto',
     spaceBetween: 40,
     freeMode: true,
@@ -59,7 +59,7 @@
     slideToClickedSlide: true,
   });
 
-  var swiper = new Swiper('.mySwiper_2', {
+  var mySwiper = new Swiper('.mySwiper', {
     slidesPerView: 'auto',
     spaceBetween: 40,
     freeMode: true,
@@ -90,15 +90,15 @@
   });
 })();
 
-var swiper = new Swiper('.mySwiper_0', {
+var mySwiper_0 = new Swiper('.mySwiper_0', {
   slidesPerView: 'auto',
   spaceBetween: 25,
   freeMode: true,
   speed: 500,
 
-  // autoplay: {
-  //   delay: 2000,
-  // },
+  autoplay: {
+    delay: 2000,
+  },
 
   navigation: {
     nextEl: '.swiper-button-next',
