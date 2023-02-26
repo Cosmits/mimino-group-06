@@ -1,16 +1,16 @@
 <section class="about-restaurant">
     <div class="container ">
         <div class="about-rest-container">
-            <div class="about-rest-title-container">
-                <p class="about-pretitles" data-aos="fade-right">Amet minim mollit non</p>
-                <h2 class="about-titles" data-aos="fade-right">MIMINO</h2>
-                <p class="about-subtitles" data-aos="fade-right"> Amet minim mollit non deserunt ullamco est sit aliqua
+            <div class="about-rest-title-container" >
+                <p class="about-pretitles" >Amet minim mollit non</p>
+                <h2 class="about-titles" >MIMINO</h2>
+                <p class="about-subtitles" > Amet minim mollit non deserunt ullamco est sit aliqua
                     dolor do amet sint.
                     Velit
                     officia consequat duis enim velit
                     mollit. Exercitation veniam consequat sunt nostrud amet.</p>
             </div>
-            <picture>
+            <picture data-aos="fade-up-left">
                 <source
                     srcset="./img/homepage/homepage-about-rest-img1-for-desk.jpg 1x, ./img/homepage/homepage-about-rest-img1-for-desk@2x.jpg 2x "
                     media="(min-width: 1280px)">
@@ -27,7 +27,7 @@
         </div>
         <div class="second-picture-container">
             <!-- <div class="slider-posicion-wraper">-->
-            <picture data-aos="fade-right">
+            <picture data-aos="fade-up-right">
                 <source
                     srcset="./img/homepage/homepage-about-rest-img2-for-desk.jpg 1x, ./img/homepage/homepage-about-rest-img2-for-desk@2x.jpg 2x "
                     media="(min-width: 1280px)">
@@ -40,16 +40,19 @@
                 <img class="about-second-images" src="./img/homepage/homepage-about-rest-img2-for-mobile.jpg"
                     alt="restaurant terrace">
             </picture>
-            <p class="about-secondary-subtitle" data-aos="fade-left">Amet minim mollit non deserunt ullamco est sit
+            <p class="about-secondary-subtitle">Amet minim mollit non deserunt ullamco est sit
                 aliqua dolor do amet
                 sint.
                 Velit officia consequat duis enim velit
                 mollit. Exercitation veniam consequat sunt nostrud amet.</p>
         </div>
         <!------------------------------------SLIDER----------------------------------->
-        <div class="rest-slider-container">
-            <div class=" swiper mySwiper ">
-                <div class="rest-swiper-wrapper swiper-wrapper   ">
+        <!--<div class="rest-swiper-style-container">-->
+                          <!--restaurant-swiper-->
+            <div class="restaurant-swiper swiper mySwiper ">
+                           <!--restaurant-slide-wraper-->
+                <div class="restaurant-slide-wrapper swiper-wrapper   ">
+
                     <div class=" rest-swiper-slide swiper-slide">
                         <picture class="restaurant-image">
                             <source
@@ -116,13 +119,14 @@
                     </div>
                 </div>
                 <div class=" rest-swiper-buttons ">
-                    <div class="swiper-button-next">
+                    <div class="swiper-button-next rest-button-next">
                         <button type="button" class="left-swiper-btn">
                             <svg class="left-swiper-arrow">
-                                <use class="" href="./img/icons.svg#left-arrow"></use>
+                                <use class="" href="./img/icons.svg#left-arrow" ></use>
                             </svg></button>
                     </div>
-                    <div class="swiper-button-prev"><button type="button" class="rigth-swiper-btn">
+                    <div class="swiper-button-prev rest-button-prev">
+                        <button type="button" class="rigth-swiper-btn">
                             <svg class="right-swiper-arrow">
                                 <use href="./img/icons.svg#right-arrow"></use>
                             </svg>
@@ -130,6 +134,6 @@
                     </div>
                 </div>
             </div>
-        </div>
+        <!--</div>-->
     </div>
 </section>
