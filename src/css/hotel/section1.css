@@ -152,6 +152,7 @@
     height: 524px;
     background-repeat: no-repeat;
     margin-top: -94px;
+    background-size: cover;
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -161,6 +162,7 @@
     .foto-hotel-s1-tablet,
     .foto-hotel-s2-tablet {
         background-image: url(../../public/img/hotel/hotel-double1-room-img1-for-tablet@2x.jpg);
+        background-size: cover;
     }
 }
 
@@ -278,6 +280,7 @@
         width: 460px;
         background-repeat: no-repeat;
         margin-top: -104px;
+        background-size: cover;
 
     }
 
@@ -288,6 +291,7 @@
         .foto-hotel-s1-tablet,
         .foto-hotel-s2-tablet {
             background-image: url(../../public/img/hotel/hotel-double1-room-img1-for-desktop@2x.jpg);
+            background-size: cover;
         }
     }
 
