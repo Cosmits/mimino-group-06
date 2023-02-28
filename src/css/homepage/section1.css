@@ -76,8 +76,8 @@
 
 /*---------------SLIDERS-for-Homepage-and-Restaurant-page---------*/
 
-.rest-slider-container,
-.kitchen-slider-container {
+.rest-slider-container
+ {
     width: 245px;
     margin-left: auto;
 }
@@ -112,22 +112,20 @@
 }
 
 .about-rest-swiper-img,
-.kitchen-swiper-img,
 .about-hotel-swiper-img {
     box-shadow: 2px 2px 60px rgba(0, 0, 0, 0.25);
 }
 
 .rest-swiper-buttons,
-.kitchen-swiper-buttons,
 .hotel-swiper-buttons {
     display: flex;
     gap: 33px;
     margin-left: 27px;
 }
 
-.swiper-wrapper {
+/* .swiper-wrapper {
     min-width: 0;
-}
+} */
 
 /*-----------------------------Swiper-buttons-----------------------------*/
 
@@ -157,11 +155,12 @@
 
 .swiper-button-next::after,
 .swiper-button-prev::after {
+    content: '';
     opacity: 0;
 }
 
-.rest-swiper-buttons,
-.kitchen-swiper-buttons {
+.rest-swiper-buttons
+ {
     justify-content: right;
 }
 
@@ -229,15 +228,14 @@
     }
 
     .rest-slider-container,
-    .about-hotel-slider-container,
-    .kitchen-slider-container {
+    .about-hotel-slider-container
+   {
         width: 428px;
         right: 40px;
         margin-top: -83px;
     }
 
     .about-rest-swiper-img,
-    .kitchen-swiper-img,
     .about-hotel-swiper-img {
         width: 194px;
     }
@@ -284,8 +282,8 @@
     }
 
     .rest-slider-container,
-    .about-hotel-slider-container,
-    .kitchen-slider-container {
+    .about-hotel-slider-container
+     {
         width: 534px;
         position: relative;
         left: 0;
@@ -294,19 +292,16 @@
     }
 
     .about-rest-swiper-img,
-    .kitchen-swiper-img,
     .about-hotel-swiper-img {
         width: 254px;
     }
 
     .rest-slider-container,
-    .about-hotel-slider-container,
-    .kitchen-slider-container {
+    .about-hotel-slider-container {
         margin-top: -178px;
     }
 
     .about-rest-swiper-img,
-    .kitchen-swiper-img,
     .about-hotel-swiper-img {
         box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.25);
     }
