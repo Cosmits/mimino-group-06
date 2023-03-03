@@ -112,9 +112,9 @@ footer {
     border: none;
     opacity: 0;
     color: var(--accent-yellow-color);
-    transform: rotate(-90deg);
+    transform: rotate(270deg);
     transition: opacity 1s var(--timing-function), transform 1s var(--timing-function);
-    writing-mode: vertical-rl;
+    writing-mode: horizontal-tb;
   }
 
   .to-top-btn svg {
@@ -124,7 +124,7 @@ footer {
 
   .to-top-btn:hover,
   .to-top-btn:focus {
-    transform: rotate(-90deg) translateX(10px);
+    transform: rotate(270deg) translateX(10px);
   }
 
   .to-top-btn.show-btn {
