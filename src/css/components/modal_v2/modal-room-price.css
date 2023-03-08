@@ -37,7 +37,7 @@
   text-align: left;
 }
 
-@media screen and (min-width: 414px) {
+@media screen and (min-width: 1024px) {
   .mp-input-box {
     width: 288px;
   }
